@@ -10,7 +10,25 @@ Based on "Factory Pattern" at https://github.com/vanHeemstraSystems/factory-patt
 Run this application as follows:
 
 1) Enter ```flask_app``` directory: ```$ cd flask_app```
-2) If non-existent, create a virtual environment inside the ```flask_app``` directory: ```python3 -m venv .venv```
+2) If non-existent, create a virtual environment inside the ```flask_app``` directory: ```$ python3 -m venv .venv``` (macOS: ```$ virtualenv .venv```)
+
+In case of the following, follow its advice:
+
+The virtual environment was not created successfully because ensurepip is not
+available.  
+
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    sudo apt-get update
+    sudo apt install python3.10-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+
+
 3) Start the virtual environment and enter: ```. .venv/bin/activate```
 4) Run ```pip install -r requirements.txt```
 5) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
