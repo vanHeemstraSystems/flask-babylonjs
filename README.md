@@ -29,7 +29,7 @@ package, recreate your virtual environment.
 On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
 
-3) Start the virtual environment and enter: ```. .venv/bin/activate```
+3) Start the virtual environment and enter: ```. .venv/bin/activate``` (macOS: ```source .venv/bin/activate```)
 4) Run ```pip install -r requirements.txt```
 5) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
 6) Set the Flask Environment to development: ```(.venv) $ export FLASK_ENV=development```
