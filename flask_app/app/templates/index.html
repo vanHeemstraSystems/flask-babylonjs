@@ -16,7 +16,7 @@
     
                // Create three spheres
                const sphere1 = BABYLON.MeshBuilder.CreateSphere("sphere1", { diameter: 1 }, scene);
-               sphere1.position.x = -3;
+               sphere1.position.x = 3;
                sphere1.actionManager = new BABYLON.ActionManager(scene);
                sphere1.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function() {
                    window.location.href = "/scene1";
@@ -30,7 +30,7 @@
                }));
     
                const sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere3", { diameter: 1 }, scene);
-               sphere3.position.x = 3;
+               sphere3.position.x = -3;
                sphere3.actionManager = new BABYLON.ActionManager(scene);
                sphere3.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function() {
                    window.location.href = "/scene3";
