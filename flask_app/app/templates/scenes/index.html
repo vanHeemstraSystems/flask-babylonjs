@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <span class="title"><h1>{% block title %} Scenes {% endblock %}</h1></span>
+    <div class="content">
+        <h2>This is the scenes Flask blueprint</h2>
+        {% for scene in scenes %}
+            <div class="scene">
+                <p><b>#{{ scene.id }}</b></p>
+                <p class="title">
+                    <b>
+                        <a href="#">
+                            {{ scene.title }}
+                        </a>
+                    </b>
+                </p>
+                <div class="content">
+                    <p>{{ scene.content }}</p>
+                </div>
+                <hr>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

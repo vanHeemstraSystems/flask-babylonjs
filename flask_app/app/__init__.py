@@ -20,14 +20,17 @@ def create_app(config_class=Config):
     # from app.questions import bp as questions_bp
     # app.register_blueprint(questions_bp, url_prefix='/questions')
 
-    from app.scene1 import bp as scene1_bp
-    app.register_blueprint(scene1_bp, url_prefix='/scene1')
+    # from app.scene1 import bp as scene1_bp
+    # app.register_blueprint(scene1_bp, url_prefix='/scene1')
 
-    from app.scene2 import bp as scene2_bp
-    app.register_blueprint(scene2_bp, url_prefix='/scene2')
+    # from app.scene2 import bp as scene2_bp
+    # app.register_blueprint(scene2_bp, url_prefix='/scene2')
 
-    from app.scene3 import bp as scene3_bp
-    app.register_blueprint(scene3_bp, url_prefix='/scene3')
+    # from app.scene3 import bp as scene3_bp
+    # app.register_blueprint(scene3_bp, url_prefix='/scene3')
+
+    from app.scenes import bp as scenes_bp
+    app.register_blueprint(scenes_bp, url_prefix='/scenes')
     
     # @app.route('/test/')
     # def test_page():
