@@ -2,7 +2,7 @@
 from flask import render_template
 from app.scene3 import bp
 from app.extensions import db
-from app.models.scene3 import Scene1
+from app.models.scene3 import Scene3
 
 @bp.route('/')
 def index():
