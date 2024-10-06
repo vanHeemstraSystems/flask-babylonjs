@@ -1,4 +1,4 @@
-Flask-babylonjs
+flask-babylonjs
 
 # Flask BabylonJS
 
