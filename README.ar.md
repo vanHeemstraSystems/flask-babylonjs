@@ -10,7 +10,7 @@
 
 قم بتشغيل هذا التطبيق على النحو التالي:
 
-1) أدخل`flask_app` directory: `$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
+1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
@@ -42,7 +42,7 @@
 
 يرى[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 – بناء تطبيقنا
 
 يرى[README.md](./300/README.md)
 
