@@ -1,10 +1,10 @@
-Flask-babylonjs
+flask-babylonjs
 
 # Flask BabylonJS
 
 基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 基于“工厂模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -44,7 +44,7 @@ In case of the following, follow its advice:
 
 ## 300 - 构建我们的应用程序
 
-看[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - 结论
 
