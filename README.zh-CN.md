@@ -1,4 +1,4 @@
-flask-babylonjs
+Flask-babylonjs
 
 # Flask BabylonJS
 
@@ -12,7 +12,7 @@ flask-babylonjs
 
 1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
-In case of the following, follow its advice:
+如果出现以下情况，请遵循其建议：
 
 虚拟环境没有创建成功，因为ensurepip没有
 可用的。
@@ -44,7 +44,7 @@ In case of the following, follow its advice:
 
 ## 300 - 构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
 ## 400 - 结论
 
