@@ -1,4 +1,4 @@
-कुप्पी-babylonjs
+फ्लास्क-बेबीलोनज
 
 # फ्लास्क बेबीलोनजेएस
 
@@ -14,8 +14,8 @@
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
+उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
 निम्नलिखित कमांड का उपयोग करके पैकेज।
@@ -48,4 +48,4 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 400 - निष्कर्ष
 
-See [README.md](./400/README.md)
+देखना[README.md](./400/README.md)
