@@ -1,6 +1,6 @@
-
-
-from app import db, Story  # Adjust the import based on your app structure
+#!/usr/bin/env python
+from app.extensions import db
+from app import Story
 
 def seed_stories():
     # Clear existing data (optional)
