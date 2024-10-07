@@ -25,8 +25,8 @@ Flask-babylonjs
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+您可能需要将 sudo 与该命令一起使用。  安装 python3-venv 后
+包，重新创建您的虚拟环境。
 
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
