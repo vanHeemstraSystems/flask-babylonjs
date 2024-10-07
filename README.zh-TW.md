@@ -4,7 +4,7 @@ Flask-babylonjs
 
 基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -36,7 +36,7 @@ Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqla
 10) 或運行flask命令列介面：`(.venv) $ flask shell`11）執行任何flask指令：>>>
 12) 使用`exit()`退出命令列介面。
 
-## 100 - 簡介
+## 100 - Introduction
 
 看[README.md](./100/README.md)
 
