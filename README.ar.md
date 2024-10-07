@@ -14,7 +14,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -23,8 +23,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
-الحزمة، أعد إنشاء بيئتك الافتراضية.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -44,7 +44,7 @@
 
 ## 300 – بناء تطبيقنا
 
-يرى[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
