@@ -11,7 +11,8 @@ erDiagram
     Field
     FieldType
     Game }|--|| Board : "game has one board"
-    Light
+    Light }|--|| LightType : "light has one type"
+    LightType
     Player
     PlayerRole
     Prop
