@@ -4,7 +4,7 @@ Flask-babylonjs
 
 基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 基于“工厂模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -12,7 +12,7 @@ Flask-babylonjs
 
 按如下方式运行该应用程序：
 
-1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
+1) 输入`flask_app` directory: `$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
 如果出现以下情况，请遵循其建议：
 
@@ -40,7 +40,7 @@ Flask-babylonjs
 
 看[README.md](./100/README.md)
 
-## 200 - 要求
+## 200 - Requirements
 
 看[README.md](./200/README.md)
 
