@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Shot Type</title>
+</head>
+<body>
+    <h1>Create New Shot Type</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="name">Shot Type Name:</label>
+        {{ form.name(size=32) }}<br>
+
+        <label for="description">Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
+
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('shot_type.list_shot_types') }}">Back to Shot Types</a> 
+</body> 
+</html>
