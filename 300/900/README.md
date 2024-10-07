@@ -19,6 +19,7 @@ erDiagram
     Scene
     Shot
     Tag
-    User
+    User ||--o{ Player : "user has zero or more players"
+    User }|--|| UserRole : "user has one role"
     UserRole
 ```
