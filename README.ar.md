@@ -6,7 +6,7 @@
 
 استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
+Based on "Factory Pattern" at <https://github.com/vanHeemstraSystems/factory-pattern>
 
 استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
@@ -25,8 +25,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
-الحزمة، أعد إنشاء بيئتك الافتراضية.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -36,7 +36,7 @@
 10) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`11) تنفيذ أي أوامر قارورة: >>>
 12) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
 
-## 100 - Introduction
+## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
@@ -46,8 +46,8 @@
 
 ## 300 – بناء تطبيقنا
 
-يرى[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - الخاتمة
 
 يرى[README.md](./400/README.md)
