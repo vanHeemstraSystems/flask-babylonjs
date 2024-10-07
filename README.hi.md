@@ -16,8 +16,8 @@
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
+उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
 निम्नलिखित कमांड का उपयोग करके पैकेज।
@@ -28,7 +28,7 @@ available.
 आपको उस कमांड के साथ sudo का उपयोग करने की आवश्यकता हो सकती है।  Python3-venv स्थापित करने के बाद
 पैकेज, अपने आभासी वातावरण को फिर से बनाएं।
 
-On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
 4) भागो`pip install -r requirements.txt`5) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`6) फ्लास्क पर्यावरण को विकास के लिए सेट करें:`(.venv) $ export FLASK_ENV=development`7) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`8) संकेतानुसार वेब इंटरफ़ेस खोलें
@@ -36,7 +36,7 @@ On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 10) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`11) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
 12) प्रयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
 
-## 100 - Introduction
+## 100 - परिचय
 
 देखना[README.md](./100/README.md)
 
