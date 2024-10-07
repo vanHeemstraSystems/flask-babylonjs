@@ -6,9 +6,6 @@ class User(db.Model):
     username = db.Column(db.String(100), nullable=False, unique=True)
     email = db.Column(db.String(120), nullable=False, unique=True)
     password_hash = db.Column(db.String(128), nullable=False)
-    role_id = db.Column(db.Integer, db.ForeignKey('role.id'), nullable=False)  # Foreign Key to Role
-
-    role = db.relationship('Role', backref='users')  # Many-to-one relationship with Role
 
     def __repr__(self):
         return f'<User {self.username}>'
