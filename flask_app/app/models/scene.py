@@ -14,6 +14,7 @@ class Scene(db.Model):
    id = db.Column(db.Integer, primary_key=True)
    title = db.Column(db.String(100), nullable=False)
    scene_number = db.Column(db.String(50), nullable=True)
+   created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
    characters = db.relationship('Character', secondary='character_scene', backref='scenes', lazy='dynamic')
    props = db.relationship('Prop', secondary='prop_scene', backref='scenes', lazy='dynamic')
    lights = db.relationship('Light', secondary='light_scene', backref='scenes', lazy='dynamic')
