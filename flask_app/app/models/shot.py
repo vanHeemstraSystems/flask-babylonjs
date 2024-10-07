@@ -11,7 +11,7 @@ class Shot(db.Model):
     shot_type_id = db.Column(db.Integer, db.ForeignKey('shot_type.id'), nullable=False) # Foreign Key to ShotType
     created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
     scene = db.relationship('Scene', backref='shots')  # One-to-many relationship with Scene
-    shot_type = db.relationship('ShotType', backref='shots') # One-to-many relationship with ShotType
+    shot_type = db.relationship('ShotType', backref='shots') # Many-to-one relationship with ShotType
 
     def __repr__(self):
         return f'<Shot {self.title}>'
