@@ -7,6 +7,7 @@ class Game(db.Model):
     description = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.Date, nullable=True)
     genre = db.Column(db.String(50), nullable=True)
+    created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
 
     users = db.relationship('User', secondary='user_game', backref='games')
 
