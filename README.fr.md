@@ -12,8 +12,7 @@ Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mer
 
 Exécutez cette application comme suit :
 
-1) Entrez`flask_app`annuaire:`$ cd flask_app`
-2) If non-existent, create a virtual environment inside the `flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
+1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
 Dans les cas suivants, suivez ses conseils :
 
@@ -37,7 +36,7 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 10) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`11) Exécutez toutes les commandes du flacon : >>>
 12) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
@@ -45,7 +44,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
