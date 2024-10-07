@@ -8,7 +8,7 @@ Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sql
 
 Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 Exécutez cette application comme suit :
 
