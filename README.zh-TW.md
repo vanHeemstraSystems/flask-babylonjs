@@ -42,7 +42,7 @@ Flask-babylonjs
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 建立我們的應用程式
 
