@@ -1,7 +1,11 @@
 # 300 - Building Our Application
 
-## 100 - Entity-Relationship Diagram (ERD)
+## 600 - ...
 
-See [README.md](./100/README.md)
+See [README.md](./600/README.md)
+
+## 900 - Entity-Relationship Diagram (ERD)
+
+See [README.md](./900/README.md)
 
 # MORE
