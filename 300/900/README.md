@@ -10,7 +10,7 @@ erDiagram
     Field }|--|| FieldType : "field has one type"
     Field
     FieldType
-    Game
+    Game }|--|| Board : "game has one board"
     Light
     Player
     PlayerRole
