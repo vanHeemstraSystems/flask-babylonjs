@@ -19,8 +19,8 @@ Flask-babylonjs
 虚拟环境没有创建成功，因为ensurepip没有
 可用的。
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+在 Debian/Ubuntu 系统上，需要安装 python3-venv
+使用以下命令进行打包。
 
     sudo apt-get update
     sudo apt install python3.10-venv
