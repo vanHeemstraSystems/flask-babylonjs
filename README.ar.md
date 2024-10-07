@@ -31,23 +31,24 @@
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
-4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
+4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`
+7) Run the flask app: `(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
 9) الاستخدام`CTRL+c`للخروج من خادم الويب.
 10) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`11) تنفيذ أي أوامر قارورة: >>>
-12) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
+12) الاستخدام`exit()` to exit from the command line interface.
 
 ## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
-## 200 - المتطلبات
+## 200 - Requirements
 
 يرى[README.md](./200/README.md)
 
-## 300 – بناء تطبيقنا
+## 300 - Building Our Application
 
 يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
-يرى[README.md](./400/README.md)
+See [README.md](./400/README.md)
