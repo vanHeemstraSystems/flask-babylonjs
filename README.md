@@ -7,6 +7,8 @@ Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlal
 
 Based on "Factory Pattern" at https://github.com/vanHeemstraSystems/factory-pattern
 
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/
+
 Run this application as follows:
 
 1) Enter ```flask_app``` directory: ```$ cd flask_app```
