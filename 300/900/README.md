@@ -19,6 +19,7 @@ erDiagram
     Player }|--|| Character : "player has one character"  
     PlayerRole
     Prop
+    Screenplay ||--o{ Scene : "screenplay has zero or more scenes"
     Scene ||--o{ Character : "scene has zero or more characters"
     Scene ||--o{ Camera : "scene has zero or more cameras"
     Scene ||--o{ Light : "scene has zero or more lights"
@@ -26,6 +27,8 @@ erDiagram
     Scene ||--o{ Shot : "scene has zero or more shots"    
     Scene ||--o{ Tag : "scene has zero or more tags"
     Shot
+    Story ||--o{ Screenplay : "story has zero or more screenplays"
+    Story ||--o{ Game : "story has zero or more games"    
     Tag
     User }|--|| UserRole : "user has one role"
     UserRole
