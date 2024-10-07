@@ -25,8 +25,8 @@ Flask-babylonjs
     sudo apt-get update
     sudo apt install python3.10-venv
 
-您可能需要将 sudo 与该命令一起使用。  安装 python3-venv 后
-包，重新创建您的虚拟环境。
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -34,7 +34,7 @@ Flask-babylonjs
 4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）将Flask环境设置为开发：`(.venv) $ export FLASK_ENV=development`7）运行烧瓶应用程序：`(.venv) $ flask run`8）根据提示打开Web界面
 9) 使用`CTRL+c`退出网络服务器。
 10) 或者运行flask命令行界面：`(.venv) $ flask shell`11）执行任何flask命令：>>>
-12) 使用`exit()` to exit from the command line interface.
+12) 使用`exit()`退出命令行界面。
 
 ## 100 - 简介
 
