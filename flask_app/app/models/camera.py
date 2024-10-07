@@ -7,7 +7,7 @@ class Camera(db.Model):
    camera_type_id = db.Column(db.Integer, db.ForeignKey('camera_type.id'), nullable=False)
    settings = db.Column(db.String(200), nullable=False)
    created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
-   camera_type = db.relationship('CameraType', backref='cameras')
+   camera_type = db.relationship('CameraType', backref='cameras') # Many-to-one relationship with CameraType
 
    def __repr__(self):
      return f'<Camera {self.id}, Camera_Type: {self.camera_type}>'
