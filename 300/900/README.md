@@ -18,10 +18,10 @@ erDiagram
     Player }|--|| PlayerRole : "player has one role"
     PlayerRole
     Prop
-    Scene O{--|{ Prop : "scene has zero or more props"
-    Scene O{--|{ Light : "scene has zero or more lights"
-    Scene O{--|{ Character : "scene has zero or more characters"
-    Scene O{--|{ Tag : "scene has zero or more tags"
+    Scene ||--o{ Prop : "scene has zero or more props"
+    Scene ||--o{ Light : "scene has zero or more lights"
+    Scene ||--o{ Character : "scene has zero or more characters"
+    Scene ||--o{ Tag : "scene has zero or more tags"
     Shot
     Tag
     User }|--|| UserRole : "user has one role"
