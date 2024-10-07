@@ -19,7 +19,8 @@ erDiagram
     Scene ||--o{ Camera : "scene has zero or more cameras"
     Scene ||--o{ Light : "scene has zero or more lights"
     Scene ||--o{ Prop : "scene has zero or more props"
-    Scene ||--o{ Shot : "scene has zero or more shots"    
+    Scene ||--o{ Shot : "scene has zero or more shots"
+    Shot }|--|| ShotType : "shot has one type"
     Scene ||--o{ Tag : "scene has zero or more tags"
     User }|--|| UserRole : "user has one role"
 ```
