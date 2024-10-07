@@ -10,7 +10,7 @@ Flask-babylonjs
 
 基于“基于文本的实体关系图与 Mermaid.js”，位于<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Run this application as follows:
+按如下方式运行该应用程序：
 
 1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
@@ -40,7 +40,7 @@ Run this application as follows:
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - 要求
 
 看[README.md](./200/README.md)
 
