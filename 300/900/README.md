@@ -18,7 +18,7 @@ erDiagram
     Player }|--|| PlayerRole : "player has one role"
     PlayerRole
     Prop
-    Scene
+    Scene O{--|{ Prop : "scene has zero or more props"
     Shot
     Tag
     User }|--|| UserRole : "user has one role"
