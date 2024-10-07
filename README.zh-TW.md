@@ -19,8 +19,8 @@ Flask-babylonjs
 虛擬環境沒有創建成功，因為ensurepip沒有
 可用的。
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+在 Debian/Ubuntu 系統上，需要安裝 python3-venv
+使用以下命令進行打包。
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -34,7 +34,7 @@ package using the following command.
 4）運行`pip install -r requirements.txt`5）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`6）設定Flask環境為開發：`(.venv) $ export FLASK_ENV=development`7）運行燒瓶應用程式：`(.venv) $ flask run`8）根據提示開啟Web介面
 9) 使用`CTRL+c`退出網路伺服器。
 10) 或運行flask命令列介面：`(.venv) $ flask shell`11）執行任何flask指令：>>>
-12) 使用`exit()` to exit from the command line interface.
+12) 使用`exit()`退出命令列介面。
 
 ## 100 - 簡介
 
@@ -44,7 +44,7 @@ package using the following command.
 
 看[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - 建立我們的應用程式
 
 看[README.md](./300/README.md)
 
