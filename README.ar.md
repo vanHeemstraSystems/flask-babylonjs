@@ -4,7 +4,7 @@
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -16,7 +16,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
