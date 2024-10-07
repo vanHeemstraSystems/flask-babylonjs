@@ -14,6 +14,8 @@ erDiagram
     Light }|--|| LightType : "light has one type"
     LightType
     Player }|--|| User : "player has one user"
+    Player }|--|| Character : "player has one character"
+    Player }|--|| PlayerRole : "player has one role"
     PlayerRole
     Prop
     Scene
