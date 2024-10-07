@@ -14,13 +14,13 @@ erDiagram
     Game ||--o{ Player : "game has zero or more players"
     Light }|--|| LightType : "light has one type"
     LightType
-    Player }|--|| Character : "player has one character"
     Player }|--|| PlayerRole : "player has one role"
-    Player }|--|| User : "player has one user"    
+    Player }|--|| User : "player has one user"  
+    Player }|--|| Character : "player has one character"  
     PlayerRole
     Prop
-    Scene ||--o{ Camera : "scene has zero or more cameras"
     Scene ||--o{ Character : "scene has zero or more characters"
+    Scene ||--o{ Camera : "scene has zero or more cameras"
     Scene ||--o{ Light : "scene has zero or more lights"
     Scene ||--o{ Prop : "scene has zero or more props"
     Scene ||--o{ Shot : "scene has zero or more shots"    
