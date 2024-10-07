@@ -2,6 +2,7 @@
 from app.extensions import db
 
 class Camera(db.Model):
+   __tablename__ = 'camera'
    id = db.Column(db.Integer, primary_key=True)
    camera_type_id = db.Column(db.Integer, db.ForeignKey('camera_type.id'), nullable=False)
    settings = db.Column(db.String(200), nullable=False)
