@@ -1,4 +1,4 @@
-flask-babylonjs
+Flask-babylonjs
 
 # Flask BabylonJS
 
@@ -7,6 +7,8 @@ flask-babylonjs
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 基于“工厂模式”<https://github.com/vanHeemstraSystems/factory-pattern>
+
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 按如下方式运行该应用程序：
 
