@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Shot Types</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block content %}
     <h1>Shot Types</h1>
     <a href="{{ url_for('shot_type.new_shot_type') }}">Create New Shot Type</a>
     <ul>
