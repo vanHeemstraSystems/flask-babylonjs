@@ -10,6 +10,7 @@ from app.extensions import db
 #         return f'<Scene "{self.title}">'
 
 class Scene(db.Model):
+   __tablename__ = 'scene'
    id = db.Column(db.Integer, primary_key=True)
    title = db.Column(db.String(100), nullable=False)
    scene_number = db.Column(db.String(50), nullable=True)
