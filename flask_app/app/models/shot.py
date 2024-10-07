@@ -8,6 +8,7 @@ class Shot(db.Model):
     description = db.Column(db.Text, nullable=True)
     camera_settings = db.Column(db.String(200), nullable=False)  # JSON settings for the camera
     scene_id = db.Column(db.Integer, db.ForeignKey('scene.id'), nullable=False)  # Foreign Key to Scene
+    created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
 
     scene = db.relationship('Scene', backref='shots')  # One-to-many relationship with Scene
 
