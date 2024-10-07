@@ -2,6 +2,7 @@
 from app.extensions import db
 
 class Player(db.Model):
+    __tablename__ = 'player'
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     character_id = db.Column(db.Integer, db.ForeignKey('character.id'), nullable=False)
