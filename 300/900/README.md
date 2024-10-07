@@ -11,6 +11,7 @@ erDiagram
     Field
     FieldType
     Game }|--|| Board : "game has one board"
+    Game ||--o{ Player : "game has zero or more players"
     Light }|--|| LightType : "light has one type"
     LightType
     Player }|--|| Character : "player has one character"
