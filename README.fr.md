@@ -19,8 +19,8 @@ Dans les cas suivants, suivez ses conseils :
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
 
-Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
-package à l’aide de la commande suivante.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -42,9 +42,9 @@ Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
-Voir[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
