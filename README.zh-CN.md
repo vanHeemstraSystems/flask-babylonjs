@@ -2,7 +2,7 @@ Flask-babylonjs
 
 # Flask BabylonJS
 
-基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -16,8 +16,8 @@ Flask-babylonjs
 
 如果出现以下情况，请遵循其建议：
 
-虚拟环境没有创建成功，因为ensurepip没有
-可用的。
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 在 Debian/Ubuntu 系统上，需要安装 python3-venv
 使用以下命令进行打包。
@@ -44,7 +44,7 @@ Flask-babylonjs
 
 看[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - 构建我们的应用程序
 
 看[README.md](./300/README.md)
 
