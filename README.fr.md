@@ -8,17 +8,19 @@ Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sql
 
 Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
+Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+
 Exécutez cette application comme suit :
 
 1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
 Dans les cas suivants, suivez ses conseils :
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
+disponible.
 
-Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
-package à l’aide de la commande suivante.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
