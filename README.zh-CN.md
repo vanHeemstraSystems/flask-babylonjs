@@ -12,7 +12,7 @@ Flask-babylonjs
 
 按如下方式运行该应用程序：
 
-1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app` directory: `$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
+1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
 如果出现以下情况，请遵循其建议：
 
