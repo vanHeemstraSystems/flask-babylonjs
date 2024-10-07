@@ -31,6 +31,9 @@ def create_app(config_class=Config):
 
     from app.scenes import bp as scenes_bp
     app.register_blueprint(scenes_bp, url_prefix='/scenes')
+
+    from app.shot_types import bp as shot_types_bp
+    app.register_blueprint(shot_types_bp, url_prefix='/shot_types')
     
     # @app.route('/test/')
     # def test_page():
