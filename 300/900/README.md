@@ -2,12 +2,22 @@
 
 ``` mermaid
 erDiagram
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER ||--o{ INVOICE : "liable for"
-    DELIVERY-ADDRESS ||--o{ ORDER : receives
-    INVOICE ||--|{ ORDER : covers
-    ORDER ||--|{ ORDER-ITEM : includes
-    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
-    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+    Board ||--|{ Field : "board has one or more fields"
+    Camera }|--|| CameraType : "camera has one type"
+    CameraType
+    Character }|--|| CharacterRole : "character has one role"
+    CharacterRole
+    Field }|--|| FieldType : "field has one type"
+    Field
+    FieldType
+    Game
+    Light
+    Player
+    PlayerRole
+    Prop
+    Scene
+    Shot
+    Tag
+    User
+    UserRole
 ```
