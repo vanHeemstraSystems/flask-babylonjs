@@ -2,6 +2,7 @@
 from app.extensions import db
 
 class Light(db.Model):
+    __tablename__ = 'light'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     intensity = db.Column(db.Float, default=1.0)
