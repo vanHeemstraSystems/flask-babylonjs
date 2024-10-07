@@ -7,7 +7,7 @@ class PlayerRole(db.Model):
     name = db.Column(db.String(50), nullable=False, unique=True)
     description = db.Column(db.String(200), nullable=True)
     player_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    player = db.relationship('Player', backref='user_roles') # Relationship with Player
+    player = db.relationship('Player', backref='player_roles') # Relationship with Player
 
     def __repr__(self):
         return f'<PlayerRole Player ID: {self.player_id}>'
