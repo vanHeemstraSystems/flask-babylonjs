@@ -6,7 +6,7 @@ Basé sur « Comment structurer une grande application Flask avec des plans Flas
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
+Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
