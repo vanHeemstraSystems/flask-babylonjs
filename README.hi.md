@@ -1,4 +1,4 @@
-कुप्पी-babylonjs
+फ्लास्क-बेबीलोनज
 
 # फ्लास्क बेबीलोनजेएस
 
@@ -40,9 +40,9 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./100/README.md)
 
-## 200 - आवश्यकताएँ
+## 200 - Requirements
 
-See [README.md](./200/README.md)
+देखना[README.md](./200/README.md)
 
 ## 300 - हमारे एप्लिकेशन का निर्माण
 
