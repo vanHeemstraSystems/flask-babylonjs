@@ -13,13 +13,12 @@ erDiagram
     Game }|--|| Board : "game has one board"
     Light }|--|| LightType : "light has one type"
     LightType
-    Player
+    Player }|--|| User : "player has one user"
     PlayerRole
     Prop
     Scene
     Shot
     Tag
-    User ||--o{ Player : "user has zero or more players"
     User }|--|| UserRole : "user has one role"
     UserRole
 ```
