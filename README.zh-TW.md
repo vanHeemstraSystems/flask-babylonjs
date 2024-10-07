@@ -8,6 +8,8 @@ Flask-babylonjs
 
 基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
+基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+
 按如下方式運行該應用程式：
 
 1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
