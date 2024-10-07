@@ -36,7 +36,7 @@ Flask-babylonjs
 10) 或者运行flask命令行界面：`(.venv) $ flask shell`11）执行任何flask命令：>>>
 12) 使用`exit()`退出命令行界面。
 
-## 100 - Introduction
+## 100 - 简介
 
 看[README.md](./100/README.md)
 
