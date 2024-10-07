@@ -8,6 +8,8 @@
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
+استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+
 قم بتشغيل هذا التطبيق على النحو التالي:
 
 1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
@@ -23,8 +25,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
+الحزمة، أعد إنشاء بيئتك الافتراضية.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -44,7 +46,7 @@ package, recreate your virtual environment.
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
