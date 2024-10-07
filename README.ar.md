@@ -6,7 +6,7 @@
 
 استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
+Based on "Factory Pattern" at <https://github.com/vanHeemstraSystems/factory-pattern>
 
 استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
@@ -16,7 +16,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -31,8 +31,7 @@
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
-4) تشغيل`pip install -r requirements.txt`
-5) Set the Flask App to app directory: `(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
+4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
 9) الاستخدام`CTRL+c`للخروج من خادم الويب.
 10) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`11) تنفيذ أي أوامر قارورة: >>>
 12) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
