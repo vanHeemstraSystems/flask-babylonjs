@@ -19,8 +19,8 @@
 لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
+الحزمة باستخدام الأمر التالي.
 
     sudo apt-get update
     sudo apt install python3.10-venv
