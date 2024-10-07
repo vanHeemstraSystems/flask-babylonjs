@@ -1,4 +1,4 @@
-flacon-babylonjs
+flask-babylonjs
 
 # Flacon BabylonJS
 
@@ -46,7 +46,7 @@ Voir[README.md](./200/README.md)
 
 ## 300 - Créer notre application
 
-Voir[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - Conclusion
 
