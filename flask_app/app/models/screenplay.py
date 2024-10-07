@@ -10,7 +10,7 @@ class Screenplay(db.Model):
     genre = db.Column(db.String(50), nullable=True)
     story_id = db.Column(db.Integer, db.ForeignKey('story.id'), nullable=False) # Foreign Key to Story
     created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
-    story = db.relationship('Story', backref='screenplay', uselist=False) # One-to-one relationship
-
+    story = db.relationship('Story', backref='screenplays') # One-to-many relationship with Story
+    
     def __repr__(self):
         return f'<Screenplay {self.title}>'
