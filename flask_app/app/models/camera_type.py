@@ -2,6 +2,7 @@
 from app.extensions import db
 
 class CameraType(db.Model):
+   __tablename__ = 'camera_type'
    id = db.Column(db.Integer, primary_key=True)
    title = db.Column(db.String(50), nullable=False, unique=True)
    created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
