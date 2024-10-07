@@ -6,7 +6,7 @@ Flask-babylonjs
 
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-基于“工厂模式”<https://github.com/vanHeemstraSystems/factory-pattern>
+Based on "Factory Pattern" at <https://github.com/vanHeemstraSystems/factory-pattern>
 
 基于“基于文本的实体关系图与 Mermaid.js”，位于<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
