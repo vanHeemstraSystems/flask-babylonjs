@@ -44,6 +44,9 @@ def create_app(config_class=Config):
     from app.character_roles import bp as character_roles_bp
     app.register_blueprint(character_roles_bp, url_prefix='/character_roles')
 
+    from app.character_types import bp as character_types_bp
+    app.register_blueprint(character_types_bp, url_prefix='/character_types')    
+
     from app.fields import bp as fields_bp
     app.register_blueprint(fields_bp, url_prefix='/fields')
 
