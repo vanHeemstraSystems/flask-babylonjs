@@ -8,7 +8,7 @@
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
-استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 قم بتشغيل هذا التطبيق على النحو التالي:
 
@@ -16,7 +16,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
