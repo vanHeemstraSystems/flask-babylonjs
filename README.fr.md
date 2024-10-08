@@ -25,14 +25,14 @@ package à l’aide de la commande suivante.
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+Vous devrez peut-être utiliser sudo avec cette commande.  Après avoir installé python3-venv
+package, recréez votre environnement virtuel.
 
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Start the virtual environment and enter: `. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`pip install -r requirements.txt`5) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`6) Définissez l'environnement Flask sur le développement :`(.venv) $ export FLASK_ENV=development`
-7) Run the flask app: `(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
+3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
+4) Courir`pip install -r requirements.txt`5) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`
+6) Set the Flask Environment to development: `(.venv) $ export FLASK_ENV=development`7) Exécutez l'application Flask :`(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
 9) Utiliser`CTRL+c`pour quitter le serveur Web.
 10) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`11) Exécutez toutes les commandes du flacon : >>>
 12) Utiliser`exit()`pour quitter l'interface de ligne de commande.
@@ -43,7 +43,7 @@ Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
-See [README.md](./200/README.md)
+Voir[README.md](./200/README.md)
 
 ## 300 - Construire notre application
 
