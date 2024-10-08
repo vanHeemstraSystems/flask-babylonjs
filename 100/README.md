@@ -33,7 +33,7 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
 2. **Create a virtual environment:**
 
    ```bash
-   python -m venv venv
+   python -m venv .venv
    ```
 
 3. **Activate the virtual environment:**
@@ -64,6 +64,8 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
    FLASK_ENV='development'  # Set to 'production' for production environment
    ```
 
+   **WARNING**: For a more secure solution use ```exports``` of variables which then get read into the application instead of storing them in files.
+
 ### Database Setup
 
 1. **Create the database:**
@@ -80,9 +82,16 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
    You can run the seed scripts to populate initial data:
 
    ```bash
+   python seeds/seed_cameras.py
    python seeds/seed_camera_types.py
+   python seeds/seed_character_roles.py
+   python seeds/seed_fields.py  
    python seeds/seed_field_types.py
+   python seeds/seed_player_roles.py
+   python seeds/seed_shot_types.py
+   python seeds/seed_stories.py
    python seeds/seed_tags.py
+   python seeds/seed_user_roles.py
    ```
 
 ### Running the Application
