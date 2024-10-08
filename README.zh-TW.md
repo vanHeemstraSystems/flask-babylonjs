@@ -28,7 +28,7 @@ Flask-babylonjs
 您可能需要將 sudo 與該命令一起使用。  安裝 python3-venv 後
 包，重新建立您的虛擬環境。
 
-On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
 4）運行`pip install -r requirements.txt`5）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`6）設定Flask環境為開發：`(.venv) $ export FLASK_ENV=development`7）運行燒瓶應用程式：`(.venv) $ flask run`8）根據提示開啟Web介面
@@ -44,7 +44,7 @@ On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 看[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - 建立我們的應用程式
 
 看[README.md](./300/README.md)
 
