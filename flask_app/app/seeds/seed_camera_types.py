@@ -3,26 +3,54 @@ from app.extensions import db
 from app.models.camera_type import CameraType
 
 def seed_camera_types():
-    camera_types = [
-        'FollowCamera',
-        'ArcRotateCamera',
-        'FreeCamera',
-        'UniversalCamera',
-        'TargetCamera',
-        'DeviceOrientationCamera',
-        'TouchCamera',
-        'AnaglyphCamera',
-        'VRDeviceOrientationCamera',
-        'WebXRCamera'
-    ]
-
     # Clear existing data (optional)
     db.session.query(CameraType).delete()
     db.session.commit()
 
-    for name in camera_types:
-        camera_type = CameraType(name=name)
-        db.session.add(camera_type)
-
+    # Create new camera types
+    new_camera_type = CameraType(name="FollowCamera", description="...")
+    db.session.add(new_camera_type)
     db.session.commit()
-    print("Camera types seeded!")
+
+    new_camera_type = CameraType(name="ArcRotateCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="FreeCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="UniversalCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+
+    new_camera_type = CameraType(name="TargetCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="UniversalCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="DeviceOrientationCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="TouchCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="AnaglyphCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()
+
+    new_camera_type = CameraType(name="VRDeviceOrientationCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit()                    
+
+    new_camera_type = CameraType(name="WebXRCamera", description="...")
+    db.session.add(new_camera_type)
+    db.session.commit() 
+
+    print("Camera types seeded!")     
