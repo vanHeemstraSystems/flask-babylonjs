@@ -8,16 +8,16 @@
 
 "फ़ैक्टरी पैटर्न" पर आधारित<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+"Mermaid.js के साथ पाठ-आधारित इकाई संबंध आरेख" पर आधारित<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
-1) दर्ज करें`flask_app` directory: `$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
+1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
-उपलब्ध।
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
 निम्नलिखित कमांड का उपयोग करके पैकेज।
