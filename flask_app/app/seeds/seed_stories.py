@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from app.extensions import db
-from app import Story
+from app.models.story import Story
 
 def seed_stories():
     # Clear existing data (optional)
@@ -14,8 +14,8 @@ def seed_stories():
 
     print("Stories seeded!")
 
-if __name__ == "__main__":
-    from app import create_app  # Adjust as necessary
-    app = create_app()
-    with app.app_context():
-        seed_stories()
+# if __name__ == "__main__":
+#     from app import create_app  # Adjust as necessary
+#     app = create_app()
+#     with app.app_context():
+#         seed_stories()

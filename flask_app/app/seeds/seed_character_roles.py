@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from app.extensions import db
-from app import CharacterRole
+from app.models.character_role import CharacterRole
 
 def seed_character_roles():
     character_roles = [
@@ -22,8 +22,8 @@ def seed_character_roles():
     db.session.commit()
     print("Character roles seeded!")
 
-if __name__ == "__main__":
-    from app import create_app  # Adjust as necessary
-    app = create_app()
-    with app.app_context():
-        seed_character_roles()
+# if __name__ == "__main__":
+#     from app import create_app  # Adjust as necessary
+#     app = create_app()
+#     with app.app_context():
+#         seed_character_roles()
