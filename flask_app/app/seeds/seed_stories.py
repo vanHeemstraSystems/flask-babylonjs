@@ -14,8 +14,3 @@ def seed_stories():
 
     print("Stories seeded!")
 
-# if __name__ == "__main__":
-#     from app import create_app  # Adjust as necessary
-#     app = create_app()
-#     with app.app_context():
-#         seed_stories()

@@ -22,8 +22,3 @@ def seed_shot_types():
     db.session.commit()
     print("Shot types seeded!")
 
-# if __name__ == "__main__":
-#     from app import create_app  # Adjust as necessary
-#     app = create_app()
-#     with app.app_context():
-#         seed_shot_types()

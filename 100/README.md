@@ -82,11 +82,11 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
    You can run the seed scripts to populate initial data:
 
    ```bash
-   python seeds/seed_cameras.py
    python seeds/seed_camera_types.py
+   python seeds/seed_cameras.py
    python seeds/seed_character_roles.py
-   python seeds/seed_fields.py  
    python seeds/seed_field_types.py
+   python seeds/seed_fields.py  
    python seeds/seed_player_roles.py
    python seeds/seed_shot_types.py
    python seeds/seed_stories.py

@@ -26,9 +26,3 @@ def seed_camera_types():
 
     db.session.commit()
     print("Camera types seeded!")
-
-# if __name__ == "__main__":
-#     from app import create_app  # Adjust as necessary
-#     app = create_app()
-#     with app.app_context():
-#         seed_camera_types()
