@@ -30,7 +30,7 @@ Flask-babylonjs
 
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3）启动虚拟环境，输入：`. .venv/bin/activate` (macOS: `source .venv/bin/activate`）
+3）启动虚拟环境，输入：`. .venv/bin/activate`（苹果系统：`source .venv/bin/activate`）
 4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）设置Flask环境为开发：`(.venv) $ export FLASK_ENV=development`7）运行烧瓶应用程序：`(.venv) $ flask run`8）根据提示打开Web界面
 9) 使用`CTRL+c`退出网络服务器。
 10) 或者运行flask命令行界面：`(.venv) $ flask shell`11）执行任何flask命令：>>>
@@ -48,6 +48,6 @@ Flask-babylonjs
 
 看[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - 结论
 
 看[README.md](./400/README.md)
