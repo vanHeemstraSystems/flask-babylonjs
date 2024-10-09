@@ -29,7 +29,8 @@ def create_app(config_class=Config):
     # from app.scene3 import bp as scene3_bp
     # app.register_blueprint(scene3_bp, url_prefix='/scene3')
 
-    from app.boards import bp as boards_bp
+    from app.routes.board_routes import boards_bp
+    # from app.boards import bp as boards_bp
     app.register_blueprint(boards_bp, url_prefix='/boards')
 
     from app.cameras import bp as cameras_bp
