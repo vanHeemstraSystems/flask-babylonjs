@@ -4,7 +4,7 @@ flacon-babylonjs
 
 > Slugline
 
-Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -20,8 +20,8 @@ Exécutez cette application comme suit :
 
 Dans les cas suivants, suivez ses conseils :
 
-L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
-disponible.
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
 package à l’aide de la commande suivante.
