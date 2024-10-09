@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Create New Field</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <label for="name">Field Name:</label>
+    {{ form.name(size=32) }}<br>
+
+    <label for="description">Description:</label>
+    {{ form.description(cols=30, rows=5) }}<br>
+
+    <label for="field_type_id">Field Type:</label>
+    {{ form.field_type_id() }}<br>
+
+    <label for="board_id">Board:</label>
+    {{ form.board_id() }}<br>
+
+    {{ form.submit() }}
+</form>
+<a href="{{ url_for('field.list_fields') }}">Back to Fields</a>
+{% endblock %}
