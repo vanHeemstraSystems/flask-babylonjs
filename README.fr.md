@@ -23,8 +23,8 @@ Dans les cas suivants, suivez ses conseils :
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
+package à l’aide de la commande suivante.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -40,7 +40,7 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 10) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`11) Exécutez toutes les commandes du flacon : >>>
 12) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
