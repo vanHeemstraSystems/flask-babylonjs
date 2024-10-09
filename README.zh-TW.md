@@ -16,23 +16,22 @@ Flask-babylonjs
 
 若出現以下情況，請遵循其建議：
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+虛擬環境沒有創建成功，因為ensurepip沒有
+可用的。
 
-在 Debian/Ubuntu 系統上，需要安裝 python3-venv
-使用以下命令進行打包。
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+您可能需要將 sudo 與該命令一起使用。  安裝 python3-venv 後
+包，重新建立您的虛擬環境。
 
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
-4）運行`pip install -r requirements.txt`
-5) Set the Flask App to app directory: `(.venv) $ export FLASK_APP=app`6）設定Flask環境為開發：`(.venv) $ export FLASK_ENV=development`7）運行燒瓶應用程式：`(.venv) $ flask run`8）根據提示開啟Web介面
+4）運行`pip install -r requirements.txt`5）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`6）將Flask環境設定為開發：`(.venv) $ export FLASK_ENV=development`7）運行燒瓶應用程式：`(.venv) $ flask run`8）根據提示開啟Web介面
 9) 使用`CTRL+c`退出網路伺服器。
 10) 或運行flask命令列介面：`(.venv) $ flask shell`
 11) Execute any flask commands: >>>
@@ -40,7 +39,7 @@ package, recreate your virtual environment.
 
 ## 100 - 簡介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
