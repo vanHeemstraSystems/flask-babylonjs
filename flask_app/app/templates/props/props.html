@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Props</h1>
+<a href="{{ url_for('prop.new_prop') }}">Create New Prop</a>
+<ul>
+    {% for prop in props %}
+    <li>
+        {{ prop.name }}
+        <a href="{{ url_for('prop.edit_prop', prop_id=prop.id) }}">Edit</a>
+        <form action="{{ url_for('prop.delete_prop', prop_id=prop.id) }}" method="POST"
+            style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
