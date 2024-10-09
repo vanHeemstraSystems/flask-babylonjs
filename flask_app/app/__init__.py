@@ -32,71 +32,68 @@ def create_app(config_class=Config):
     from app.routes.board_routes import board_bp
     app.register_blueprint(board_bp, url_prefix='/boards')
 
-    from app.cameras import bp as cameras_bp
-    app.register_blueprint(cameras_bp, url_prefix='/cameras')
+    from app.routes.camera_routes import camera_bp
+    app.register_blueprint(camera_bp, url_prefix='/cameras')
 
-    from app.camera_types import bp as camera_types_bp
-    app.register_blueprint(camera_types_bp, url_prefix='/camera_types')
+    from app.routes.camera_type_routes import camera_type_bp
+    app.register_blueprint(camera_type_bp, url_prefix='/camera_types')
 
-    from app.characters import bp as characters_bp
-    app.register_blueprint(characters_bp, url_prefix='/characters')
+    from app.routes.character_routes import character_bp
+    app.register_blueprint(character_bp, url_prefix='/characters')
 
-    from app.character_roles import bp as character_roles_bp
-    app.register_blueprint(character_roles_bp, url_prefix='/character_roles')
+    from app.routes.character_role_routes import character_role_bp
+    app.register_blueprint(character_role_bp, url_prefix='/character_roles')
 
-    from app.character_types import bp as character_types_bp
-    app.register_blueprint(character_types_bp, url_prefix='/character_types')    
+    from app.routes.character_type_routes import character_type_bp
+    app.register_blueprint(character_type_bp, url_prefix='/character_types')    
 
-    from app.fields import bp as fields_bp
-    app.register_blueprint(fields_bp, url_prefix='/fields')
+    from app.routes.field_routes import field_bp
+    app.register_blueprint(field_bp, url_prefix='/fields')
 
-    from app.field_types import bp as field_types_bp
-    app.register_blueprint(field_types_bp, url_prefix='/field_types')
+    from app.routes.field_type_routes import field_type_bp
+    app.register_blueprint(field_type_bp, url_prefix='/field_types')
 
-    from app.games import bp as games_bp
-    app.register_blueprint(games_bp, url_prefix='/games')
+    from app.routes.game_routes import game_bp
+    app.register_blueprint(game_bp, url_prefix='/games')
 
-    from app.lights import bp as lights_bp
-    app.register_blueprint(lights_bp, url_prefix='/lights')
+    from app.routes.light_routes import light_bp
+    app.register_blueprint(light_bp, url_prefix='/lights')
     
-    from app.light_types import bp as light_types_bp
-    app.register_blueprint(light_types_bp, url_prefix='/light_types')
+    from app.routes.light_type_routes import light_type_bp
+    app.register_blueprint(light_type_bp, url_prefix='/light_types')
 
-    from app.players import bp as players_bp
-    app.register_blueprint(players_bp, url_prefix='/players')
+    from app.routes.player_routes import player_bp
+    app.register_blueprint(player_bp, url_prefix='/players')
 
-    from app.player_roles import bp as player_roles_bp
-    app.register_blueprint(player_roles_bp, url_prefix='/player_roles')
+    from app.routes.player_role_routes import player_role_bp
+    app.register_blueprint(player_role_bp, url_prefix='/player_roles')
 
-    from app.props import bp as props_bp
-    app.register_blueprint(props_bp, url_prefix='/props')
+    from app.routes.prop_routes import prop_bp
+    app.register_blueprint(prop_bp, url_prefix='/props')  
 
-    from app.props import bp as props_bp
-    app.register_blueprint(props_bp, url_prefix='/props')   
+    from app.routes.scene_routes import scene_bp
+    app.register_blueprint(scene_bp, url_prefix='/scenes')
 
-    from app.scenes import bp as scenes_bp
-    app.register_blueprint(scenes_bp, url_prefix='/scenes')
+    from app.routes.screenplay_routes import screenplay_bp
+    app.register_blueprint(screenplay_bp, url_prefix='/screenplays')
 
-    from app.screenplays import bp as screenplays_bp
-    app.register_blueprint(screenplays_bp, url_prefix='/screenplays')
-
-    from app.shots import bp as shots_bp
-    app.register_blueprint(shots_bp, url_prefix='/shots')
+    from app.routes.shot_routes import shot_bp
+    app.register_blueprint(shot_bp, url_prefix='/shots')
     
-    from app.shot_types import bp as shot_types_bp
-    app.register_blueprint(shot_types_bp, url_prefix='/shot_types')
+    from app.routes.shot_type_routes import shot_type_bp
+    app.register_blueprint(shot_type_bp, url_prefix='/shot_types')
 
-    from app.stories import bp as stories_bp
-    app.register_blueprint(stories_bp, url_prefix='/stories')
+    from app.routes.story_routes import story_bp
+    app.register_blueprint(story_bp, url_prefix='/stories')
 
-    from app.tags import bp as tags_bp
-    app.register_blueprint(tags_bp, url_prefix='/tags')    
+    from app.routes.tag_routes import tag_bp
+    app.register_blueprint(tag_bp, url_prefix='/tags')    
 
-    from app.users import bp as users_bp
-    app.register_blueprint(users_bp, url_prefix='/users')
+    from app.routes.user_routes import user_bp
+    app.register_blueprint(user_bp, url_prefix='/users')
 
-    from app.user_roles import bp as user_roles_bp
-    app.register_blueprint(user_roles_bp, url_prefix='/user_roles')     
+    from app.routes.user_role_routes import user_role_bp
+    app.register_blueprint(user_role_bp, url_prefix='/user_roles')     
     
     # @app.route('/test/')
     # def test_page():
