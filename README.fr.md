@@ -12,7 +12,7 @@ Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/fact
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
+Open this URL with `https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
 Exécutez cette application comme suit :
 
