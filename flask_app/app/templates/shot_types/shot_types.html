@@ -1,18 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Shot Types</h1>
-<a href="{{ url_for('shot_type.new_shot_type') }}">Create New Shot Type</a>
-<ul>
-    {% for shot_type in shot_types %}
-    <li>
-        {{ shot_type.name }}
-        <a href="{{ url_for('shot_type.edit_shot_type', shot_type_id=shot_type.id) }}">Edit</a>
-        <form action="{{ url_for('shot_type.delete_shot_type', shot_type_id=shot_type.id) }}" method="POST"
-            style="display:inline;">
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+<span class="title">
+    <h1>{% block title %} Shot Types {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('shot_type.new_shot_type') }}">Create New Shot Type</a>
+    <ul>
+        {% for shot_type in shot_types %}
+        <li>
+            {{ shot_type.name }}
+            <a href="{{ url_for('shot_type.edit_shot_type', shot_type_id=shot_type.id) }}">Edit</a>
+            <form action="{{ url_for('shot_type.delete_shot_type', shot_type_id=shot_type.id) }}" method="POST"
+                style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}
