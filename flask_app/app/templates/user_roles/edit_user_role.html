@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Edit User Role</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="name">User Role Name:</label>
-    {{ form.name(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Edit User Role {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="name">User Role Name:</label>
+        {{ form.name(size=32) }}<br>
 
-    <label for="description">User Role Description:</label>
-    {{ form.description(cols=30, rows=5) }}<br>
+        <label for="description">User Role Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('user_role.list_user_roles') }}">Back to User Roles</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('user_role.list_user_roles') }}">Back to User Roles</a>
+</div>
 {% endblock %}

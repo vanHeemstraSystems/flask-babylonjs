@@ -1,25 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Create New Game</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="title">Game Title:</label>
-    {{ form.title(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Create New Game {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="title">Game Title:</label>
+        {{ form.title(size=32) }}<br>
 
-    <label for="description">Description:</label>
-    {{ form.description(cols=30, rows=5) }}<br>
+        <label for="description">Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
 
-    <label for="release_date">Release Date:</label>
-    {{ form.release_date() }}<br>
+        <label for="release_date">Release Date:</label>
+        {{ form.release_date() }}<br>
 
-    <label for="genre">Genre:</label>
-    {{ form.genre(size=32) }}<br>
+        <label for="genre">Genre:</label>
+        {{ form.genre(size=32) }}<br>
 
-    <label for="story_id">Story:</label>
-    {{ form.story_id() }}<br>
+        <label for="story_id">Story:</label>
+        {{ form.story_id() }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('game.list_games') }}">Back to Games</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('game.list_games') }}">Back to Games</a>
+</div>
 {% endblock %}

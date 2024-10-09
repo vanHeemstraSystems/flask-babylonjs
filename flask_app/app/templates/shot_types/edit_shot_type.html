@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Edit Shot Type</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="name">Shot Type Name:</label>
-    {{ form.name(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Edit Shot Type {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="name">Shot Type Name:</label>
+        {{ form.name(size=32) }}<br>
 
-    <label for="description">Description:</label>
-    {{ form.description(cols=30, rows=5) }}<br>
+        <label for="description">Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('shot_type.list_shot_types') }}">Back to Shot Types</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('shot_type.list_shot_types') }}">Back to Shot Types</a>
+</div>
 {% endblock %}

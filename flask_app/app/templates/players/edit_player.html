@@ -1,22 +1,26 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Edit Player</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="user_id">User:</label>
-    {{ form.user_id() }}<br>
+<span class="title">
+    <h1>{% block title %} Edit Player {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="user_id">User:</label>
+        {{ form.user_id() }}<br>
 
-    <label for="character_id">Character:</label>
-    {{ form.character_id() }}<br>
+        <label for="character_id">Character:</label>
+        {{ form.character_id() }}<br>
 
-    <label for="score">Score:</label>
-    {{ form.score() }}<br>
+        <label for="score">Score:</label>
+        {{ form.score() }}<br>
 
-    <label for="level">Level:</label>
-    {{ form.level() }}<br>
+        <label for="level">Level:</label>
+        {{ form.level() }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('player.list_players') }}">Back to Players</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('player.list_players') }}">Back to Players</a>
+</div>
 {% endblock %}

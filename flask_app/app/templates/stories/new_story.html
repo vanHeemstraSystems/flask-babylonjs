@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Create New Story</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="title">Story Title:</label>
-    {{ form.title(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Create New Story {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="title">Story Title:</label>
+        {{ form.title(size=32) }}<br>
 
-    <label for="description">Description:</label>
-    {{ form.description(cols=30, rows=5) }}<br>
+        <label for="description">Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('story.list_stories') }}">Back to Stories</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('story.list_stories') }}">Back to Stories</a>
+</div>
 {% endblock %}

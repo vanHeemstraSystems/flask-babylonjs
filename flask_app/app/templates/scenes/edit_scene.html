@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Edit Scene</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="title">Scene Title:</label>
-    {{ form.title(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Edit Scene {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="title">Scene Title:</label>
+        {{ form.title(size=32) }}<br>
 
-    <label for="scene_number">Scene Number:</label>
-    {{ form.scene_number(size=32) }}<br>
+        <label for="scene_number">Scene Number:</label>
+        {{ form.scene_number(size=32) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('scene.list_scenes') }}">Back to Scenes</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('scene.list_scenes') }}">Back to Scenes</a>
+</div>
 {% endblock %}

@@ -1,52 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-       <canvas id="renderCanvas"></canvas>
 
-       <script>
-           const canvas = document.getElementById('renderCanvas');
-           const engine = new BABYLON.Engine(canvas, true);
-    
-           const createScene = function() {
-               const scene = new BABYLON.Scene(engine);
-               const camera = new BABYLON.ArcRotateCamera("camera", Math.PI / 2, Math.PI / 4, 10, BABYLON.Vector3.Zero(), scene);
-               camera.attachControl(canvas, true);
-    
-               const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
-    
-               // Create three spheres
-               const sphere1 = BABYLON.MeshBuilder.CreateSphere("sphere1", { diameter: 1 }, scene);
-               sphere1.position.x = 3;
-               sphere1.actionManager = new BABYLON.ActionManager(scene);
-               sphere1.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function() {
-                   window.location.href = "/scene1";
-               }));
-    
-               const sphere2 = BABYLON.MeshBuilder.CreateSphere("sphere2", { diameter: 1 }, scene);
-               sphere2.position.x = 0;
-               sphere2.actionManager = new BABYLON.ActionManager(scene);
-               sphere2.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function() {
-                   window.location.href = "/scene2";
-               }));
-    
-               const sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere3", { diameter: 1 }, scene);
-               sphere3.position.x = -3;
-               sphere3.actionManager = new BABYLON.ActionManager(scene);
-               sphere3.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function() {
-                   window.location.href = "/scene3";
-               }));
-    
-               return scene;
-           };
-    
-           const scene = createScene();
-    
-           engine.runRenderLoop(function() {
-               scene.render();
-           });
-    
-           window.addEventListener('resize', function() {
-               engine.resize();
-           });
-       </script>
+<h1>Index page</h1>
+
 {% endblock %}

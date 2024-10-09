@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Edit Prop</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="name">Prop Name:</label>
-    {{ form.name(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Edit Prop {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="name">Prop Name:</label>
+        {{ form.name(size=32) }}<br>
 
-    <label for="model_url">Model URL:</label>
-    {{ form.model_url(size=32) }}<br>
+        <label for="model_url">Model URL:</label>
+        {{ form.model_url(size=32) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('prop.list_props') }}">Back to Props</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('prop.list_props') }}">Back to Props</a>
+</div>
 {% endblock %}

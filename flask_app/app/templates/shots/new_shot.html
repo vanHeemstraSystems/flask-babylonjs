@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Create New Shot</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="title">Shot Title:</label>
-    {{ form.title(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Create New Shot {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="title">Shot Title:</label>
+        {{ form.title(size=32) }}<br>
 
-    <label for="shot_number">Shot Number:</label>
-    {{ form.shot_number(size=32) }}<br>
+        <label for="shot_number">Shot Number:</label>
+        {{ form.shot_number(size=32) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('shot.list_shots') }}">Back to Shots</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('shot.list_shots') }}">Back to Shots</a>
+</div>
 {% endblock %}

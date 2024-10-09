@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Create New Player Role</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <label for="name">PlayerRole Name:</label>
-    {{ form.name(size=32) }}<br>
+<span class="title">
+    <h1>{% block title %} Create New Player Role {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="name">PlayerRole Name:</label>
+        {{ form.name(size=32) }}<br>
 
-    <label for="description">PlayerRole Description:</label>
-    {{ form.description(cols=30, rows=5) }}<br>
+        <label for="description">PlayerRole Description:</label>
+        {{ form.description(cols=30, rows=5) }}<br>
 
-    {{ form.submit() }}
-</form>
-<a href="{{ url_for('player_role.list_player_roles') }}">Back to Player Roles</a>
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('player_role.list_player_roles') }}">Back to Player Roles</a>
+</div>
 {% endblock %}
