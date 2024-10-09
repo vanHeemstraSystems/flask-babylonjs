@@ -4,11 +4,11 @@ flacon-babylonjs
 
 > Slugline
 
-Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
+Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
@@ -16,7 +16,7 @@ Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour ut
 
 Exécutez cette application comme suit :
 
-1) Enter `flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
+1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
 Dans les cas suivants, suivez ses conseils :
 
@@ -48,7 +48,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
