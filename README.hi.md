@@ -2,7 +2,7 @@
 
 # फ्लास्क बेबीलोनजेएस
 
-> स्लगलाइन
+> Slugline
 
 "फ्लास्क ब्लूप्रिंट और फ्लास्क-SQLAlchemy के साथ एक बड़े फ्लास्क अनुप्रयोग की संरचना कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -32,7 +32,7 @@
 आपको उस कमांड के साथ sudo का उपयोग करने की आवश्यकता हो सकती है।  Python3-venv स्थापित करने के बाद
 पैकेज, अपने आभासी वातावरण को फिर से बनाएं।
 
-MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
 4) भागो`pip install -r requirements.txt`5) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`6) फ्लास्क पर्यावरण को विकास पर सेट करें:`(.venv) $ export FLASK_ENV=development`7) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`8) संकेतानुसार वेब इंटरफ़ेस खोलें
