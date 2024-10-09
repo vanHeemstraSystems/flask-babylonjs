@@ -12,11 +12,12 @@ Flask-babylonjs
 
 基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Open this URL with `https://github.dev/`而不是`https://github.dev/`使用基於 Web 的 Visual Studio Code IDE。
+開啟此網址`https://github.dev/`而不是`https://github.dev/`使用基於 Web 的 Visual Studio Code IDE。
 
 按如下方式運行該應用程式：
 
-1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
+1) 輸入`flask_app`目錄：`$ cd flask_app`
+2) If non-existent, create a virtual environment inside the `flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
 
 若出現以下情況，請遵循其建議：
 
@@ -40,13 +41,13 @@ Open this URL with `https://github.dev/`而不是`https://github.dev/`使用基�
 10) 或運行flask命令列介面：`(.venv) $ flask shell`11）執行任何flask指令：>>>
 12) 使用`exit()`退出命令列介面。
 
-## 100 - Introduction
+## 100 - 簡介
 
 看[README.md](./100/README.md)
 
 ## 200 - 要求
 
-看[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 - 建立我們的應用程式
 
