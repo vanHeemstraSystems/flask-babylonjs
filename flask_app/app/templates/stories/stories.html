@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Stories {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('story.new_story') }}">Create New Story</a>
+    <ul>
+        {% for story in stories %}
+        <li>
+            {{ story.title }}
+            <a href="{{ url_for('story.edit_story', story_id=story.id) }}">Edit</a>
+            <form action="{{ url_for('story.delete_story', story_id=story.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

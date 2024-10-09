@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Edit Story</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <label for="title">Story Title:</label>
+    {{ form.title(size=32) }}<br>
+
+    <label for="description">Description:</label>
+    {{ form.description(cols=30, rows=5) }}<br>
+
+    {{ form.submit() }}
+</form>
+<a href="{{ url_for('story.list_stories') }}">Back to Stories</a>
+{% endblock %}
