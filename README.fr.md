@@ -14,11 +14,11 @@ Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mer
 
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
-Run this application as follows:
+Exécutez cette application comme suit :
 
 1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
-Dans les cas suivants, suivez ses conseils :
+In case of the following, follow its advice:
 
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
@@ -35,12 +35,12 @@ package, recréez votre environnement virtuel.
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`pip install -r requirements.txt`5) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`6) Définissez l'environnement Flask sur le développement :`(.venv) $ export FLASK_ENV=development`7) Exécutez l'application Flask :`(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
+4) Run `pip install -r requirements.txt`5) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`6) Définissez l'environnement Flask sur le développement :`(.venv) $ export FLASK_ENV=development`7) Exécutez l'application Flask :`(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
 9) Utiliser`CTRL+c`pour quitter le serveur Web.
 10) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`11) Exécutez toutes les commandes du flacon : >>>
 12) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
