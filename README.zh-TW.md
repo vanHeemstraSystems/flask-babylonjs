@@ -2,6 +2,8 @@ Flask-babylonjs
 
 # Flask BabylonJS
 
+> 斯拉格萊恩
+
 基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
@@ -9,6 +11,8 @@ Flask-babylonjs
 基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
 基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+
+開啟此網址`https://github.dev/`而不是`https://github.dev/` to use the Visual Studio Code web-based IDE.
 
 按如下方式運行該應用程式：
 
@@ -19,8 +23,8 @@ Flask-babylonjs
 虛擬環境沒有創建成功，因為ensurepip沒有
 可用的。
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+在 Debian/Ubuntu 系統上，需要安裝 python3-venv
+使用以下命令進行打包。
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -33,19 +37,18 @@ package using the following command.
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
 4）運行`pip install -r requirements.txt`5）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`6）將Flask環境設定為開發：`(.venv) $ export FLASK_ENV=development`7）運行燒瓶應用程式：`(.venv) $ flask run`8）根據提示開啟Web介面
 9) 使用`CTRL+c`退出網路伺服器。
-10) 或運行flask命令列介面：`(.venv) $ flask shell`
-11) Execute any flask commands: >>>
-12) Use `exit()`退出命令列介面。
+10) 或運行flask命令列介面：`(.venv) $ flask shell`11）執行任何flask指令：>>>
+12) 使用`exit()`退出命令列介面。
 
 ## 100 - 簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
 看[README.md](./200/README.md)
 
-## 300 - 建立我們的應用程式
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 
