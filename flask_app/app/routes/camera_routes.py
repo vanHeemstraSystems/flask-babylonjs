@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, request, redirect, url_for, flash
 from app.models.camera import Camera
 from app.models.camera_type import CameraType
 from app.forms.camera_form import CameraForm
-from app import db
+from app.extensions import db
 
 camera_bp = Blueprint('camera', __name__)
 
