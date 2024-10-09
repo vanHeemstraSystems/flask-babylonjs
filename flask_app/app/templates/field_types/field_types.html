@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Field Types</h1>
+<a href="{{ url_for('field_type.new_field_type') }}">Create New Field Type</a>
+<ul>
+    {% for field_type in field_types %}
+    <li>
+        {{ field_type.name }}
+        <a href="{{ url_for('field_type.edit_field_type', field_type_id=field_type.id) }}">Edit</a>
+        <form action="{{ url_for('field_type.delete_field_type', field_type_id=field_type.id) }}" method="POST"
+            style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
