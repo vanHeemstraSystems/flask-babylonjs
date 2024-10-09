@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Shots {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('shot.new_shot') }}">Create New Shot</a>
+
+    <h2>Sort By:</h2>
+    <ul>
+        <li><a href="{{ url_for('shot.list_shots', sort='title') }}">Title</a></li>
+        <li><a href="{{ url_for('shot.list_shots', sort='shot_number') }}">Shot Number</a></li>
+    </ul>
+
+    <ul>
+        {% for shot in shots %}
+        <li>
+            {{ shot.title }} - Shot Number: {{ shot.shot_number }}
+            <a href="{{ url_for('shot.edit_shot', shot_id=shot.id) }}">Edit</a>
+            <form action="{{ url_for('shot.delete_shot', shot_id=shot.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
