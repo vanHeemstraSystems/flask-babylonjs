@@ -18,7 +18,7 @@ Exécutez cette application comme suit :
 
 1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
-Dans les cas suivants, suivez ses conseils :
+In case of the following, follow its advice:
 
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
