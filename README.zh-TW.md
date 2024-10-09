@@ -16,8 +16,7 @@ Flask-babylonjs
 
 按如下方式運行該應用程式：
 
-1) 輸入`flask_app`目錄：`$ cd flask_app`
-2) If non-existent, create a virtual environment inside the `flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
+1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
 
 若出現以下情況，請遵循其建議：
 
@@ -47,9 +46,9 @@ Flask-babylonjs
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
-## 300 - 建立我們的應用程式
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 
