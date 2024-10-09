@@ -3,7 +3,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>{% block title %} {% endblock %} - FlaskApp</title>
+   <title>{% block title %} {% endblock %} - Agility</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
    <script src="https://cdn.babylonjs.com/babylon.js"></script>
    <style>
        #renderCanvas {
@@ -15,10 +16,20 @@
 </head>
 <body>
     <nav>
-        <a href="/scenes">Go to Scenes</a>
-        <a href="/scenes/1">Go to Scene 1</a>
-        <a href="/scenes/2">Go to Scene 2</a>
-        <a href="/scenes/3">Go to Scene 3</a>
+        <a href="{{ url_for('user.list_users') }}">Users</a>
+        <a href="{{ url_for('game.list_games') }}">Games</a>
+        <a href="{{ url_for('scene.list_scenes') }}">Scenes</a>
+        <a href="{{ url_for('light.list_lights') }}">Lights</a>
+        <a href="{{ url_for('prop.list_props') }}">Props</a>
+        <a href="{{ url_for('tag.list_tags') }}">Tags</a>
+        <a href="{{ url_for('camera.list_cameras') }}">Cameras</a>
+        <a href="{{ url_for('field.list_fields') }}">Fields</a>
+        <a href="{{ url_for('field_type.list_field_types') }}">Field Types</a>
+        <a href="{{ url_for('board.list_boards') }}">Boards</a>
+        <a href="{{ url_for('story.list_stories') }}">Stories</a>
+        <a href="{{ url_for('player.list_players') }}">Players</a>
+        <a href="{{ url_for('user.login') }}">Login</a>
+        <a href="{{ url_for('user.register') }}">Register</a>
     </nav>
     <hr>
     <div class="content">
