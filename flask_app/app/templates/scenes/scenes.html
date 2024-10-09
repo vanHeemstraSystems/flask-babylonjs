@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Scenes {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('scene.new_scene') }}">Create New Scene</a>
+
+    <h2>Sort By:</h2>
+    <ul>
+        <li><a href="{{ url_for('scene.list_scenes', sort='title') }}">Title</a></li>
+        <li><a href="{{ url_for('scene.list_scenes', sort='scene_number') }}">Scene Number</a></li>
+    </ul>
+
+    <ul>
+        {% for scene in scenes %}
+        <li>
+            {{ scene.title }} - Scene Number: {{ scene.scene_number }}
+            <a href="{{ url_for('scene.edit_scene', scene_id=scene.id) }}">Edit</a>
+            <form action="{{ url_for('scene.delete_scene', scene_id=scene.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

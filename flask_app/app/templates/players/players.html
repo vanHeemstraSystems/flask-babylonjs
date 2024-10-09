@@ -1,18 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Players</h1>
-<a href="{{ url_for('player.new_player') }}">Create New Player</a>
-<ul>
-    {% for player in players %}
-    <li>
-        User: {{ player.user.username }} - Character: {{ player.character.name }}
-        Score: {{ player.score }} - Level: {{ player.level }}
-        <a href="{{ url_for('player.edit_player', player_id=player.id) }}">Edit</a>
-        <form action="{{ url_for('player.delete_player', player_id=player.id) }}" method="POST" style="display:inline;">
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+<span class="title">
+    <h1>{% block title %} Scenes {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('player.new_player') }}">Create New Player</a>
+    <ul>
+        {% for player in players %}
+        <li>
+            User: {{ player.user.username }} - Character: {{ player.character.name }}
+            Score: {{ player.score }} - Level: {{ player.level }}
+            <a href="{{ url_for('player.edit_player', player_id=player.id) }}">Edit</a>
+            <form action="{{ url_for('player.delete_player', player_id=player.id) }}" method="POST"
+                style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

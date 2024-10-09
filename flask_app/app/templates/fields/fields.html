@@ -1,17 +1,21 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Fields</h1>
-<a href="{{ url_for('field.new_field') }}">Create New Field</a>
-<ul>
-    {% for field in fields %}
-    <li>
-        {{ field.name }}
-        <a href="{{ url_for('field.edit_field', field_id=field.id) }}">Edit</a>
-        <form action="{{ url_for('field.delete_field', field_id=field.id) }}" method="POST" style="display:inline;">
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+<span class="title">
+    <h1>{% block title %} Fields {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('field.new_field') }}">Create New Field</a>
+    <ul>
+        {% for field in fields %}
+        <li>
+            {{ field.name }}
+            <a href="{{ url_for('field.edit_field', field_id=field.id) }}">Edit</a>
+            <form action="{{ url_for('field.delete_field', field_id=field.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

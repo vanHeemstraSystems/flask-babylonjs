@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Screenplays {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('screenplay.new_screenplay') }}">Create New Screenplay</a>
+    <ul>
+        {% for screenplay in screenplays %}
+        <li>
+            {{ screenplay.name }}
+            <a href="{{ url_for('screenplay.edit_screenplay', screenplay_id=screenplay.id) }}">Edit</a>
+            <form action="{{ url_for('screenplay.delete_screenplay', screenplay_id=screenplay.id) }}" method="POST"
+                style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

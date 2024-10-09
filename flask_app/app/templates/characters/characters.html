@@ -1,18 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Characters</h1>
-<a href="{{ url_for('character.new_character') }}">Create New Character</a>
-<ul>
-    {% for character in characters %}
-    <li>
-        {{ character.name }}
-        <a href="{{ url_for('character.edit_character', character_id=character.id) }}">Edit</a>
-        <form action="{{ url_for('character.delete_character', character_id=character.id) }}" method="POST"
-            style="display:inline;">
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+<span class="title">
+    <h1>{% block title %} Characters {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('character.new_character') }}">Create New Character</a>
+    <ul>
+        {% for character in characters %}
+        <li>
+            {{ character.name }}
+            <a href="{{ url_for('character.edit_character', character_id=character.id) }}">Edit</a>
+            <form action="{{ url_for('character.delete_character', character_id=character.id) }}" method="POST"
+                style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

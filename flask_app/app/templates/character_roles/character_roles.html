@@ -1,18 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Character Roles</h1>
-<a href="{{ url_for('character_role.new_character_role') }}">Create New Character Role</a>
-<ul>
-    {% for character_roles in character_roles %}
-    <li>
-        {{ character_role.name }}
-        <a href="{{ url_for('character_role.edit_character_role', character_role_id=character_role.id) }}">Edit</a>
-        <form action="{{ url_for('character_role.delete_character_role', character_role_id=character-role.id) }}" method="POST"
-            style="display:inline;">
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+<span class="title">
+    <h1>{% block title %} Character Roles {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('character_role.new_character_role') }}">Create New Character Role</a>
+    <ul>
+        {% for character_roles in character_roles %}
+        <li>
+            {{ character_role.name }}
+            <a href="{{ url_for('character_role.edit_character_role', character_role_id=character_role.id) }}">Edit</a>
+            <form action="{{ url_for('character_role.delete_character_role', character_role_id=character-role.id) }}"
+                method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}
