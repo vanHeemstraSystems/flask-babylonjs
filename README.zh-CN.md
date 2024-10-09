@@ -4,7 +4,7 @@ Flask-babylonjs
 
 > 斯拉格莱恩
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -34,8 +34,8 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3）启动虚拟环境，输入：`. .venv/bin/activate`（苹果系统：`source .venv/bin/activate`）
-4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）设置Flask环境为开发：`(.venv) $ export FLASK_ENV=development`7）运行烧瓶应用程序：`(.venv) $ flask run`8）根据提示打开Web界面
+3) Start the virtual environment and enter: `. .venv/bin/activate`（苹果系统：`source .venv/bin/activate`）
+4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）将Flask环境设置为开发：`(.venv) $ export FLASK_ENV=development`7）运行烧瓶应用程序：`(.venv) $ flask run`8）根据提示打开Web界面
 9) 使用`CTRL+c`退出网络服务器。
 10) 或者运行flask命令行界面：`(.venv) $ flask shell`11）执行任何flask命令：>>>
 12) 使用`exit()`退出命令行界面。

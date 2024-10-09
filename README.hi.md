@@ -1,4 +1,4 @@
-कुप्पी-babylonjs
+फ्लास्क-बेबीलोनज
 
 # फ्लास्क बेबीलोनजेएस
 
@@ -23,8 +23,8 @@
 वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
 उपलब्ध।
 
-डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
-निम्नलिखित कमांड का उपयोग करके पैकेज।
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
