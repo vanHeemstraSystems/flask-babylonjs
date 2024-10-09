@@ -20,8 +20,8 @@ Flask-babylonjs
 
 如果出现以下情况，请遵循其建议：
 
-虚拟环境没有创建成功，因为ensurepip没有
-可用的。
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 在 Debian/Ubuntu 系统上，需要安装 python3-venv
 使用以下命令进行打包。
