@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Lights {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('light.new_light') }}">Create New Light</a>
+    <ul>
+        {% for light in lights %}
+        <li>
+            {{ light.name }}
+            <a href="{{ url_for('light.edit_light', light_id=light.id) }}">Edit</a>
+            <form action="{{ url_for('light.delete_light', light_id=light.id) }}" method="POST"
+                style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

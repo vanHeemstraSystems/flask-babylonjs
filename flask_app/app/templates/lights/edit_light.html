@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Edit Light</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <label for="name">Light Name:</label>
+    {{ form.name(size=32) }}<br>
+
+    <label for="model_url">Model URL:</label>
+    {{ form.model_url(size=32) }}<br>
+
+    {{ form.submit() }}
+</form>
+<a href="{{ url_for('light.list_lights') }}">Back to Lights</a>
+{% endblock %}
