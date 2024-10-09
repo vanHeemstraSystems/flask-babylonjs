@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 from flask import Flask
 from config import Config
-from app.extensions import db
+from app.extensions import db, bcrypt, login_manager, socketio
 
 def create_app(config_class=Config):
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='/static')
     app.config.from_object(config_class)
 
     # Initialize Flask extensions here
     db.init_app(app)
+
+    # Set bycrypt
+    bcrypt.init_app(app)
 
     # Register blueprints here
     from app.routes.main_routes import main_bp
