@@ -6,21 +6,21 @@
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
-استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.dev/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
-Run this application as follows:
+قم بتشغيل هذا التطبيق على النحو التالي:
 
 1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -42,7 +42,7 @@ Run this application as follows:
 
 ## 100- مقدمة
 
-يرى[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
