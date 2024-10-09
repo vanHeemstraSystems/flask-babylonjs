@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Light Types</h1>
+<a href="{{ url_for('light_type.new_light_type') }}">Create New Light Type</a>
+<ul>
+    {% for light_type in light_types %}
+    <li>
+        {{ light_type.name }}
+        <a href="{{ url_for('light_type.edit_light_type', light_type_id=light_type.id) }}">Edit</a>
+        <form action="{{ url_for('light_type.delete_light_type', light_type_id=light_type.id) }}" method="POST"
+            style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
