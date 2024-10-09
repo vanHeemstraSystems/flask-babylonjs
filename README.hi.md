@@ -16,8 +16,7 @@
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
-1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`
-2) If non-existent, create a virtual environment inside the `flask_app` directory: `$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
+1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
@@ -36,7 +35,7 @@
 MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
-4) Run `pip install -r requirements.txt`5) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`6) फ्लास्क पर्यावरण को विकास पर सेट करें:`(.venv) $ export FLASK_ENV=development`7) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`8) संकेतानुसार वेब इंटरफ़ेस खोलें
+4) भागो`pip install -r requirements.txt`5) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`6) फ्लास्क पर्यावरण को विकास पर सेट करें:`(.venv) $ export FLASK_ENV=development`7) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`8) संकेतानुसार वेब इंटरफ़ेस खोलें
 9) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
 10) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`11) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
 12) प्रयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
@@ -49,7 +48,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - हमारे एप्लिकेशन का निर्माण
 
 देखना[README.md](./300/README.md)
 
