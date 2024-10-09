@@ -4,7 +4,7 @@ Flask-babylonjs
 
 > 斯拉格莱恩
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -32,7 +32,7 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 您可能需要将 sudo 与该命令一起使用。  安装 python3-venv 后
 包，重新创建您的虚拟环境。
 
-在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）启动虚拟环境，输入：`. .venv/bin/activate`（苹果系统：`source .venv/bin/activate`）
 4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）设置Flask环境为开发：`(.venv) $ export FLASK_ENV=development`7）运行烧瓶应用程序：`(.venv) $ flask run`8）根据提示打开Web界面
@@ -46,7 +46,7 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 构建我们的应用程序
 
