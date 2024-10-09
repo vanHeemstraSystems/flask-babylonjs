@@ -12,7 +12,7 @@
 
 "Mermaid.js के साथ पाठ-आधारित इकाई संबंध आरेख" पर आधारित<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.dev/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
+इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.dev/` to use the Visual Studio Code web-based IDE.
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
