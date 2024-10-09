@@ -36,3 +36,11 @@ def edit_camera(camera_id):
        flash('Camera updated successfully!')
        return redirect(url_for('camera.list_cameras'))
    return render_template('edit_camera.html', form=form)
+
+@camera_bp.route('/cameras/delete/<int:camera_id>', methods=['POST']) 
+def delete_camera(camera_id):
+    camera = Camera.query.get_or_404(camera_id)
+    db.session.delete(camera)
+    db.session.commit()
+    flash('Camera deleted successfully!')
+    return redirect(url_for('camera.list_cameras'))
