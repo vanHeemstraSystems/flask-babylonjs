@@ -11,7 +11,7 @@ def create_app(config_class=Config):
     db.init_app(app)
 
     # Register blueprints here
-    from app.main import bp as main_bp
+    from app.routes.main_routes import main_bp
     app.register_blueprint(main_bp)
 
     # from app.posts import bp as posts_bp
