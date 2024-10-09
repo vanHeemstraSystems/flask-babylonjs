@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from app.models.light import Light
 from app.forms.light_form import LightForm
-from app import db
+from app.extensions import db
 
 light_bp = Blueprint('light', __name__)
 

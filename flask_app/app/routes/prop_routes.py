@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from app.models.prop import Prop
 from app.forms.prop_form import PropForm
-from app import db
+from app.extensions import db
 
 prop_bp = Blueprint('prop', __name__)
 

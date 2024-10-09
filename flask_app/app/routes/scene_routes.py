@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from app.models.scene import Scene
 from app.forms.scene_form import SceneForm
-from app import db
+from app.extensions import db
 
 scene_bp = Blueprint('scene', __name__)
 

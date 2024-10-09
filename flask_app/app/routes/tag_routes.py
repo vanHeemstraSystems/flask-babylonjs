@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from app.models.tag import Tag
 from app.forms.tag_form import TagForm
-from app import db
+from app.extensions import db
 
 tag_bp = Blueprint('tag', __name__)
 
