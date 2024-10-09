@@ -1,4 +1,4 @@
-कुप्पी-babylonjs
+flask-babylonjs
 
 # फ्लास्क बेबीलोनजेएस
 
