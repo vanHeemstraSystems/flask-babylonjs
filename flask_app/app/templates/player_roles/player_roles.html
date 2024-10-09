@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>PlayerRoles</h1>
+<a href="{{ url_for('player_role.new_player_role') }}">Create New Player Role</a>
+<ul>
+    {% for player_role in player_roles %}
+    <li>
+        {{ player_role.title }}
+        <a href="{{ url_for('player_role.edit_player_role', player_role_id=player_role.id) }}">Edit</a>
+        <form action="{{ url_for('player_role.delete_player_role', player_role_id=player_role.id) }}" method="POST" style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
