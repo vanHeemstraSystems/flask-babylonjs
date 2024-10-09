@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Camera Types</h1>
+<a href="{{ url_for('camera_type.new_camera_type') }}">Create New Camera Type</a>
+<ul>
+    {% for camera_type in camera_types %}
+    <li>
+        {{ camera_type.name }}
+        <a href="{{ url_for('camera_type.edit_camera_type', camera_type_id=camera_type.id) }}">Edit</a>
+        <form action="{{ url_for('camera_type.delete_camera_type', camera_type_id=camera_type.id) }}" method="POST"
+            style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
