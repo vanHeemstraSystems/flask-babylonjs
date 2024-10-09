@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Create New Camera</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <label for="name">Camera Name:</label>
+    {{ form.name(size=32) }}<br>
+
+    <label for="model_url">Model URL:</label>
+    {{ form.model_url(size=32) }}<br>
+
+    {{ form.submit() }}
+</form>
+<a href="{{ url_for('camera.list_cameras') }}">Back to Cameras</a>
+{% endblock %}

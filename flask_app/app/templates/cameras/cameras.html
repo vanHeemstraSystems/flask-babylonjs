@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Cameras</h1>
+<a href="{{ url_for('camera.new_camera') }}">Create New Camera</a>
+<ul>
+    {% for camera in cameras %}
+    <li>
+        {{ camera.name }}
+        <a href="{{ url_for('camera.edit_camera', camera_id=camera.id) }}">Edit</a>
+        <form action="{{ url_for('camera.delete_camera', camera_id=camera.id) }}" method="POST"
+            style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
