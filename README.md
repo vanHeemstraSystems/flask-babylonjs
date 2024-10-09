@@ -1,6 +1,8 @@
 flask-babylonjs
 # Flask BabylonJS
 
+> Slugline
+
 Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
 
 Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlalchemy/
@@ -8,6 +10,8 @@ Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlal
 Based on "Factory Pattern" at https://github.com/vanHeemstraSystems/factory-pattern
 
 Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/
+
+Open this URL with ```https://github.dev/``` instead of ```https://github.dev/``` to use the Visual Studio Code web-based IDE.
 
 Run this application as follows:
 
