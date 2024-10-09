@@ -13,6 +13,11 @@ def create_app(config_class=Config):
     # Set bycrypt
     bcrypt.init_app(app)
 
+    # Set login manager
+    login_manager.init_app(app)
+    login_manager.login_view = 'auth.login'
+    login_manager.login_message_category = 'info'
+
     # Register blueprints here
     from app.routes.main_routes import main_bp
     app.register_blueprint(main_bp)
