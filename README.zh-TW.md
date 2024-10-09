@@ -12,7 +12,7 @@ Flask-babylonjs
 
 基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-開啟此網址`https://github.dev/` instead of `https://github.dev/`使用基於 Web 的 Visual Studio Code IDE。
+開啟此網址`https://github.dev/`而不是`https://github.dev/`使用基於 Web 的 Visual Studio Code IDE。
 
 按如下方式運行該應用程式：
 
@@ -29,8 +29,8 @@ Flask-babylonjs
     sudo apt-get update
     sudo apt install python3.10-venv
 
-您可能需要將 sudo 與該命令一起使用。  安裝 python3-venv 後
-包，重新建立您的虛擬環境。
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
