@@ -2,7 +2,7 @@ Flask-babylonjs
 
 # Flask BabylonJS
 
-> Slugline
+> 斯拉格莱恩
 
 基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -20,11 +20,11 @@ Flask-babylonjs
 
 如果出现以下情况，请遵循其建议：
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+虚拟环境没有创建成功，因为ensurepip没有
+可用的。
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+在 Debian/Ubuntu 系统上，需要安装 python3-venv
+使用以下命令进行打包。
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -44,7 +44,7 @@ package using the following command.
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - 要求
 
 看[README.md](./200/README.md)
 
