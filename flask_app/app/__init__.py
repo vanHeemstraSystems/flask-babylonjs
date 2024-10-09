@@ -18,6 +18,10 @@ def create_app(config_class=Config):
     login_manager.login_view = 'auth.login'
     login_manager.login_message_category = 'info'
 
+    # Set socket io
+    socketio.init_app(app)
+    socketio.cors_allowed_origins = "*"    
+
     # Register blueprints here
     from app.routes.main_routes import main_bp
     app.register_blueprint(main_bp)
