@@ -29,8 +29,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
-الحزمة، أعد إنشاء بيئتك الافتراضية.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
