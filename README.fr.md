@@ -12,7 +12,7 @@ Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/fa
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
+Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/` to use the Visual Studio Code web-based IDE.
 
 Exécutez cette application comme suit :
 
@@ -35,8 +35,8 @@ package, recréez votre environnement virtuel.
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`pip install -r requirements.txt`
-5) Set the Flask App to app directory: `(.venv) $ export FLASK_APP=app`6) Définissez l'environnement Flask sur le développement :`(.venv) $ export FLASK_ENV=development`7) Exécutez l'application Flask :`(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
+4) Courir`pip install -r requirements.txt`5) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`6) Définissez l'environnement Flask sur le développement :`(.venv) $ export FLASK_ENV=development`
+7) Run the flask app: `(.venv) $ flask run`8) Ouvrez l'interface Web comme vous y êtes invité
 9) Utiliser`CTRL+c`pour quitter le serveur Web.
 10) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`11) Exécutez toutes les commandes du flacon : >>>
 12) Utiliser`exit()`pour quitter l'interface de ligne de commande.
