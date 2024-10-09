@@ -4,7 +4,7 @@
 
 > स्लगलाइन
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+"फ्लास्क ब्लूप्रिंट और फ्लास्क-SQLAlchemy के साथ एक बड़े फ्लास्क अनुप्रयोग की संरचना कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -20,8 +20,8 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
-उपलब्ध।
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
 निम्नलिखित कमांड का उपयोग करके पैकेज।
@@ -52,6 +52,6 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - निष्कर्ष
 
 देखना[README.md](./400/README.md)
