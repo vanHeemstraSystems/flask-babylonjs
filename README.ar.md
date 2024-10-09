@@ -4,7 +4,7 @@
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -19,8 +19,8 @@
 لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
-على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
-الحزمة باستخدام الأمر التالي.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
