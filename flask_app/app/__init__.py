@@ -24,7 +24,7 @@ def create_app(config_class=Config):
 
     # Register blueprints here
     from app.routes.main_routes import main_bp
-    app.register_blueprint(main_bp)
+    app.register_blueprint(main_bp, url_prefix='/')
 
     # from app.posts import posts_bp
     # app.register_blueprint(posts_bp, url_prefix='/posts')
@@ -74,6 +74,9 @@ def create_app(config_class=Config):
     # from app.routes.light_type_routes import light_type_bp
     # app.register_blueprint(light_type_bp, url_prefix='/light_types')
 
+    from app.routes.login_routes import login_bp
+    app.register_blueprint(login_bp, url_prefix='/login') 
+
     # from app.routes.player_routes import player_bp
     # app.register_blueprint(player_bp, url_prefix='/players')
 
@@ -82,6 +85,9 @@ def create_app(config_class=Config):
 
     # from app.routes.prop_routes import prop_bp
     # app.register_blueprint(prop_bp, url_prefix='/props')  
+
+    from app.routes.registration_routes import registration_bp
+    app.registration_blueprint(registration_bp, url_prefix='/registration') 
 
     # from app.routes.scene_routes import scene_bp
     # app.register_blueprint(scene_bp, url_prefix='/scenes')

@@ -6,4 +6,4 @@ from app.models.user import User
 from flask import Blueprint, redirect, url_for, render_template, flash, request
 from flask_login import login_user, logout_user, login_required
 
-auth = Blueprint('auth', __name__)
+login = Blueprint('login', __name__)
