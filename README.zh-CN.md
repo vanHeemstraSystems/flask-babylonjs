@@ -10,7 +10,7 @@ Flask-babylonjs
 
 基于“工厂模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+基于“基于文本的实体关系图与 Mermaid.js”，位于<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 打开此网址`https://github.dev/`而不是`https://github.dev/`使用基于 Web 的 Visual Studio Code IDE。
 
