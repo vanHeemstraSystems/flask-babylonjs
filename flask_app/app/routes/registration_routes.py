@@ -10,7 +10,7 @@ registration_bp = Blueprint('registration', __name__)
 
 @registration_bp.route('/registration', methods=['GET', 'POST'])
 @login_forbidden
-def register():
+def registration():
     form = RegistrationForm()
     if form.validate_on_submit():
         pwd_hash = bcrypt.generate_password_hash(form.password.data).decode('utf-8')

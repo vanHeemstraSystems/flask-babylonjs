@@ -8,10 +8,10 @@
                     current_user.username}}</a></li>
             <li><a class="nav-link" href={{ url_for('game.menu') }}>new game</a></li>
             <li> <a class="nav-link" href={{ url_for('game.join_game') }}>join game</a></li>
-            <li> <a class="nav-link" href={{ url_for('auth.logout') }}>logout</a></li>
+            <li> <a class="nav-link" href={{ url_for('logout.logout') }}>logout</a></li>
             {% else %}
-            <li> <a class="nav-link" href="{{ url_for('user.register') }}">Register</a></li>
-            <li> <a class="nav-link" href="{{ url_for('user.login') }}">Login</a></li>
+            <li> <a class="nav-link" href="{{ url_for('registration.registration') }}">Registration</a></li>
+            <li> <a class="nav-link" href="{{ url_for('login.login') }}">Login</a></li>
             {% endif %}
             <li> <a class="nav-link" href="{{ url_for('user.list_users') }}">Users</a></li>
             <li> <a class="nav-link" href="{{ url_for('game.list_games') }}">Games</a></li>
