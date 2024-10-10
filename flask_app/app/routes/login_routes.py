@@ -6,9 +6,9 @@ from app.models.user import User
 from flask import Blueprint, redirect, url_for, render_template, flash, request
 from flask_login import login_user
 
-login = Blueprint('login', __name__)
+login_bp = Blueprint('login', __name__)
 
-@login.route('/login', methods=['GET', 'POST'])
+@login_bp.route('/login', methods=['GET', 'POST'])
 @login_forbidden
 def login():
     form = LoginForm()
