@@ -39,12 +39,15 @@ On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 4) Run ```pip install -r requirements.txt```
 5) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
 6) Set the Flask Environment to True for development: ```(.venv) $ export FLASK_DEBUG=True```
-7) Run the flask app: ```(.venv) $ flask run```
-8) Open the web interface as prompted
-9) Use ```CTRL+c``` to exit the web server.
-10) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
-11) Execute any flask commands: >>>
-12) Use ```exit()``` to exit from the command line interface.
+7) Set the SQLAlchemy Database URI: ```(.venv) $ export SQLALCHEMY_DATABASE_URI=...```
+8) Set SQLAlchemy Track Modifications: ```(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True```
+9) Set Secret Key: ```(.venv) $ export SECRET_KEY=********```
+10) Run the flask app: ```(.venv) $ flask run```
+11) Open the web interface as prompted
+12) Use ```CTRL+c``` to exit the web server.
+13) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
+14) Execute any flask commands: >>>
+15) Use ```exit()``` to exit from the command line interface.
 
 ## 100 - Introduction
 
