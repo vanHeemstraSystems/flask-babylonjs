@@ -12,7 +12,7 @@
 
 استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Based on "FlowBite" at <https://github.com/themesberg/flowbite>
+بناء على "FlowBite" في<https://github.com/themesberg/flowbite>
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.dev/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
@@ -22,8 +22,8 @@ Based on "FlowBite" at <https://github.com/themesberg/flowbite>
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
+متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
 الحزمة باستخدام الأمر التالي.
