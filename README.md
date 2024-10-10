@@ -38,18 +38,20 @@ On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
 
 3) Start the virtual environment and enter: ```. .venv/bin/activate``` (macOS: ```source .venv/bin/activate```)
-4) Run ```pip install -r requirements.txt```
-5) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
-6) Set the Flask Environment to True for development: ```(.venv) $ export FLASK_DEBUG=True```
-7) Set the SQLAlchemy Database URI: ```(.venv) $ export SQLALCHEMY_DATABASE_URI=...```, default is ```sqlite:///app.db```
-8) Set SQLAlchemy Track Modifications: ```(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True```
-9) Set Secret Key: ```(.venv) $ export SECRET_KEY=********```
-10) Run the flask app: ```(.venv) $ flask run```
-11) Open the web interface as prompted
-12) Use ```CTRL+c``` to exit the web server.
-13) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
-14) Execute any flask commands: >>>
-15) Use ```exit()``` to exit from the command line interface.
+4) Run ```$ pip install -r requirements.txt```
+5) Move down into the ```app``` directory: ```$ cd app``` and run: ```$ npm install```
+6) Move back up into the ```flask_app``` directory: ```$ cd ../```
+7) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
+8) Set the Flask Environment to True for development: ```(.venv) $ export FLASK_DEBUG=True```
+9) Set the SQLAlchemy Database URI: ```(.venv) $ export SQLALCHEMY_DATABASE_URI=...```, default is ```sqlite:///app.db```
+10) Set SQLAlchemy Track Modifications: ```(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True```
+11) Set Secret Key: ```(.venv) $ export SECRET_KEY=********```
+12) Run the flask app: ```(.venv) $ flask run```
+13) Open the web interface as prompted
+14) Use ```CTRL+c``` to exit the web server.
+15) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
+16) Execute any flask commands: >>>
+17) Use ```exit()``` to exit from the command line interface.
 
 ## 100 - Introduction
 
