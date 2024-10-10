@@ -14,13 +14,13 @@
 
 "फ्लोबाइट" पर आधारित<https://github.com/themesberg/flowbite>
 
-इस URL को इसके साथ खोलें`https://github.dev/` instead of `https://github.dev/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
+इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.dev/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
-1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app` directory: `$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
+1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
 
-In case of the following, follow its advice:
+निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
 वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
 उपलब्ध।
@@ -37,10 +37,12 @@ In case of the following, follow its advice:
 MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
-4) भागो`$ pip install -r requirements.txt`5) नीचे की ओर जाएँ`app`निर्देशिका:`$ cd app`और भाग खड़ा हुआ:`$ npm install`6) वापस ऊपर जाएँ`flask_app`निर्देशिका:`$ cd ../`7) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`8) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`9) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`10) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`11) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`12) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`13) संकेतानुसार वेब इंटरफ़ेस खोलें
-14) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
-15) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`16) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
-17) प्रयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
+4) भागो`$ pip install -r requirements.txt`5) भागो:`$ npm install`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`
+9) Set SQLAlchemy Track Modifications: `(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`
+10) Set Secret Key: `(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
+13) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
+14) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`15) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
+16) उपयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
 
 ## 100 - परिचय
 
