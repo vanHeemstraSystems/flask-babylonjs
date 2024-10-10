@@ -6,10 +6,6 @@ Make sure that you have [Node.js](https://nodejs.org/en/) and [Tailwind CSS](htt
 > $ cd flask_app
 > $ npm install -D tailwindcss
 > $ npx tailwindcss init
->
-> MORE
->
->
 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
@@ -36,6 +32,7 @@ module.exports = {
 module.exports = {
 
     content: [
+        "./app/templates/**/*.html"
         "./node_modules/flowbite/**/*.js"
     ]
 
