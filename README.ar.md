@@ -32,7 +32,7 @@
 قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
 الحزمة، أعد إنشاء بيئتك الافتراضية.
 
-On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
 4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
