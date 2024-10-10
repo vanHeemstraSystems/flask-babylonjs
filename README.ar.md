@@ -22,7 +22,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -37,10 +37,10 @@
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
-4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`7) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`8) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`9) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`10) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`11) افتح واجهة الويب كما هو مطلوب
-12) الاستخدام`CTRL+c`للخروج من خادم الويب.
-13) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`14) تنفيذ أي أوامر قارورة: >>>
-15) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
+4) تشغيل`$ pip install -r requirements.txt`5) الانتقال إلى الأسفل`app`دليل:`$ cd app`وتشغيل:`$ npm install`6) العودة إلى أعلى`flask_app`دليل:`$ cd ../`7) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`8) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`9) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`10) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`11) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`12) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`13) افتح واجهة الويب كما هو مطلوب
+14) الاستخدام`CTRL+c`للخروج من خادم الويب.
+15) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`16) تنفيذ أي أوامر قارورة: >>>
+17) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
 
 ## 100- مقدمة
 
