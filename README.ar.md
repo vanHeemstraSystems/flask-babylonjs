@@ -12,7 +12,7 @@
 
 استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-افتح عنوان URL هذا باستخدام`https://github.dev/` instead of `https://github.dev/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
+افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.dev/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
 قم بتشغيل هذا التطبيق على النحو التالي:
 
@@ -35,7 +35,7 @@
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
-4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) ضبط بيئة القارورة للتطوير:`(.venv) $ export FLASK_ENV=development`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
+4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`7) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`8) افتح واجهة الويب كما هو مطلوب
 9) الاستخدام`CTRL+c`للخروج من خادم الويب.
 10) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`11) تنفيذ أي أوامر قارورة: >>>
 12) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
