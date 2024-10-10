@@ -16,7 +16,7 @@ Flask-babylonjs
 
 打开此网址`https://github.dev/`而不是`https://github.dev/`使用基于 Web 的 Visual Studio Code IDE。
 
-Run this application as follows:
+按如下方式运行该应用程序：
 
 1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
@@ -37,11 +37,10 @@ Run this application as follows:
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）启动虚拟环境，输入：`. .venv/bin/activate`（苹果系统：`source .venv/bin/activate`）
-4）运行`pip install -r requirements.txt`5）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`6）将Flask环境设置为True进行开发：`(.venv) $ export FLASK_DEBUG=True`7) 设置 SQLAlchemy 数据库 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，默认为`sqlite:///app.db`8）设置SQLAlchemy轨道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`
-9) Set Secret Key: `(.venv) $ export SECRET_KEY=********`10）运行烧瓶应用程序：`(.venv) $ flask run`11）根据提示打开Web界面
-12) 使用`CTRL+c`退出网络服务器。
-13) 或者运行flask命令行界面：`(.venv) $ flask shell`14）执行任何flask命令：>>>
-15) 使用`exit()`退出命令行界面。
+4）运行`$ pip install -r requirements.txt`5) 向下移动到`app`目录：`$ cd app`并运行：`$ npm install`6) 向上移动到`flask_app`目录：`$ cd ../`7）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`8）将Flask环境设置为True进行开发：`(.venv) $ export FLASK_DEBUG=True`9) 设置 SQLAlchemy 数据库 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，默认为`sqlite:///app.db`10）设置SQLAlchemy轨道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`11）设置密钥：`(.venv) $ export SECRET_KEY=********`12）运行烧瓶应用程序：`(.venv) $ flask run`13）根据提示打开Web界面
+14) 使用`CTRL+c`退出网络服务器。
+15) 或者运行flask命令行界面：`(.venv) $ flask shell`16) 执行任何 Flask 命令：>>>
+17) 使用`exit()`退出命令行界面。
 
 ## 100 - 简介
 
