@@ -87,7 +87,7 @@ def create_app(config_class=Config):
     # app.register_blueprint(prop_bp, url_prefix='/props')  
 
     from app.routes.registration_routes import registration_bp
-    app.registration_blueprint(registration_bp, url_prefix='/registration') 
+    app.register_blueprint(registration_bp, url_prefix='/registration') 
 
     # from app.routes.scene_routes import scene_bp
     # app.register_blueprint(scene_bp, url_prefix='/scenes')
