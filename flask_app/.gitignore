@@ -30,6 +30,9 @@ migrations/
 # Logs
 *.log
 
+# node modules
+node_modules
+
 # Coverage reports
 .coverage
 htmlcov/

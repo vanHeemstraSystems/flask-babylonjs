@@ -3,14 +3,18 @@
 Make sure that you have [Node.js](https://nodejs.org/en/) and [Tailwind CSS](https://tailwindcss.com/) installed.
 
 > Install Tailwind CSS as follows:
-> $ cd flask_app/app/
+> $ cd flask_app
 > $ npm install -D tailwindcss
 > $ npx tailwindcss init
+>
+> MORE
+>
+>
 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
 ```
-$ cd flask_app/app/
+$ cd flask_app
 $ npm install flowbite --save-dev
 ```
 
