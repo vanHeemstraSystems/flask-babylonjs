@@ -12,7 +12,7 @@ Flask-babylonjs
 
 基于“基于文本的实体关系图与 Mermaid.js”，位于<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-打开此网址`https://github.dev/`而不是`https://github.dev/`使用基于 Web 的 Visual Studio Code IDE。
+打开此网址`https://github.dev/`而不是`https://github.dev/` to use the Visual Studio Code web-based IDE.
 
 按如下方式运行该应用程序：
 
@@ -52,6 +52,6 @@ Flask-babylonjs
 
 看[README.md](./300/README.md)
 
-## 400 - 结论
+## 400 - Conclusion
 
 看[README.md](./400/README.md)
