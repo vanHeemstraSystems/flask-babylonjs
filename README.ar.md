@@ -2,7 +2,7 @@
 
 # قارورة BabylonJS
 
-> Slugline
+> سلوجلاين
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -16,12 +16,12 @@
 
 قم بتشغيل هذا التطبيق على النحو التالي:
 
-1) Enter `flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
+1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
-متاح.
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
 الحزمة باستخدام الأمر التالي.
@@ -38,7 +38,7 @@
 4) تشغيل`pip install -r requirements.txt`5) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`6) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`7) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`8) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`9) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`10) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`11) افتح واجهة الويب كما هو مطلوب
 12) الاستخدام`CTRL+c`للخروج من خادم الويب.
 13) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`14) تنفيذ أي أوامر قارورة: >>>
-15) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
+15) الاستخدام`exit()` to exit from the command line interface.
 
 ## 100- مقدمة
 
