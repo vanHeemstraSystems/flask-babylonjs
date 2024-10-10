@@ -8,9 +8,9 @@ Flask-babylonjs
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Based on "Factory Pattern" at <https://github.com/vanHeemstraSystems/factory-pattern>
+基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 開啟此網址`https://github.dev/`而不是`https://github.dev/`使用基於 Web 的 Visual Studio Code IDE。
 
