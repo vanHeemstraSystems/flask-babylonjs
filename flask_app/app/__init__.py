@@ -50,8 +50,8 @@ def create_app(config_class=Config):
     # from app.routes.camera_type_routes import camera_type_bp
     # app.register_blueprint(camera_type_bp, url_prefix='/camera_types')
 
-    # from app.routes.character_routes import character_bp
-    # app.register_blueprint(character_bp, url_prefix='/characters')
+    from app.routes.character_routes import character_bp
+    app.register_blueprint(character_bp, url_prefix='/characters')
 
     # from app.routes.character_role_routes import character_role_bp
     # app.register_blueprint(character_role_bp, url_prefix='/character_roles')
@@ -92,11 +92,11 @@ def create_app(config_class=Config):
     from app.routes.scene_routes import scene_bp
     app.register_blueprint(scene_bp, url_prefix='/scenes')
 
-    # from app.routes.screenplay_routes import screenplay_bp
-    # app.register_blueprint(screenplay_bp, url_prefix='/screenplays')
+    from app.routes.screenplay_routes import screenplay_bp
+    app.register_blueprint(screenplay_bp, url_prefix='/screenplays')
 
-    # from app.routes.shot_routes import shot_bp
-    # app.register_blueprint(shot_bp, url_prefix='/shots')
+    from app.routes.shot_routes import shot_bp
+    app.register_blueprint(shot_bp, url_prefix='/shots')
     
     # from app.routes.shot_type_routes import shot_type_bp
     # app.register_blueprint(shot_type_bp, url_prefix='/shot_types')
