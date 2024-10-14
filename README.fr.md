@@ -20,13 +20,13 @@ Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
 
 Basé sur "Tailwind CSS Flask - Flowbite" sur<https://flowbite.com/docs/getting-started/flask/>
 
-Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
+Open this URL with `https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
 Exécutez cette application comme suit :
 
 1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
-Dans les cas suivants, suivez ses conseils :
+In case of the following, follow its advice:
 
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
@@ -50,7 +50,7 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 ## 100 - Présentation
 
-See [README.md](./100/README.md)
+Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
