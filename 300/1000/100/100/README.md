@@ -33,7 +33,7 @@ module.exports = {
     ...
     content: [
         "./app/templates/**/*.html",
-        "./app/static/**/*.{css,js}",
+        "./app/static/src/**/*.{css,js}",
         "./node_modules/flowbite/**/*.js"
     ]
     ...
@@ -46,21 +46,14 @@ module.exports = {
 <script src="../path/to/flowbite/dist/flowbite.js"></script>
 ```
 
-5. Add the Tailwind directives to your CSS or SCSS
+5. Add the Tailwind directives to your CSS
 
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
-flask_app/app/static/css/input.css
-
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-flask_app/app/static/scss/input.scss
+flask_app/app/static/src/css/input.css
 
 6. Start the Tailwind CLI build process
 
@@ -68,7 +61,7 @@ Run the CLI tool to scan your template files for classes and build your CSS.
 
 ```
 $ cd flask_app
-$ npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/output.css
+$ npx tailwindcss -i ./app/static/src/input.css -o ./app/static/dist/css/output.css --watch
 ```
 
 7. Start using Tailwind in your HTML
@@ -83,7 +76,7 @@ Add your compiled CSS file to the '<head>' and start using Tailwinds's utility c
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>{% block title %} {% endblock %}</title>
    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-   <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/output.css') }}">
    <script src="https://cdn.babylonjs.com/babylon.js"></script>
 </head>
 ```
