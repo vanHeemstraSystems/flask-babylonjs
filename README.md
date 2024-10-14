@@ -11,6 +11,8 @@ Based on "Factory Pattern" at https://github.com/vanHeemstraSystems/factory-patt
 
 Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/
 
+Based on "TailwindsCSS Getting Started" at https://tailwindcss.com/docs/installation
+
 Based on "FlowBite" at https://github.com/themesberg/flowbite
 
 Open this URL with ```https://github.dev/``` instead of ```https://github.dev/``` to use the Visual Studio Code web-based IDE.
