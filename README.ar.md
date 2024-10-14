@@ -26,9 +26,9 @@
 
 1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
-وفي حالة ما يلي، اتبع نصيحتها:
+In case of the following, follow its advice:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -37,10 +37,10 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
-الحزمة، أعد إنشاء بيئتك الافتراضية.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
-على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
+On macOS see <https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
 4) تشغيل`$ pip install -r requirements.txt`5) تشغيل:`$ npm install`6) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`7) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`8) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`9) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`11) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`12) افتح واجهة الويب كما هو مطلوب
