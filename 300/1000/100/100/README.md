@@ -3,14 +3,14 @@
 Make sure that you have [Node.js](https://nodejs.org/en/) and [Tailwind CSS](https://tailwindcss.com/) installed.
 
 > Install Tailwind CSS as follows:
-> $ cd flask_app
+> $ cd flask_app/app
 > $ npm install -D tailwindcss
 > $ npx tailwindcss init
 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
 ```
-$ cd flask_app
+$ cd flask_app/app
 $ npm install flowbite --save-dev
 ```
 
@@ -25,7 +25,7 @@ module.exports = {
     ...
 }
 ```
-flask_app/tailwindcss.config.js
+flask_app/app/tailwindcss.config.js
 
 3. Make sure that you add the template path to the ```tailwind.config.js``` file:
 
@@ -33,8 +33,8 @@ flask_app/tailwindcss.config.js
 module.exports = {
     ...
     content: [
-        "./app/templates/**/*.html",
-        "./app/static/src/**/*.{css,js}",
+        "./templates/**/*.html",
+        "./static/src/**/*.{css,js}",
         "./node_modules/flowbite/**/*.js"
     ]
     ...
@@ -79,8 +79,8 @@ flask_app/app/static/src/css/input.css
 Run the CLI tool to scan your template files for classes and build your CSS.
 
 ```
-$ cd flask_app
-$ npx tailwindcss -i ./app/static/src/input.css -o ./app/static/dist/css/output.css --watch
+$ cd flask_app/app
+$ npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch
 ```
 
 7. Start using Tailwind in your HTML
