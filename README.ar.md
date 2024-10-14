@@ -1,6 +1,6 @@
 قارورة-babylonjs
 
-# قارورة BabylonJS
+# Flask BabylonJS
 
 > تطبيق Python Flask مع مشاهد Babylon.js ثلاثية الأبعاد
 
