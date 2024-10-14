@@ -10,7 +10,7 @@ Flask-babylonjs
 
 基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
 
-基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 基於“TailwindsCSS 入門”，位於<https://tailwindcss.com/docs/installation>
 
@@ -31,8 +31,8 @@ Flask-babylonjs
 虛擬環境沒有創建成功，因為ensurepip沒有
 可用的。
 
-在 Debian/Ubuntu 系統上，需要安裝 python3-venv
-使用以下命令進行打包。
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -42,10 +42,11 @@ Flask-babylonjs
 
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
-4）運行`$ pip install -r requirements.txt`5）運行：`$ npm install`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
+3）啟動虛擬環境，輸入：`. .venv/bin/activate` (macOS: `source .venv/bin/activate`）
+4）運行`$ pip install -r requirements.txt`
+5) Run: `$ npm install`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
 13) 使用`CTRL+c`退出網路伺服器。
-14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任何 Flask 指令：>>>
+14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任意 Flask 指令：>>>
 16) 使用`exit()`退出命令列介面。
 
 ## 100 - 簡介
