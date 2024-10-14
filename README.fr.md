@@ -16,6 +16,8 @@ Basé sur "TailwindsCSS Getting Started" sur<https://tailwindcss.com/docs/instal
 
 Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
 
+Basé sur "Cours accéléré CSS Flowbite + Tailwind | Apprenez Flowbite pour React et Next.js (tutoriel complet)" sur<https://www.youtube.com/watch?v=FTNBPSPy6P8>
+
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
 Exécutez cette application comme suit :
