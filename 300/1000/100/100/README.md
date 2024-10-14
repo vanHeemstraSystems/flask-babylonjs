@@ -18,11 +18,11 @@ $ npm install flowbite --save-dev
 
 ```
 module.exports = {
-
+    ...
     plugins: [
         require('flowbite/plugin')
     ]
-
+    ...
 }
 ```
 
@@ -30,12 +30,12 @@ module.exports = {
 
 ```
 module.exports = {
-
+    ...
     content: [
         "./app/templates/**/*.html"
         "./node_modules/flowbite/**/*.js"
     ]
-
+    ...
 }
 ```
 
