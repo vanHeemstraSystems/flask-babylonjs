@@ -18,7 +18,7 @@ Flask-babylonjs
 
 ~基于“Flowbite + Tailwind CSS 速成课程 | 学习 Flowbite for React 和 Next.js（完整教程）”，地址：<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
-Based on "Tailwind CSS Flask - Flowbite" at <https://flowbite.com/docs/getting-started/flask/>
+基于“Tailwind CSS Flask - Flowbite”，位于<https://flowbite.com/docs/getting-started/flask/>
 
 打开此网址`https://github.dev/`而不是`https://github.dev/`使用基于 Web 的 Visual Studio Code IDE。
 
@@ -31,8 +31,8 @@ Based on "Tailwind CSS Flask - Flowbite" at <https://flowbite.com/docs/getting-s
 虚拟环境没有创建成功，因为ensurepip没有
 可用的。
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+在 Debian/Ubuntu 系统上，需要安装 python3-venv
+使用以下命令进行打包。
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -50,7 +50,7 @@ package using the following command.
 
 ## 100 - 简介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
