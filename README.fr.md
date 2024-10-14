@@ -8,7 +8,7 @@ Basé sur « Comment structurer une grande application Flask avec des plans Flas
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
+Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
@@ -19,6 +19,8 @@ Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
 ~ Basé sur "Cours accéléré CSS Flowbite + Tailwind | Apprenez Flowbite pour React et Next.js (tutoriel complet)" sur<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 Basé sur "Tailwind CSS Flask - Flowbite" sur<https://flowbite.com/docs/getting-started/flask/>
+
+Basé sur "Tailwind Flask Starter" sur<https://github.com/themesberg/tailwind-flask-starter>
 
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
@@ -56,7 +58,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
