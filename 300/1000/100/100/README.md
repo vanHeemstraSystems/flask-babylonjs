@@ -174,3 +174,5 @@ flask_app/app/templates/index.html
 flask_app/app/templates/navbar.html
 
 As you can see, the navigation bar will render correctly and even the hamburger icon functionality will work by toggling the mobile menu on smaller devices.
+
+This configuration can also be found on the [Flask starter project](https://github.com/themesberg/tailwind-flask-starter) from GitHub where Flask, Tailwind CSS, and Flowbite are already configured and you can start building websites right away.
