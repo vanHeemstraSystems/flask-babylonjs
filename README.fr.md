@@ -50,13 +50,13 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 ## 100 - Présentation
 
-See [README.md](./100/README.md)
+Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
