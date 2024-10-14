@@ -45,3 +45,21 @@ module.exports = {
 ```
 <script src="../path/to/flowbite/dist/flowbite.js"></script>
 ```
+
+5. Add the Tailwind directives to your (S)CSS
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+flask_app/app/static/css/input.css
+
+Or if using SCSS
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+flask_app/app/static/scss/input.scss
