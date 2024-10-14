@@ -25,6 +25,7 @@ module.exports = {
     ...
 }
 ```
+flask_app/tailwindcss.config.js
 
 3. Make sure that you add the template path to the ```tailwind.config.js``` file:
 
@@ -81,3 +82,14 @@ Add your compiled CSS file to the '<head>' and start using Tailwinds's utility c
 </head>
 ```
 flask_app/app/templates/base.html
+
+8. Now if you style an HTML element and run the flask server, you will see the style applied to that element, e.g.:
+
+```
+...
+    <h1 class="text-blue-600">Index Page</h1>
+...
+```
+flask_app/app/templates/index.html
+
+
