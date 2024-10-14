@@ -1,7 +1,7 @@
 flask-babylonjs
 # Flask BabylonJS
 
-> Slugline
+> A Python Flask application with Babylon.js 3D scenes
 
 Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
 
