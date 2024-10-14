@@ -44,8 +44,26 @@ module.exports = {
 4. Include the main JavaScript file to make interactive elements work:
 
 ```
-<script src="../path/to/flowbite/dist/flowbite.js"></script>
+...
+<body>
+  ...
+  <script src="../path/to/flowbite/dist/flowbite.js"></script>
+  ...
+</body>
 ```
+flask_app/app/templates/base.html
+
+Or from the CDN:
+
+```
+...
+<body>
+   ...
+   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+   ...
+</body>
+```
+flask_app/app/templates/base.html
 
 5. Add the Tailwind directives to your CSS
 
