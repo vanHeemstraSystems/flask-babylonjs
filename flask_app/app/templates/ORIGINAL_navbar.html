@@ -1,0 +1,33 @@
+<header>
+    <a class="logo" href="{{ url_for('main.index') }}">Home</a>
+    <span class="separator"></span>
+    <nav>
+        <ul>
+            {% if current_user.is_authenticated %}
+            <li> <a class="nav-link" href="{{ url_for('auth.profile', user_id=current_user.id) }}">{{
+                    current_user.username}}</a></li>
+            <li><a class="nav-link" href={{ url_for('game.menu') }}>New Game</a></li>
+            <li> <a class="nav-link" href={{ url_for('game.join_game') }}>Join Game</a></li>
+            <li> <a class="nav-link" href={{ url_for('logout.logout') }}>Logout</a></li>
+            {% else %}
+            <li> <a class="nav-link" href="{{ url_for('registration.registration') }}">Registration</a></li>
+            <li> <a class="nav-link" href="{{ url_for('login.login') }}">Login</a></li>
+            {% endif %}
+            <li> <a class="nav-link" href="{{ url_for('board.list_boards') }}">Boards</a></li>
+            <li> <a class="nav-link" href="{{ url_for('camera.list_cameras') }}">Cameras</a></li>
+            <li> <a class="nav-link" href="{{ url_for('character.list_characters') }}">Characters</a></li>
+            <li> <a class="nav-link" href="{{ url_for('field.list_fields') }}">Fields</a></li>
+            <li> <a class="nav-link" href="{{ url_for('field_type.list_field_types') }}">Field Types</a></li>
+            <li> <a class="nav-link" href="{{ url_for('game.list_games') }}">Games</a></li>
+            <li> <a class="nav-link" href="{{ url_for('light.list_lights') }}">Lights</a></li>
+            <li> <a class="nav-link" href="{{ url_for('player.list_players') }}">Players</a></li>            
+            <li> <a class="nav-link" href="{{ url_for('prop.list_props') }}">Props</a></li>
+            <li> <a class="nav-link" href="{{ url_for('scene.list_scenes') }}">Scenes</a></li>
+            <li> <a class="nav-link" href="{{ url_for('screenplay.list_screenplays') }}">Screenplays</a></li>
+            <li> <a class="nav-link" href="{{ url_for('shot.list_shots') }}">Shots</a></li>
+            <li> <a class="nav-link" href="{{ url_for('story.list_stories') }}">Stories</a></li>
+            <li> <a class="nav-link" href="{{ url_for('tag.list_tags') }}">Tags</a></li>
+            <li> <a class="nav-link" href="{{ url_for('user.list_users') }}">Users</a></li>
+        </ul>
+    </nav>
+</header>
