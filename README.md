@@ -15,7 +15,9 @@ Based on "TailwindsCSS Getting Started" at https://tailwindcss.com/docs/installa
 
 Based on "FlowBite" at https://github.com/themesberg/flowbite
 
-Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at https://www.youtube.com/watch?v=FTNBPSPy6P8
+~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at https://www.youtube.com/watch?v=FTNBPSPy6P8~
+
+Based on "Tailwind CSS Flask - Flowbite" at https://flowbite.com/docs/getting-started/flask/
 
 Open this URL with ```https://github.dev/``` instead of ```https://github.dev/``` to use the Visual Studio Code web-based IDE.
 
