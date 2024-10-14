@@ -63,3 +63,30 @@ Or if using SCSS
 @tailwind utilities;
 ```
 flask_app/app/static/scss/input.scss
+
+6. Start the Tailwind CLI build process
+
+Run the CLI tool to scan your template files for classes and build your CSS.
+
+```
+$ cd flask_app
+$ npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/output.css
+```
+
+7. Start using Tailwind in your HTML
+
+Add your compiled CSS file to the '<head>' and start using Tailwinds's utility classes to style your content.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{% block title %} {% endblock %}</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
+   <script src="https://cdn.babylonjs.com/babylon.js"></script>
+</head>
+```
+flask_app/app/templates/base.html
