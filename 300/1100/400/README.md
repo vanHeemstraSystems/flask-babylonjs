@@ -68,5 +68,13 @@ The ```-m``` flag allows you to specify a short message describing the modificat
 (.venv) flask_app $ flask db migrate -m "initial migration"
 ```
 
+You will receive the following output:
+
+```
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.autogenerate.compare] Detected added table 'user'
+  Generating /usr/local/opt/code/flask-babylonjs/flask_app/migrations/versions/8048ee3cbab8_initial_migration.py ...  done
+```
 
 MORE
