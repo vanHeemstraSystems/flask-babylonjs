@@ -18,11 +18,11 @@
 
 ~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
-"टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
+"टेलविंड सीएसएस फ्लास्क - फ़्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
-"SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>, use <https://dbhub.io/wvanheemstra>
+"SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>, उपयोग<https://dbhub.io/wvanheemstra>
 
 "फ्लास्क-माइग्रेट का उपयोग करके फ्लास्क-एसक्यूएलकेमी माइग्रेशन कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
@@ -30,7 +30,7 @@
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
-1) Enter `flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
+1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`$ python3 -m venv .venv`(मैक ओएस:`$ virtualenv .venv`)
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
