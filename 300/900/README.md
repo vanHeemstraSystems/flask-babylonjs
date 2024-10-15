@@ -6,6 +6,7 @@ erDiagram
     Game }|--|| Board : "game has one board"
     Board ||--|{ Field : "board has one or more fields"
     Camera }|--|| CameraType : "camera has one type"
+    Character }|--|| Avatar : "character has one avatar"
     Character }|--|| CharacterRole : "character has one role"
     Field }|--|| FieldType : "field has one type"
     Game ||--o{ Player : "game has zero or more players"
