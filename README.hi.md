@@ -12,7 +12,7 @@
 
 "Mermaid.js के साथ पाठ-आधारित इकाई संबंध आरेख" पर आधारित<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-"टेलविंड्ससीएसएस गेटिंग स्टार्टेड" पर आधारित<https://tailwindcss.com/docs/installation>
+Based on "TailwindsCSS Getting Started" at <https://tailwindcss.com/docs/installation>
 
 "फ्लोबाइट" पर आधारित<https://github.com/themesberg/flowbite>
 
