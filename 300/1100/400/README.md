@@ -36,7 +36,7 @@ To finish setting up Flask-Migrate and add support to your current project, use 
  (.venv) flask_app $ flask db init
 ```
 
-
+You will receive output similar to the following:
 
 ```
   Creating directory '/usr/local/opt/code/flask-babylonjs/flask_app/migrations' ...  done
@@ -47,5 +47,11 @@ To finish setting up Flask-Migrate and add support to your current project, use 
   Generating /usr/local/opt/code/flask-babylonjs/flask_app/migrations/alembic.ini ...  done
   Please edit configuration/connection/logging settings in '/usr/local/opt/code/flask-babylonjs/flask_app/migrations/alembic.ini' before proceeding.
 ```
+
+This creates a new migrations directory inside your ```flask_app``` folder, where all the migration scripts that manage your migrations will be stored.
+
+If you are familiar with Alembic and want to add advanced configurations to your database migration system, you can modify the generated ```migrations/alembic.ini``` file. For our purposes, we will leave it as is.
+
+
 
 MORE
