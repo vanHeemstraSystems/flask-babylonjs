@@ -136,6 +136,30 @@ flask_app/migrations/versions/8048ee3cbab8_initial_migration.py
 
 **Note**: Keep in mind that migration scripts are automatically generated code, which may have some errors depending on the complexity of the changes you perform before the migration. Therefore, you must carefully read and adjust your migration scripts to ensure accuracy and proper execution.
 
+With the migration script ready, you can now use it to perform an initial upgrade. This will create the ```flask_app/instance/app.db``` database file and the ```user``` table. To do this, run the following command in your ```flask_app``` directory:
 
+```
+(.venv) flask_app $ flask db upgrade
+```
+
+The output will be similar to the following:
+
+```
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running upgrade  -> 8048ee3cbab8, initial migration
+```
+
+This informs you that the upgrade was successfully executed.
+
+A new ```app.db``` database file will be added to your ```instance``` folder inside your ```flask_app``` directory.
+
+**NOTE**: The first migration is equivalent to using ```db.create_all()``` in the Flask shell.
+
+If you introduce Flask-Migrate into an existing project with an existing database, then the ```flask db upgrade``` will fail because a database file already exists. In that case, use ```flask db stamp``` to mark the database as upgraded instead of ```flask db upgrade```.
+
+With the database and ```user``` table created, you can now add a few users to your database. You’ll do this next.
+
+## Populating the Database
 
 MORE
