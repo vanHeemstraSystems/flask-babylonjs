@@ -91,6 +91,25 @@ Execute the following command to test that the application is set up correctly. 
 (.venv) $ flask_run 
 ```
 
+Once you run this command, you will receive the following output:
 
+```
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 155-093-934
+```
 
-MORE
+With the development server running, visit the following URL using your browser:
+
+```
+http://127.0.0.1:5000/
+```
+
+You’ll get an index page (here: ```main.index```). This confirms that the application is set up properly. 
+
+You can now move into the next step and add Flask-Migrate to your app.
