@@ -40,9 +40,6 @@ def create_app(config_class=Config):
     # from app.routes.avatar_routes import avatar_bp
     # app.register_blueprint(avatar_bp)
 
-    from app.routes.main_routes import main_bp
-    app.register_blueprint(main_bp, url_prefix='/')
-
     # from app.routes.board_routes import board_bp
     # app.register_blueprint(board_bp, url_prefix='/boards')
 
@@ -78,6 +75,9 @@ def create_app(config_class=Config):
 
     from app.routes.login_routes import login_bp
     app.register_blueprint(login_bp, url_prefix='/login') 
+
+    from app.routes.main_routes import main_bp
+    app.register_blueprint(main_bp, url_prefix='/')
 
     # from app.routes.player_routes import player_bp
     # app.register_blueprint(player_bp, url_prefix='/players')
