@@ -22,7 +22,9 @@
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
-इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.dev/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
+"SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>
+
+इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.com/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
@@ -30,7 +32,7 @@
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
 उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
@@ -48,7 +50,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 4) भागो`$ pip install -r requirements.txt`5) भागो:`$ cd app`तब`$ npm install`अंत में`$ cd ..`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
 13) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
 14) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`15) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
-16) प्रयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
+16) उपयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
 
 ## 100 - परिचय
 
@@ -62,6 +64,6 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - निष्कर्ष
 
 देखना[README.md](./400/README.md)
