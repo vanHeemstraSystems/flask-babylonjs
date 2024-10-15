@@ -10,3 +10,7 @@ game_bp = Blueprint('game', __name__)
 def list_games():
    games = Game.query.all()
    return render_template('games.html', games=games)
+
+@game_bp.route('/menu')
+def menu():
+   return '<h1>Game Menu Page</h1>'
