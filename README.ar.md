@@ -8,7 +8,7 @@
 
 استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Based on "Factory Pattern" at <https://github.com/vanHeemstraSystems/factory-pattern>
+بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
 استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
