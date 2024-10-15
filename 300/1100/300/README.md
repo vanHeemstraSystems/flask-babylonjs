@@ -34,6 +34,63 @@ In ```flask_app/app/extensions.py``` with ```db = SQLAlchemy()```, you create an
 
 By passing the Flask ```app``` as an argument, you initiate the ```db``` in ```flask_app/app/__init__.py``` with ```db.init_app(app)```.
 
+Next, you create a ```User``` class that inherits from ```db.Model```, representing a database table named ‘users’. In the table, you define an ```id``` column for the user ID and a ```username``` column for the username, amongst other columns.
+
+```
+#!/usr/bin/env python
+from app.extensions import db, bcrypt, login_manager
+from flask_login import UserMixin
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+class User(db.Model, UserMixin):
+    __tablename__ = 'user'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), nullable=False, unique=True)
+    email = db.Column(db.String(120), nullable=False, unique=True)
+    password_hash = db.Column(db.String(128), nullable=False)
+    created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
+
+    def __repr__(self):
+        return f'<User {self.username}>'
+
+    def set_password(self, password):
+        self.password_hash = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    def check_password(self, password):
+        return bcrypt.check_password_hash(self.password_hash, password) 
+```
+flask_app/app/models/user.py
+
+The special [repr](https://docs.python.org/3/reference/datamodel.html#object.__repr__) function allows you to give each object a string representation to recognize it for debugging purposes.
+
+Finally in ```flask_app/app/routes/user_routes.py```, you create a route ('/users') that returns a simple HTML response listing all users when the URL is accessed.
+
+
+```
+#!/usr/bin/env python
+from flask import Blueprint, render_template, request, redirect, url_for, flash
+from app.models.user import User
+from app.forms.user_form import UserForm
+from app.extensions import db
+
+user_bp = Blueprint('user', __name__)
+
+@user_bp.route('/users')
+def list_users():
+   users = User.query.all()
+   return render_template('users.html', users=users)
+```
+flask_app/app/routes/user_routes.py
+
+Execute the following command to test that the application is set up correctly. This runs the app Flask application in a development server with debugging activated:
+
+```
+(.venv) $ flask_run 
+```
+
 
 
 MORE
