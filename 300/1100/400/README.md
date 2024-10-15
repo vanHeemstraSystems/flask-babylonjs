@@ -54,11 +54,11 @@ If you are familiar with Alembic and want to add advanced configurations to your
 
 **NOTE**: The ```migrations``` directory contains files that manage your app’s database migrations, and they must be added to your version control repository with the rest of your app’s code.
 
-With Flask-Migrate connected to your application, you will perform an initial database migration. Using the ```User``` class will create the ```users``` table you declared earlier.
+With Flask-Migrate connected to your application, you will perform an initial database migration. Using the ```User``` class will create the ```user``` table you declared earlier.
 
-## Creating the Users Table using a Migration Script
+## Creating the User Table using a Migration Script
 
-You will now perform your first migration, creating your database’s ```users``` table.
+You will now perform your first migration, creating your database’s ```user``` table.
 
 In your ```flask_app``` directory, run the following command. This flask db migrate command detects all the new tables or modifications you perform on your Flask-SQLAlchemy database models.
 
@@ -76,5 +76,9 @@ INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
 INFO  [alembic.autogenerate.compare] Detected added table 'user'
   Generating /usr/local/opt/code/flask-babylonjs/flask_app/migrations/versions/8048ee3cbab8_initial_migration.py ...  done
 ```
+
+Because our database has not been created yet, this output informs you that a new table called ```user``` was detected, and a migration script called 8048ee3cbab8_initial_migration.py was created inside a directory called ```versions```, where all different migration versions are stored.
+
+
 
 MORE
