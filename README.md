@@ -23,6 +23,8 @@ Based on "Tailwind Flask Starter" at https://github.com/themesberg/tailwind-flas
 
 Based on "DB Browser for SQLite" at https://sqlitebrowser.org/, use https://dbhub.io/wvanheemstra
 
+Based on "How to Perform Flask-SQLAlchemy Migrations Using Flask-Migrate" at https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate
+
 Open this URL with ```https://github.dev/``` instead of ```https://github.com/``` to use the Visual Studio Code web-based IDE.
 
 Run this application as follows:
