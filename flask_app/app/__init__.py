@@ -7,7 +7,11 @@ def create_app(config_class=Config):
     app = Flask(__name__, static_url_path='/static')
     app.config.from_object(config_class)
 
-    # Initialize Flask extensions here
+    ##
+    # Initialize Flask extensions
+    ##
+
+    # Set db
     db.init_app(app)
 
     # Set bycrypt
@@ -22,7 +26,10 @@ def create_app(config_class=Config):
     socketio.init_app(app)
     socketio.cors_allowed_origins = "*"    
 
-    # Register blueprints here
+    ##
+    # Register blueprints
+    ##
+
     # from app.routes.avatar_routes import avatar_bp
     # app.register_blueprint(avatar_bp)
 
