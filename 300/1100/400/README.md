@@ -52,6 +52,13 @@ This creates a new migrations directory inside your ```flask_app``` folder, wher
 
 If you are familiar with Alembic and want to add advanced configurations to your database migration system, you can modify the generated ```migrations/alembic.ini``` file. For our purposes, we will leave it as is.
 
+**NOTE**: The ```migrations``` directory contains files that manage your app’s database migrations, and they must be added to your version control repository with the rest of your app’s code.
+
+With Flask-Migrate connected to your application, you will perform an initial database migration. Using the ```User``` class will create the users table you declared earlier.
+
+## Creating the User Table using a Migration Script
+
+
 
 
 MORE
