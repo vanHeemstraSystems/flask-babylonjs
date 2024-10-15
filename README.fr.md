@@ -1,8 +1,8 @@
-flacon-babylonjs
+flask-babylonjs
 
 # Flacon BabylonJS
 
-> Une application Python Flask avec des scènes 3D Babylon.js
+> A Python Flask application with Babylon.js 3D scenes
 
 Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -37,8 +37,8 @@ Dans les cas suivants, suivez ses conseils :
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
 
-Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
-package à l’aide de la commande suivante.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -49,12 +49,10 @@ package, recréez votre environnement virtuel.
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install` finally `$ cd ..`
-6) Set the Flask App to app directory: `(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, la valeur par défaut est`sqlite:///app.db`9) Définir les modifications de la piste SQLAlchemy :`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
+4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install`enfin`$ cd ..`6) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, la valeur par défaut est`sqlite:///app.db`9) Définir les modifications de la piste SQLAlchemy :`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
 13) Utiliser`CTRL+c`pour quitter le serveur Web.
-14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`
-15) Execute any flask commands: >>>
-16) Use `exit()`pour quitter l'interface de ligne de commande.
+14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
+16) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
 ## 100 - Présentation
 
