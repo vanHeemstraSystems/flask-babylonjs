@@ -2,7 +2,7 @@ Flask-babylonjs
 
 # Flask BabylonJS
 
-> 具有 Babylon.js 3D 场景的 Python Flask 应用程序
+> A Python Flask application with Babylon.js 3D scenes
 
 基于“如何使用 Flask 蓝图和 Flask-SQLAlchemy 构建大型 Flask 应用程序”，位于<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -28,7 +28,7 @@ Flask-babylonjs
 
 按如下方式运行该应用程序：
 
-1) 输入`flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
+1) Enter `flask_app`目录：`$ cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`$ python3 -m venv .venv`（苹果系统：`$ virtualenv .venv`)
 
 如果出现以下情况，请遵循其建议：
 
