@@ -21,7 +21,9 @@ Based on "Tailwind CSS Flask - Flowbite" at https://flowbite.com/docs/getting-st
 
 Based on "Tailwind Flask Starter" at https://github.com/themesberg/tailwind-flask-starter
 
-Open this URL with ```https://github.dev/``` instead of ```https://github.dev/``` to use the Visual Studio Code web-based IDE.
+Based on "DB Browser for SQLite" at https://sqlitebrowser.org/ 
+
+Open this URL with ```https://github.dev/``` instead of ```https://github.com/``` to use the Visual Studio Code web-based IDE.
 
 Run this application as follows:
 
