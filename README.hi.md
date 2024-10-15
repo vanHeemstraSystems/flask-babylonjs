@@ -22,7 +22,7 @@
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
-"SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>
+"SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>, उपयोग<https://dbhub.io/wvanheemstra>
 
 इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.com/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 
