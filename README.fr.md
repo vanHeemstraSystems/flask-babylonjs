@@ -10,7 +10,7 @@ Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sql
 
 Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 Basé sur "TailwindsCSS Getting Started" sur<https://tailwindcss.com/docs/installation>
 
@@ -49,12 +49,10 @@ package, recréez votre environnement virtuel.
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install`enfin`$ cd ..`6) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, la valeur par défaut est`sqlite:///app.db`
-9) Set SQLAlchemy Track Modifications: `(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
+4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install`enfin`$ cd ..`6) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, la valeur par défaut est`sqlite:///app.db`9) Définir les modifications de la piste SQLAlchemy :`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
 13) Utiliser`CTRL+c`pour quitter le serveur Web.
-14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`
-15) Execute any flask commands: >>>
-16) Use `exit()`pour quitter l'interface de ligne de commande.
+14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
+16) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
 ## 100 - Présentation
 
