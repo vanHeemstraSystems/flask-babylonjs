@@ -13,7 +13,7 @@ class Game(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=db.func.current_timestamp())
     board = db.relationship('Board', backref='game', uselist=False) # One-to-one relationship with Board
     story = db.relationship('Story', backref='games') # One-to-many relationship with Story
-    users = db.relationship('User', secondary='user_game', backref='games')
+    # users = db.relationship('User', secondary='user_game', backref='games') # REMOVE
 
     def __repr__(self):
         return f'<Game {self.title}>'
