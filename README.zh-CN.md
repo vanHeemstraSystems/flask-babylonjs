@@ -22,7 +22,7 @@ Flask-babylonjs
 
 基于“Tailwind Flask Starter”，位于<https://github.com/themesberg/tailwind-flask-starter>
 
-基于“DB Browser for SQLite”，位于<https://sqlitebrowser.org/>
+基于“DB Browser for SQLite”，位于<https://sqlitebrowser.org/>， 使用<https://dbhub.io/wvanheemstra>
 
 打开此网址`https://github.dev/`而不是`https://github.com/`使用基于 Web 的 Visual Studio Code IDE。
 
