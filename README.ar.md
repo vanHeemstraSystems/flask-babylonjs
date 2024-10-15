@@ -6,7 +6,7 @@
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
-استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
+استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
@@ -22,7 +22,7 @@
 
 استنادًا إلى "Tailwind Flask Starter" في<https://github.com/themesberg/tailwind-flask-starter>
 
-استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>, use <https://dbhub.io/wvanheemstra>
+استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>، يستخدم<https://dbhub.io/wvanheemstra>
 
 استنادًا إلى "كيفية إجراء عمليات ترحيل Flask-SQLAlchemy باستخدام Flask-Migrate" في<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
@@ -37,8 +37,8 @@
 لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
 متاح.
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
+الحزمة باستخدام الأمر التالي.
 
     sudo apt-get update
     sudo apt install python3.10-venv
