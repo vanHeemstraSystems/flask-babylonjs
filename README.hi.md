@@ -18,7 +18,7 @@
 
 ~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
-"टेलविंड सीएसएस फ्लास्क - फ़्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
+"टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
@@ -54,11 +54,11 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - आवश्यकताएँ
 
 देखना[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - हमारे एप्लिकेशन का निर्माण
 
 देखना[README.md](./300/README.md)
 
