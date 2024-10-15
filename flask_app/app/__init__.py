@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-from flask import Flask
-from config import Config
 from app.extensions import db, bcrypt, login_manager, socketio
+from config import Config
+from flask import Flask
+from flask_migrate import Migrate
 
 def create_app(config_class=Config):
     app = Flask(__name__, static_url_path='/static')
@@ -25,6 +26,12 @@ def create_app(config_class=Config):
     # Set socket io
     socketio.init_app(app)
     socketio.cors_allowed_origins = "*"    
+
+    ##
+    # Migrate database
+    ##
+
+    migrate = Migrate(app,db)
 
     ##
     # Register blueprints

@@ -23,7 +23,7 @@ def create_app(config_class=Config):
 
     return app
 ```
-flask_app/app/__init__.py
+flask_app/app/\_\_init__.py
 
 
 You import the ```Flask``` class and ```SQLAlchemy``` from the ```flask``` and ```flask_sqlalchemy``` modules (from ```app.extensions```) here. Then you create a Flask app instance called ```app```.
@@ -88,7 +88,7 @@ flask_app/app/routes/user_routes.py
 Execute the following command to test that the application is set up correctly. This runs the app Flask application in a development server with debugging activated:
 
 ```
-(.venv) $ flask_run 
+(.venv) flask_app $ flask_run 
 ```
 
 Once you run this command, you will receive the following output:

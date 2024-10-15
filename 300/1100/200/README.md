@@ -12,8 +12,8 @@ $ . .venv/bin/activate
 With your virtual environment activated, use pip to install Flask, Flask-SQLAlchemy, and Flask-Migrate (here: these are stored in ```flask_app/requirements.txt```):
 
 ```
-$ cd flask_app
-$ pip install -r requirements.txt
+(.venv) $ cd flask_app
+(.venv) flask_app $ pip install -r requirements.txt
 ```
 
 Once the installation has finished, the output will print a line similar to the following:
