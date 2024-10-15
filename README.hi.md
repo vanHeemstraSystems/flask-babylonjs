@@ -18,11 +18,13 @@
 
 ~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
-"टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
+"टेलविंड सीएसएस फ्लास्क - फ़्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
 "SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>, उपयोग<https://dbhub.io/wvanheemstra>
+
+"फ्लास्क-माइग्रेट का उपयोग करके फ्लास्क-एसक्यूएलकेमी माइग्रेशन कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
 इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.com/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 

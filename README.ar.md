@@ -22,7 +22,9 @@
 
 استنادًا إلى "Tailwind Flask Starter" في<https://github.com/themesberg/tailwind-flask-starter>
 
-استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>، يستخدم<https://dbhub.io/wvanheemstra>
+استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>, use <https://dbhub.io/wvanheemstra>
+
+استنادًا إلى "كيفية إجراء عمليات ترحيل Flask-SQLAlchemy باستخدام Flask-Migrate" في<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
@@ -32,7 +34,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
