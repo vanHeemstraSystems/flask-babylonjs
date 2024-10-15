@@ -9,7 +9,7 @@
     <ul>
         {% for avatar in avatars %}
         <li>
-            User ID: {{ avatar.user_id }} - Image URL: {{ avatar.image_url }}
+            Character ID: {{ avatar.character_id }} - Image URL: {{ avatar.image_url }}
             <a href="{{ url_for('avatar.edit_avatar', avatar_id=avatar.id) }}">Edit</a>
             <form action="{{ url_for('avatar.delete_avatar', avatar_id=avatar.id) }}" method="POST"
                 style="display:inline;">
