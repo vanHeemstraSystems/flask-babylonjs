@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Edit Avatar {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="image_url">Avatar Image URL:</label>
+        {{ form.image_url(size=32) }}<br>
+
+        <label for="character_id">Character:</label>
+        {{ form.character_id() }}<br>
+
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('avatar.list_avatars') }}">Back to Avatars</a>
+</div>
+{% endblock %}
