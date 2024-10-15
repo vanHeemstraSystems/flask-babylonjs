@@ -22,7 +22,7 @@
 
 استنادًا إلى "Tailwind Flask Starter" في<https://github.com/themesberg/tailwind-flask-starter>
 
-استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>
+استنادًا إلى "متصفح DB لـ SQLite" في<https://sqlitebrowser.org/>، يستخدم<https://dbhub.io/wvanheemstra>
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
@@ -46,7 +46,7 @@
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate` (macOS: `source .venv/bin/activate`)
+3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
 4) تشغيل`$ pip install -r requirements.txt`5) تشغيل:`$ cd app`ثم`$ npm install`أخيراً`$ cd ..`6) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`7) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`8) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`9) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`11) قم بتشغيل تطبيق القارورة:`(.venv) $ flask run`12) افتح واجهة الويب كما هو مطلوب
 13) الاستخدام`CTRL+c`للخروج من خادم الويب.
 14) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`15) تنفيذ أي أوامر قارورة: >>>
