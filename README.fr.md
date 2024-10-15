@@ -22,7 +22,7 @@ Basé sur "Tailwind CSS Flask - Flowbite" sur<https://flowbite.com/docs/getting-
 
 Basé sur "Tailwind Flask Starter" sur<https://github.com/themesberg/tailwind-flask-starter>
 
-Basé sur "DB Browser pour SQLite" sur<https://sqlitebrowser.org/>
+Basé sur "DB Browser pour SQLite" sur<https://sqlitebrowser.org/>, utiliser<https://dbhub.io/wvanheemstra>
 
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/`pour utiliser l'EDI Web Visual Studio Code.
 
@@ -47,9 +47,9 @@ package, recréez votre environnement virtuel.
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Démarrez l'environnement virtuel et entrez :`. .venv/bin/activate`(macOS :`source .venv/bin/activate`)
-4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install` finally `$ cd ..`6) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, la valeur par défaut est`sqlite:///app.db`9) Définir les modifications de la piste SQLAlchemy :`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
-13) Utiliser`CTRL+c`pour quitter le serveur Web.
-14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
+4) Courir`$ pip install -r requirements.txt`5) Exécutez :`$ cd app`alors`$ npm install`enfin`$ cd ..`6) Définissez l'application Flask dans le répertoire des applications :`(.venv) $ export FLASK_APP=app`7) Définissez l'environnement Flask sur True pour le développement :`(.venv) $ export FLASK_DEBUG=True`8) Définissez l'URI de la base de données SQLAlchemy :`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, default is `sqlite:///app.db`9) Définir les modifications de la piste SQLAlchemy :`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Définir la clé secrète :`(.venv) $ export SECRET_KEY=********`11) Exécutez l'application Flask :`(.venv) $ flask run`12) Ouvrez l'interface Web comme vous y êtes invité
+13) Utiliser`CTRL+c` to exit the web server.
+14) Alternatively run the flask command line interface: `(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
 16) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
 ## 100 - Présentation
