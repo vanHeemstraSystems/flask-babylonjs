@@ -162,4 +162,8 @@ With the database and ```user``` table created, you can now add a few users to y
 
 ## Populating the Database
 
+=== WE ARE HERE ===
+
+See https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate#populating-the-database
+
 MORE
