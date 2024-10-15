@@ -23,6 +23,9 @@ def create_app(config_class=Config):
     socketio.cors_allowed_origins = "*"    
 
     # Register blueprints here
+    # from app.routes.avatar_routes import avatar_bp
+    # app.register_blueprint(avatar_bp)
+
     from app.routes.main_routes import main_bp
     app.register_blueprint(main_bp, url_prefix='/')
 
