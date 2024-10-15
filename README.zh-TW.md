@@ -4,7 +4,7 @@ Flask-babylonjs
 
 > 具有 Babylon.js 3D 場景的 Python Flask 應用程式
 
-基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -16,7 +16,7 @@ Flask-babylonjs
 
 基於“FlowBite”<https://github.com/themesberg/flowbite>
 
-~基於“Flowbite + Tailwind CSS 速成課程 | 學習 Flowbite for React 和 Next.js（完整教程）”，地址：<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 基於“Tailwind CSS Flask - Flowbite”，位於<https://flowbite.com/docs/getting-started/flask/>
 
