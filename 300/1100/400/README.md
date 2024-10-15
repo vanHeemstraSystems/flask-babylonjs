@@ -54,11 +54,19 @@ If you are familiar with Alembic and want to add advanced configurations to your
 
 **NOTE**: The ```migrations``` directory contains files that manage your app’s database migrations, and they must be added to your version control repository with the rest of your app’s code.
 
-With Flask-Migrate connected to your application, you will perform an initial database migration. Using the ```User``` class will create the users table you declared earlier.
+With Flask-Migrate connected to your application, you will perform an initial database migration. Using the ```User``` class will create the ```users``` table you declared earlier.
 
-## Creating the User Table using a Migration Script
+## Creating the Users Table using a Migration Script
 
+You will now perform your first migration, creating your database’s ```users``` table.
 
+In your ```flask_app``` directory, run the following command. This flask db migrate command detects all the new tables or modifications you perform on your Flask-SQLAlchemy database models.
+
+The ```-m``` flag allows you to specify a short message describing the modification you performed:
+
+```
+(.venv) flask_app $ flask db migrate -m "initial migration"
+```
 
 
 MORE
