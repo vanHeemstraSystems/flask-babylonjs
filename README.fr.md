@@ -14,7 +14,7 @@ Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mer
 
 Basé sur "TailwindsCSS Getting Started" sur<https://tailwindcss.com/docs/installation>
 
-Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
+Based on "FlowBite" at <https://github.com/themesberg/flowbite>
 
 ~ Basé sur "Cours accéléré CSS Flowbite + Tailwind | Apprenez Flowbite pour React et Next.js (tutoriel complet)" sur<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
@@ -33,8 +33,8 @@ Dans les cas suivants, suivez ses conseils :
 L'environnement virtuel n'a pas été créé correctement car Ensurepip n'est pas
 disponible.
 
-Sur les systèmes Debian/Ubuntu, vous devez installer le python3-venv
-package à l’aide de la commande suivante.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
