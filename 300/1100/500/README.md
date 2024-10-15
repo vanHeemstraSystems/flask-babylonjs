@@ -6,7 +6,7 @@ In general, you can take the following steps to manage your database migrations 
 
 1) Modify the database models.
 
-2) Generate a migration script with the ```flask db migrate -m "some comment"``` command.
+2) Generate a migration script with the ```flask db migrate -m "some comment"``` command. If there have been no changes since last migration, you will be prompted with ```No changes in schema detected.```. Hence, you can repeat this command without fear.
 
 3) Review the generated migration script and correct it if necessary.
 
