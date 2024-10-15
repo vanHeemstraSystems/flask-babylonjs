@@ -18,7 +18,7 @@
 
 ~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
-"टेलविंड सीएसएस फ्लास्क - फ़्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
+"टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
 "टेलविंड फ्लास्क स्टार्टर" पर आधारित<https://github.com/themesberg/tailwind-flask-starter>
 
@@ -37,8 +37,8 @@
 वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
 उपलब्ध।
 
-डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
-निम्नलिखित कमांड का उपयोग करके पैकेज।
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -49,7 +49,8 @@
 MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
-4) भागो`$ pip install -r requirements.txt`5) भागो:`$ cd app`तब`$ npm install`अंत में`$ cd ..`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
+4) भागो`$ pip install -r requirements.txt`5) भागो:`$ cd app`तब`$ npm install`अंत में`$ cd ..`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`
+7) Set the Flask Environment to True for development: `(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
 13) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
 14) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`15) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
 16) उपयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
@@ -58,7 +59,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./100/README.md)
 
-## 200 - आवश्यकताएँ
+## 200 - Requirements
 
 देखना[README.md](./200/README.md)
 
@@ -66,6 +67,6 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./300/README.md)
 
-## 400 - निष्कर्ष
+## 400 - Conclusion
 
 देखना[README.md](./400/README.md)
