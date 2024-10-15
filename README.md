@@ -47,7 +47,7 @@ On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
 3) Start the virtual environment and enter: ```. .venv/bin/activate``` (macOS: ```source .venv/bin/activate```)
 4) Run ```$ pip install -r requirements.txt```
-5) Run: ```$ npm install```
+5) Run: ```$ cd app``` then ```$ npm install``` finally ```$ cd ..```
 6) Set the Flask App to app directory: ```(.venv) $ export FLASK_APP=app```
 7) Set the Flask Environment to True for development: ```(.venv) $ export FLASK_DEBUG=True```
 8) Set the SQLAlchemy Database URI: ```(.venv) $ export SQLALCHEMY_DATABASE_URI=...```, default is ```sqlite:///app.db```
