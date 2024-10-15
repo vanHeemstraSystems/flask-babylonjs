@@ -14,7 +14,7 @@
 
 استنادًا إلى "بدء تشغيل TailwindsCSS" على الموقع<https://tailwindcss.com/docs/installation>
 
-بناء على "FlowBite" في<https://github.com/themesberg/flowbite>
+Based on "FlowBite" at <https://github.com/themesberg/flowbite>
 
 ~استنادًا إلى "الدورة التدريبية المكثفة لـ Flowbite + Tailwind CSS | تعلم Flowbite لـ React وNext.js (البرنامج التعليمي الكامل)" في<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
@@ -32,9 +32,9 @@
 
 1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
-وفي حالة ما يلي، اتبع نصيحتها:
+In case of the following, follow its advice:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء متأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv

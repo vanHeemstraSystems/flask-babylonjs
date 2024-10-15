@@ -4,7 +4,7 @@ Flask-babylonjs
 
 > 具有 Babylon.js 3D 場景的 Python Flask 應用程式
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -16,7 +16,7 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 
 基於“FlowBite”<https://github.com/themesberg/flowbite>
 
-~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~基於“Flowbite + Tailwind CSS 速成課程 | 學習 Flowbite for React 和 Next.js（完整教程）”，地址：<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 基於“Tailwind CSS Flask - Flowbite”，位於<https://flowbite.com/docs/getting-started/flask/>
 
@@ -49,9 +49,9 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
-4）運行`$ pip install -r requirements.txt`5）運行：`$ cd app`然後`$ npm install`最後`$ cd ..`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10）設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
+4）運行`$ pip install -r requirements.txt`5）運行：`$ cd app`然後`$ npm install`最後`$ cd ..`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
 13) 使用`CTRL+c`退出網路伺服器。
-14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任意 Flask 指令：>>>
+14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任何 Flask 指令：>>>
 16) 使用`exit()`退出命令列介面。
 
 ## 100 - 簡介
