@@ -160,6 +160,8 @@ If you introduce Flask-Migrate into an existing project with an existing databas
 
 With the database and ```user``` table created, you can now add a few users to your database. You’ll do this next.
 
+**TIP**: You can see the structure and content of the database by uploading the app.db file to https://dbhub.io/upload/
+
 ## Populating the Database
 
 === WE ARE HERE ===
