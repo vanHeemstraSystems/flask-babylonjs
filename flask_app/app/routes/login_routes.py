@@ -8,7 +8,7 @@ from flask_login import login_user
 
 login_bp = Blueprint('login', __name__)
 
-@login_bp.route('/login', methods=['GET', 'POST'])
+@login_bp.route('/', methods=['GET', 'POST'])
 @login_forbidden
 def login():
     form = LoginForm()

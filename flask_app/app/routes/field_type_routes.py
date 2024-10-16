@@ -6,12 +6,12 @@ from app.extensions import db
 
 field_type_bp = Blueprint('field_type', __name__)
 
-@field_type_bp.route('/field_types')
+@field_type_bp.route('/')
 def list_field_types():
     field_types = FieldType.query.all()
     return render_template('field_types.html', field_types=field_types)
 
-@field_type_bp.route('/field_types/new', methods=['GET', 'POST']) 
+@field_type_bp.route('/new', methods=['GET', 'POST']) 
 def new_field_type():
     form = FieldTypeForm()
     if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_field_type():
         return redirect(url_for('field_type.list_field_types'))
     return render_template('new_field_type.html', form=form)
 
-@field_type_bp.route('/field_types/edit/<int:field_type_id>', methods=['GET', 'POST']) 
+@field_type_bp.route('/edit/<int:field_type_id>', methods=['GET', 'POST']) 
 def edit_field_type(field_type_id):
     field_type = FieldType.query.get_or_404(field_type_id)
     form = FieldTypeForm(obj=field_type)
@@ -34,7 +34,7 @@ def edit_field_type(field_type_id):
         return redirect(url_for('field_type.list_field_types'))
     return render_template('edit_field_type.html', form=form)
 
-@field_type_bp.route('/field_types/delete/<int:field_type_id>', methods=['POST']) 
+@field_type_bp.route('/delete/<int:field_type_id>', methods=['POST']) 
 def delete_field_type(field_type_id):
     field_type = FieldType.query.get_or_404(field_type_id)
     db.session.delete(field_type)

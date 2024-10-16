@@ -6,12 +6,12 @@ from app.extensions import db
 
 camera_type_bp = Blueprint('camera_type', __name__)
 
-@camera_type_bp.route('/camera_types')
+@camera_type_bp.route('/')
 def list_camera_types():
     camera_types = CameraType.query.all()
     return render_template('camera_types.html', camera_types=camera_types)
 
-@camera_type_bp.route('/camera_types/new', methods=['GET', 'POST']) 
+@camera_type_bp.route('/new', methods=['GET', 'POST']) 
 def new_camera_type():
     form = CameraTypeForm()
     if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_camera_type():
         return redirect(url_for('camera_type.list_camera_types'))
     return render_template('new_camera_type.html', form=form)
 
-@camera_type_bp.route('/camera_types/edit/<int:camera_type_id>', methods=['GET', 'POST']) 
+@camera_type_bp.route('/edit/<int:camera_type_id>', methods=['GET', 'POST']) 
 def edit_camera_type(camera_type_id):
     camera_type = CameraType.query.get_or_404(camera_type_id)
     form = CameraTypeForm(obj=camera_type)
@@ -34,7 +34,7 @@ def edit_camera_type(camera_type_id):
         return redirect(url_for('camera_type.list_camera_types'))
     return render_template('edit_camera_type.html', form=form)
 
-@camera_type_bp.route('/camera_types/delete/<int:camera_type_id>', methods=['POST']) 
+@camera_type_bp.route('/delete/<int:camera_type_id>', methods=['POST']) 
 def delete_camera_type(camera_type_id):
     camera_type = CameraType.query.get_or_404(camera_type_id)
     db.session.delete(camera_type)

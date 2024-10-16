@@ -6,12 +6,12 @@ from app.extensions import db
 
 profile_bp = Blueprint('profile', __name__)
 
-@profile_bp.route('/profiles')
+@profile_bp.route('/')
 def list_profiles():
    profiles = Profile.query.all()
    return render_template('profiles.html', profiles=profiles)
 
-@profile_bp.route('/profiles/new', methods=['GET', 'POST'])
+@profile_bp.route('/new', methods=['GET', 'POST'])
 def new_profile():
    form = ProfileForm()
    if form.validate_on_submit():
@@ -27,7 +27,7 @@ def new_profile():
        return redirect(url_for('profile.list_profiles'))
    return render_template('new_profile.html', form=form)
 
-@profile_bp.route('/profiles/edit/<int:profile_id>', methods=['GET', 'POST'])
+@profile_bp.route('/edit/<int:profile_id>', methods=['GET', 'POST'])
 def edit_profile(profile_id):
    profile = Profile.query.get_or_404(profile_id)
    form = ProfileForm(obj=profile)
@@ -41,7 +41,7 @@ def edit_profile(profile_id):
        return redirect(url_for('profile.list_profiles'))
    return render_template('edit_profile.html', form=form)
 
-@profile_bp.route('/profiles/view/<int:profile_id>', methods=['GET'])
+@profile_bp.route('/view/<int:profile_id>', methods=['GET'])
 def view_profile(profile_id):
    profile = Profile.query.get_or_404(profile_id)
    form = ProfileForm(obj=profile)

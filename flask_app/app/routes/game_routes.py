@@ -6,7 +6,7 @@ from app.extensions import db
 
 game_bp = Blueprint('game', __name__)
 
-@game_bp.route('/games')
+@game_bp.route('/')
 def list_games():
    games = Game.query.all()
    return render_template('games.html', games=games)

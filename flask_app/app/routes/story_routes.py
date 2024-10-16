@@ -5,7 +5,7 @@ from app.extensions import db
 
 story_bp = Blueprint('story', __name__)
 
-@story_bp.route('/stories')
+@story_bp.route('/')
 def list_stories():
    stories = Story.query.all()
    return render_template('stories.html', stories=stories)

@@ -6,7 +6,7 @@ from app.extensions import db
 
 field_bp = Blueprint('field', __name__)
 
-@field_bp.route('/fields')
+@field_bp.route('/')
 def list_fields():
    fields = Field.query.all()
    return render_template('fields.html', fields=fields)

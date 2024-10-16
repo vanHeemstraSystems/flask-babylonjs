@@ -6,12 +6,12 @@ from app.extensions import db
 
 prop_bp = Blueprint('prop', __name__)
 
-@prop_bp.route('/props')
+@prop_bp.route('/')
 def list_props():
    props = Prop.query.all()
    return render_template('props.html', props=props)
 
-@prop_bp.route('/props/new', methods=['GET', 'POST'])
+@prop_bp.route('/new', methods=['GET', 'POST'])
 def new_prop():
    form = PropForm()
    if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_prop():
        return redirect(url_for('prop.list_props'))
    return render_template('new_prop.html', form=form)
 
-@prop_bp.route('/props/edit/<int:prop_id>', methods=['GET', 'POST'])
+@prop_bp.route('/edit/<int:prop_id>', methods=['GET', 'POST'])
 def edit_prop(prop_id):
    prop = Prop.query.get_or_404(prop_id)
    form = PropForm(obj=prop)

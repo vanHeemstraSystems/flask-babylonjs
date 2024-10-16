@@ -5,7 +5,7 @@ from app.extensions import db
 
 screenplay_bp = Blueprint('screenplay', __name__)
 
-@screenplay_bp.route('/screenplays')
+@screenplay_bp.route('/')
 def list_screenplays():
    screenplays = Screenplay.query.all()
    return render_template('screenplays.html', screenplays=screenplays)

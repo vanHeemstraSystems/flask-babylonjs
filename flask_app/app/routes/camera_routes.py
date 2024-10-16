@@ -7,12 +7,12 @@ from app.extensions import db
 
 camera_bp = Blueprint('camera', __name__)
 
-@camera_bp.route('/cameras')
+@camera_bp.route('/')
 def list_cameras():
    cameras = Camera.query.all()
    return render_template('cameras.html', cameras=cameras)
 
-@camera_bp.route('/cameras/new', methods=['GET', 'POST'])
+@camera_bp.route('/new', methods=['GET', 'POST'])
 def new_camera():
    form = CameraForm()
    form.camera_type_id.choices = [(ct.id, ct.title) for ct in CameraType.query.all()]
@@ -24,7 +24,7 @@ def new_camera():
        return redirect(url_for('camera.list_cameras'))
    return render_template('new_camera.html', form=form)
 
-@camera_bp.route('/cameras/edit/<int:camera_id>', methods=['GET', 'POST'])
+@camera_bp.route('/edit/<int:camera_id>', methods=['GET', 'POST'])
 def edit_camera(camera_id):
    camera = Camera.query.get_or_404(camera_id)
    form = CameraForm(obj=camera)
@@ -37,7 +37,7 @@ def edit_camera(camera_id):
        return redirect(url_for('camera.list_cameras'))
    return render_template('edit_camera.html', form=form)
 
-@camera_bp.route('/cameras/delete/<int:camera_id>', methods=['POST']) 
+@camera_bp.route('/delete/<int:camera_id>', methods=['POST']) 
 def delete_camera(camera_id):
     camera = Camera.query.get_or_404(camera_id)
     db.session.delete(camera)

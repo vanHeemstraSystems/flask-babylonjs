@@ -6,12 +6,12 @@ from app.extensions import db
 
 tag_bp = Blueprint('tag', __name__)
 
-@tag_bp.route('/tags')
+@tag_bp.route('/')
 def list_tags():
    tags = Tag.query.all()
    return render_template('tags.html', tags=tags)
 
-@tag_bp.route('/tags/new', methods=['GET', 'POST'])
+@tag_bp.route('/new', methods=['GET', 'POST'])
 def new_tag():
    form = TagForm()
    if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_tag():
        return redirect(url_for('tag.list_tags'))
    return render_template('new_tag.html', form=form)
 
-@tag_bp.route('/tags/edit/<int:tag_id>', methods=['GET', 'POST'])
+@tag_bp.route('/edit/<int:tag_id>', methods=['GET', 'POST'])
 def edit_tag(tag_id):
    tag = Tag.query.get_or_404(tag_id)
    form = TagForm(obj=tag)

@@ -5,7 +5,7 @@ from app.extensions import db
 
 board_bp = Blueprint('board', __name__)
 
-@board_bp.route('/boards')
+@board_bp.route('/')
 def list_boards():
    boards = Board.query.all()
    return render_template('boards.html', boards=boards)

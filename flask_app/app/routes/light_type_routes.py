@@ -6,12 +6,12 @@ from app.extensions import db
 
 light_type_bp = Blueprint('light_type', __name__)
 
-@light_type_bp.route('/light_types')
+@light_type_bp.route('/')
 def list_light_types():
     light_types = LightType.query.all()
     return render_template('light_types.html', light_types=light_types)
 
-@light_type_bp.route('/light_types/new', methods=['GET', 'POST']) 
+@light_type_bp.route('/new', methods=['GET', 'POST']) 
 def new_light_type():
     form = LightTypeForm()
     if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_light_type():
         return redirect(url_for('light_type.list_light_types'))
     return render_template('new_light_type.html', form=form)
 
-@light_type_bp.route('/light_types/edit/<int:light_type_id>', methods=['GET', 'POST']) 
+@light_type_bp.route('/edit/<int:light_type_id>', methods=['GET', 'POST']) 
 def edit_light_type(light_type_id):
     light_type = LightType.query.get_or_404(light_type_id)
     form = LightTypeForm(obj=light_type)
@@ -34,7 +34,7 @@ def edit_light_type(light_type_id):
         return redirect(url_for('light_type.list_light_types'))
     return render_template('edit_light_type.html', form=form)
 
-@light_type_bp.route('/light_types/delete/<int:light_type_id>', methods=['POST']) 
+@light_type_bp.route('/delete/<int:light_type_id>', methods=['POST']) 
 def delete_light_type(light_type_id):
     light_type = LightType.query.get_or_404(light_type_id)
     db.session.delete(light_type)

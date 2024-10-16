@@ -6,7 +6,7 @@ from app.extensions import db
 
 character_bp = Blueprint('character', __name__)
 
-@character_bp.route('/characters')
+@character_bp.route('/')
 def list_characters():
    characters = Character.query.all()
    return render_template('characters.html', characters=characters)

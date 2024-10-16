@@ -6,12 +6,12 @@ from app.extensions import db
 
 shot_type_bp = Blueprint('shot_type', __name__)
 
-@shot_type_bp.route('/shot_types')
+@shot_type_bp.route('/')
 def list_shot_types():
     shot_types = ShotType.query.all()
     return render_template('shot_types.html', shot_types=shot_types)
 
-@shot_type_bp.route('/shot_types/new', methods=['GET', 'POST']) 
+@shot_type_bp.route('/new', methods=['GET', 'POST']) 
 def new_shot_type():
     form = ShotTypeForm()
     if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_shot_type():
         return redirect(url_for('shot_type.list_shot_types'))
     return render_template('new_shot_type.html', form=form)
 
-@shot_type_bp.route('/shot_types/edit/<int:shot_type_id>', methods=['GET', 'POST']) 
+@shot_type_bp.route('/edit/<int:shot_type_id>', methods=['GET', 'POST']) 
 def edit_shot_type(shot_type_id):
     shot_type = ShotType.query.get_or_404(shot_type_id)
     form = ShotTypeForm(obj=shot_type)
@@ -34,7 +34,7 @@ def edit_shot_type(shot_type_id):
         return redirect(url_for('shot_type.list_shot_types'))
     return render_template('edit_shot_type.html', form=form)
 
-@shot_type_bp.route('/shot_types/delete/<int:shot_type_id>', methods=['POST']) 
+@shot_type_bp.route('/delete/<int:shot_type_id>', methods=['POST']) 
 def delete_shot_type(shot_type_id):
     shot_type = ShotType.query.get_or_404(shot_type_id)
     db.session.delete(shot_type)

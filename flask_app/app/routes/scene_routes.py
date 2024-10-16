@@ -6,12 +6,12 @@ from app.extensions import db
 
 scene_bp = Blueprint('scene', __name__)
 
-@scene_bp.route('/scenes')
+@scene_bp.route('/')
 def list_scenes():
    scenes = Scene.query.all()
    return render_template('scenes.html', scenes=scenes)
 
-@scene_bp.route('/scenes/new', methods=['GET', 'POST'])
+@scene_bp.route('/new', methods=['GET', 'POST'])
 def new_scene():
    form = SceneForm()
    if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_scene():
        return redirect(url_for('scene.list_scenes'))
    return render_template('new_scene.html', form=form)
 
-@scene_bp.route('/scenes/edit/<int:scene_id>', methods=['GET', 'POST'])
+@scene_bp.route('/edit/<int:scene_id>', methods=['GET', 'POST'])
 def edit_scene(scene_id):
    scene = Scene.query.get_or_404(scene_id)
    form = SceneForm(obj=scene)

@@ -6,12 +6,12 @@ from app.extensions import db
 
 character_type_bp = Blueprint('character_type', __name__)
 
-@character_type_bp.route('/character_types')
+@character_type_bp.route('/')
 def list_character_types():
     character_types = CharacterType.query.all()
     return render_template('character_types.html', character_types=character_types)
 
-@character_type_bp.route('/character_types/new', methods=['GET', 'POST']) 
+@character_type_bp.route('/new', methods=['GET', 'POST']) 
 def new_character_type():
     form = CharacterTypeForm()
     if form.validate_on_submit():
@@ -22,7 +22,7 @@ def new_character_type():
         return redirect(url_for('character_type.list_character_types'))
     return render_template('new_character_type.html', form=form)
 
-@character_type_bp.route('/character_types/edit/<int:character_type_id>', methods=['GET', 'POST']) 
+@character_type_bp.route('/edit/<int:character_type_id>', methods=['GET', 'POST']) 
 def edit_character_type(character_type_id):
     character_type = CharacterType.query.get_or_404(character_type_id)
     form = CharacterTypeForm(obj=character_type)
@@ -34,7 +34,7 @@ def edit_character_type(character_type_id):
         return redirect(url_for('character_type.list_character_types'))
     return render_template('edit_character_type.html', form=form)
 
-@character_type_bp.route('/character_types/delete/<int:character_type_id>', methods=['POST']) 
+@character_type_bp.route('/delete/<int:character_type_id>', methods=['POST']) 
 def delete_character_type(character_type_id):
     character_type = CharacterType.query.get_or_404(character_type_id)
     db.session.delete(character_type)

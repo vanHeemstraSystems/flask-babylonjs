@@ -6,12 +6,12 @@ from app.extensions import db, bcrypt
 
 user_bp = Blueprint('user', __name__)
 
-@user_bp.route('/users')
+@user_bp.route('/')
 def list_users():
    users = model_user.query.all()
    return render_template('users.html', users=users)
  
-@user_bp.route('/users/new', methods=['GET', 'POST'])
+@user_bp.route('/new', methods=['GET', 'POST'])
 def new_user():
    form = UserForm()
    if form.validate_on_submit():
@@ -26,7 +26,7 @@ def new_user():
        return redirect(url_for('prop.list_users'))
    return render_template('new_user.html', form=form)
 
-@user_bp.route('/users/edit/<int:prop_id>', methods=['GET', 'POST'])
+@user_bp.route('/edit/<int:prop_id>', methods=['GET', 'POST'])
 def edit_user(user_id):
    user = model_user.query.get_or_404(user_id)
    form = UserForm(obj=user)

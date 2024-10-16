@@ -6,12 +6,12 @@ from app.extensions import db
 
 light_bp = Blueprint('light', __name__)
 
-@light_bp.route('/lights')
+@light_bp.route('/')
 def list_lights():
    lights = Light.query.all()
    return render_template('lights.html', lights=lights)
 
-@light_bp.route('/lights/new', methods=['GET', 'POST'])
+@light_bp.route('/new', methods=['GET', 'POST'])
 def new_light():
    form = LightForm()
    if form.validate_on_submit():
@@ -27,7 +27,7 @@ def new_light():
        return redirect(url_for('light.list_lights'))
    return render_template('new_light.html', form=form)
 
-@light_bp.route('/lights/edit/<int:light_id>', methods=['GET', 'POST'])
+@light_bp.route('/edit/<int:light_id>', methods=['GET', 'POST'])
 def edit_light(light_id):
    light = Light.query.get_or_404(light_id)
    form = LightForm(obj=light)
