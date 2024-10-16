@@ -51,13 +51,13 @@ Paket, erstellen Sie Ihre virtuelle Umgebung neu.
 Auf macOS siehe<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Starten Sie die virtuelle Umgebung und geben Sie Folgendes ein:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
-4) Laufen`$ pip install -r requirements.txt`5) Ausführen:`$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`8) Legen Sie den SQLAlchemy-Datenbank-URI fest:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`
-12) Open the web interface as prompted
-13) Use `CTRL+c`um den Webserver zu verlassen.
+4) Laufen`$ pip install -r requirements.txt`
+5) Run: `$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`8) Legen Sie den SQLAlchemy-Datenbank-URI fest:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Öffnen Sie nach Aufforderung die Weboberfläche
+13) Verwendung`CTRL+c`um den Webserver zu verlassen.
 14) Alternativ führen Sie die Befehlszeilenschnittstelle von flask aus:`(.venv) $ flask shell`15) Führen Sie alle Flaschenbefehle aus: >>>
 16) Verwendung`exit()`um die Befehlszeilenschnittstelle zu verlassen.
 
-In general, you can take the following steps to manage your database migrations as you develop your Flask applications:
+Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankmigrationen zu verwalten, während Sie Ihre Flask-Anwendungen entwickeln:
 
 1) Ändern Sie die Datenbankmodelle.
 
