@@ -1,4 +1,4 @@
-कुप्पी-babylonjs
+फ्लास्क-बेबीलोनज
 
 # फ्लास्क बेबीलोनजेएस
 
@@ -16,7 +16,7 @@
 
 "फ्लोबाइट" पर आधारित<https://github.com/themesberg/flowbite>
 
-~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 "टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
@@ -38,7 +38,7 @@
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
 उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
