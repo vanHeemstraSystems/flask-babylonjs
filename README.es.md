@@ -10,13 +10,13 @@ Basado en "Flask SQLAlchemy" en<https://github.com/vanHeemstraSystems/flask-sqla
 
 Basado en el "Patrón de fábrica" ​​en<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Basado en "Diagramas de relación de entidades basados ​​en texto con Mermaid.js" en<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 Basado en "TailwindsCSS Getting Started" en<https://tailwindcss.com/docs/installation>
 
 Basado en "FlowBite" en<https://github.com/themesberg/flowbite>
 
-~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~ Basado en "Curso intensivo de CSS Flowbite + Tailwind | Aprenda Flowbite para React y Next.js (tutorial completo)" en<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 Basado en "Tailwind CSS Flask - Flowbite" en<https://flowbite.com/docs/getting-started/flask/>
 
@@ -27,6 +27,8 @@ Basado en "DB Browser para SQLite" en<https://sqlitebrowser.org/>, usar<https://
 Basado en "Cómo realizar migraciones de Flask-SQLAlchemy usando Flask-Migrate" en<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
 Abra esta URL con`https://github.dev/`en lugar de`https://github.com/`para utilizar el IDE basado en web de Visual Studio Code.
+
+# Resumen ejecutivo
 
 Ejecute esta aplicación de la siguiente manera:
 
@@ -54,6 +56,18 @@ En macOS ver<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 14) Alternativamente, ejecute la interfaz de línea de comando del matraz:`(.venv) $ flask shell`15) Ejecute cualquier comando de matraz: >>>
 16) Uso`exit()`para salir de la interfaz de línea de comando.
 
+En general, puede seguir los siguientes pasos para administrar las migraciones de su base de datos a medida que desarrolla sus aplicaciones Flask:
+
+1) Modificar los modelos de base de datos.
+
+2) Generar un script de migración con el`flask db migrate -m "some comment"`dominio. Si no ha habido cambios desde la última migración, se le solicitará`No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
+
+3) Revise el script de migración generado y corríjalo si es necesario.
+
+4) Aplicar los cambios a la base de datos con el`flask db upgrade`dominio.
+
+5) Para restaurar una versión anterior de la base de datos, utilice el`flask db downgrade`dominio.
+
 ## 100 - Introducción
 
 Ver[README.md](./100/README.md)
@@ -66,6 +80,6 @@ Ver[README.md](./200/README.md)
 
 Ver[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - Conclusión
 
 Ver[README.md](./400/README.md)

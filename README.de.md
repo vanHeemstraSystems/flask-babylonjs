@@ -28,13 +28,15 @@ Basierend auf „So führen Sie Flask-SQLAlchemy-Migrationen mit Flask-Migrate d
 
 Öffnen Sie diese URL mit`https://github.dev/`anstatt`https://github.com/`um die webbasierte Visual Studio Code-IDE zu verwenden.
 
+# Zusammenfassung
+
 Führen Sie diese Anwendung wie folgt aus:
 
 1) Geben Sie ein`flask_app`Verzeichnis:`$ cd flask_app`2) Falls nicht vorhanden, erstellen Sie eine virtuelle Umgebung innerhalb des`flask_app`Verzeichnis:`$ python3 -m venv .venv`(macOS:`$ virtualenv .venv`)
 
 Befolgen Sie im folgenden Fall die Ratschläge:
 
-Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies bei „surepip“ nicht der Fall ist
+Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies nicht der Fall ist
 verfügbar.
 
 Auf Debian/Ubuntu-Systemen müssen Sie python3-venv installieren
@@ -53,6 +55,18 @@ Auf macOS siehe<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 13) Verwendung`CTRL+c`um den Webserver zu verlassen.
 14) Alternativ führen Sie die Befehlszeilenschnittstelle von flask aus:`(.venv) $ flask shell`15) Führen Sie alle Flaschenbefehle aus: >>>
 16) Verwendung`exit()`um die Befehlszeilenschnittstelle zu verlassen.
+
+Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankmigrationen zu verwalten, während Sie Ihre Flask-Anwendungen entwickeln:
+
+1) Ändern Sie die Datenbankmodelle.
+
+2) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
+
+3) Überprüfen Sie das generierte Migrationsskript und korrigieren Sie es gegebenenfalls.
+
+4) Übernehmen Sie die Änderungen mit dem auf die Datenbank`flask db upgrade`Befehl.
+
+5) Um eine frühere Datenbankversion wiederherzustellen, verwenden Sie die`flask db downgrade`Befehl.
 
 ## 100 - Einführung
 
