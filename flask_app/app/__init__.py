@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from app.extensions import db, bcrypt, login_manager, socketio
 from app.functions import init_db
-from app.models import model_game, model_user
-from app.seeds import seed_games, seed_users
+from app.models import model_board, model_game, model_user
+from app.seeds import seed_boards, seed_games, seed_users
 # from app.seeds.seed_camera_types import seed_camera_types
 # from app.seeds.seed_character_roles import seed_character_roles
 # from app.seeds.seed_character_types import seed_character_types
@@ -54,8 +54,8 @@ def create_app(config_class=Config):
     # from app.routes.avatar_routes import avatar_bp
     # app.register_blueprint(avatar_bp)
 
-    # from app.routes.board_routes import board_bp
-    # app.register_blueprint(board_bp, url_prefix='/boards')
+    from app.routes.board_routes import board_bp
+    app.register_blueprint(board_bp, url_prefix='/boards')
 
     # from app.routes.camera_routes import camera_bp
     # app.register_blueprint(camera_bp, url_prefix='/cameras')
@@ -78,8 +78,8 @@ def create_app(config_class=Config):
     # from app.routes.field_type_routes import field_type_bp
     # app.register_blueprint(field_type_bp, url_prefix='/field_types')
 
-    # from app.routes.game_routes import game_bp
-    # app.register_blueprint(game_bp, url_prefix='/games')
+    from app.routes.game_routes import game_bp
+    app.register_blueprint(game_bp, url_prefix='/games')
 
     # from app.routes.light_routes import light_bp
     # app.register_blueprint(light_bp, url_prefix='/lights')
@@ -134,8 +134,8 @@ def create_app(config_class=Config):
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
 
     with app.app_context():
-        models = [model_game, model_user] # Add models
-        seeds = [seed_games, seed_users] # Add seeds
+        models = [model_board, model_game, model_user] # Add models
+        seeds = [seed_boards, seed_games, seed_users] # Add seeds
         init_db(models, seeds)
         # seed_camera_types()
         # seed_character_roles()

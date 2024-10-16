@@ -14,3 +14,7 @@ def list_games():
 @game_bp.route('/menu')
 def menu():
    return '<h1>Game Menu Page</h1>'
+
+@game_bp.route('/new_game')
+def new_game():
+   return '<h1>New Game Page</h1>'

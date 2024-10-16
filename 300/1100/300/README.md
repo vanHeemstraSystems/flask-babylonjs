@@ -34,7 +34,7 @@ In ```flask_app/app/extensions.py``` with ```db = SQLAlchemy()```, you create an
 
 By passing the Flask ```app``` as an argument, you initiate the ```db``` in ```flask_app/app/__init__.py``` with ```db.init_app(app)```.
 
-Next, you create a ```User``` class that inherits from ```db.Model```, representing a database table named ‘users’. In the table, you define an ```id``` column for the user ID and a ```username``` column for the username, amongst other columns.
+Next, you create a ```User``` class that inherits from ```db.Model```, representing a database table named ```users```. In the table, you define an ```id``` column for the user ID and a ```username``` column for the username, amongst other columns.
 
 ```
 #!/usr/bin/env python
@@ -67,7 +67,6 @@ flask_app/app/models/user.py
 The special [repr](https://docs.python.org/3/reference/datamodel.html#object.__repr__) function allows you to give each object a string representation to recognize it for debugging purposes.
 
 Finally in ```flask_app/app/routes/user_routes.py```, you create a route ('/users') that returns a simple HTML response listing all users when the URL is accessed.
-
 
 ```
 #!/usr/bin/env python
