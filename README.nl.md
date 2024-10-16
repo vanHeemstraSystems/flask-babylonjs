@@ -56,7 +56,7 @@ Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 14) U kunt ook de flask-opdrachtregelinterface uitvoeren:`(.venv) $ flask shell`15) Voer eventuele flescommando's uit: >>>
 16) Gebruik`exit()`om de opdrachtregelinterface te verlaten.
 
-Over het algemeen kunt u de volgende stappen nemen om uw databasemigraties te beheren terwijl u uw Flask-applicaties ontwikkelt:
+In general, you can take the following steps to manage your database migrations as you develop your Flask applications:
 
 1) Wijzig de databasemodellen.
 
@@ -84,4 +84,4 @@ Zien[README.md](./300/README.md)
 
 ## 400 - Conclusie
 
-Zien[README.md](./400/README.md)
+See [README.md](./400/README.md)
