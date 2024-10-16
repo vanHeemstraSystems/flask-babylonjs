@@ -4,7 +4,7 @@ Flasche-Babylonjs
 
 > Eine Python-Flask-Anwendung mit Babylon.js 3D-Szenen
 
-Basierend auf „How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy“ unter<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 Basierend auf „Flask SQLAlchemy“ unter<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -36,7 +36,7 @@ Führen Sie diese Anwendung wie folgt aus:
 
 Befolgen Sie im folgenden Fall die Ratschläge:
 
-Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies bei „surepip“ nicht der Fall ist
+Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies nicht der Fall ist
 verfügbar.
 
 Auf Debian/Ubuntu-Systemen müssen Sie python3-venv installieren
