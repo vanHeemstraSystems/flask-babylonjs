@@ -1,4 +1,4 @@
-फ्लास्क-बेबीलोनज
+कुप्पी-babylonjs
 
 # फ्लास्क बेबीलोनजेएस
 
@@ -25,6 +25,8 @@
 "SQLite के लिए DB ब्राउज़र" पर आधारित<https://sqlitebrowser.org/>, उपयोग<https://dbhub.io/wvanheemstra>
 
 "फ्लास्क-माइग्रेट का उपयोग करके फ्लास्क-एसक्यूएलकेमी माइग्रेशन कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
+
+"पाइडबब" पर आधारित<https://pypi.org/project/pydbhub/>
 
 इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.com/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 
@@ -72,7 +74,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 100 - परिचय
 
-देखना[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 
@@ -84,4 +86,4 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 400 - निष्कर्ष
 
-See [README.md](./400/README.md)
+देखना[README.md](./400/README.md)
