@@ -30,11 +30,11 @@ Flask-babylonjs
 
 開啟此網址`https://github.dev/`而不是`https://github.com/`使用基於 Web 的 Visual Studio Code IDE。
 
-# Executive Summary
+# 執行摘要
 
 按如下方式運行該應用程式：
 
-1) Enter `flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
+1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
 
 若出現以下情況，請遵循其建議：
 
@@ -62,7 +62,7 @@ Flask-babylonjs
 
 1）修改資料庫模型。
 
-2）如果沒有`migrations`目錄還存在於`flask_app` directory, run ` (.venv) flask_app $ flask db init`.
+2）如果沒有`migrations`目錄還存在於`flask_app`目錄，運行` (.venv) flask_app $ flask db init`.
 
 3) 產生遷移腳本`flask db migrate -m "some comment"`命令。如果自上次遷移以來沒有發生任何更改，系統會提示您`No changes in schema detected.`。因此，您可以毫無恐懼地重複此命令。
 
