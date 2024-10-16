@@ -36,7 +36,7 @@ Führen Sie diese Anwendung wie folgt aus:
 
 Befolgen Sie im folgenden Fall die Ratschläge:
 
-Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies nicht der Fall ist
+Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies bei „surepip“ nicht der Fall ist
 verfügbar.
 
 Auf Debian/Ubuntu-Systemen müssen Sie python3-venv installieren
@@ -60,13 +60,15 @@ Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankm
 
 1) Ändern Sie die Datenbankmodelle.
 
-2) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
+2) Wenn nein`migrations`Verzeichnis existiert noch im`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
 
-3) Überprüfen Sie das generierte Migrationsskript und korrigieren Sie es gegebenenfalls.
+3) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
 
-4) Übernehmen Sie die Änderungen mit dem auf die Datenbank`flask db upgrade`Befehl.
+4) Überprüfen Sie das generierte Migrationsskript und korrigieren Sie es gegebenenfalls.
 
-5) Um eine frühere Datenbankversion wiederherzustellen, verwenden Sie die`flask db downgrade`Befehl.
+5) Übernehmen Sie die Änderungen mit dem auf die Datenbank`flask db upgrade`Befehl.
+
+6) Um eine frühere Datenbankversion wiederherzustellen, verwenden Sie die`flask db downgrade`Befehl.
 
 ## 100 - Einführung
 
