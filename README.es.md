@@ -64,7 +64,7 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 3) Generar un script de migración con el`flask db migrate -m "some comment"`dominio. Si no ha habido cambios desde la última migración, se le solicitará`No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
 
-4) Revise el script de migración generado y corríjalo si es necesario.
+4) Review the generated migration script and correct it if necessary.
 
 5) Aplicar los cambios a la base de datos con el`flask db upgrade`dominio.
 
