@@ -4,7 +4,7 @@ Flasche-Babylonjs
 
 > Eine Python-Flask-Anwendung mit Babylon.js 3D-Szenen
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Basierend auf „How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy“ unter<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 Basierend auf „Flask SQLAlchemy“ unter<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -26,6 +26,8 @@ Basierend auf „DB Browser for SQLite“ unter<https://sqlitebrowser.org/>, ver
 
 Basierend auf „So führen Sie Flask-SQLAlchemy-Migrationen mit Flask-Migrate durch“ unter<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
+Basierend auf „pydbhub“ unter<https://pypi.org/project/pydbhub/>
+
 Öffnen Sie diese URL mit`https://github.dev/`anstatt`https://github.com/`um die webbasierte Visual Studio Code-IDE zu verwenden.
 
 # Zusammenfassung
@@ -36,7 +38,7 @@ Führen Sie diese Anwendung wie folgt aus:
 
 Befolgen Sie im folgenden Fall die Ratschläge:
 
-Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies nicht der Fall ist
+Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies bei „surepip“ nicht der Fall ist
 verfügbar.
 
 Auf Debian/Ubuntu-Systemen müssen Sie python3-venv installieren
@@ -60,7 +62,7 @@ Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankm
 
 1) Ändern Sie die Datenbankmodelle.
 
-2) Wenn nein`migrations`Verzeichnis existiert noch in der`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
+2) Wenn nein`migrations`Verzeichnis existiert noch im`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
 
 3) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
 
