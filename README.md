@@ -27,6 +27,8 @@ Based on "How to Perform Flask-SQLAlchemy Migrations Using Flask-Migrate" at htt
 
 Open this URL with ```https://github.dev/``` instead of ```https://github.com/``` to use the Visual Studio Code web-based IDE.
 
+# Executive Summary
+
 Run this application as follows:
 
 1) Enter ```flask_app``` directory: ```$ cd flask_app```
@@ -63,6 +65,18 @@ On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 14) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
 15) Execute any flask commands: >>>
 16) Use ```exit()``` to exit from the command line interface.
+
+In general, you can take the following steps to manage your database migrations as you develop your Flask applications:
+
+1) Modify the database models.
+
+2) Generate a migration script with the ```flask db migrate -m "some comment"``` command. If there have been no changes since last migration, you will be prompted with ```No changes in schema detected.```. Hence, you can repeat this command without fear.
+
+3) Review the generated migration script and correct it if necessary.
+
+4) Apply the changes to the database with the ```flask db upgrade``` command.
+
+5) To restore a previous database version, use the ```flask db downgrade``` command.
 
 ## 100 - Introduction
 

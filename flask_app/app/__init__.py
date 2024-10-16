@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from app.extensions import db, bcrypt, login_manager, socketio
 from app.functions import init_db
-from app.models.user import User
-from app.seeds.seed_users import seed_users
+from app.models import model_game, model_user
+from app.seeds import seed_games, seed_users
 # from app.seeds.seed_camera_types import seed_camera_types
 # from app.seeds.seed_character_roles import seed_character_roles
 # from app.seeds.seed_character_types import seed_character_types
@@ -134,8 +134,8 @@ def create_app(config_class=Config):
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
 
     with app.app_context():
-        models = [User] # Add models
-        seeds = [seed_users] # Add seeds
+        models = [model_game, model_user] # Add models
+        seeds = [seed_games, seed_users] # Add seeds
         init_db(models, seeds)
         # seed_camera_types()
         # seed_character_roles()

@@ -1,7 +1,6 @@
-# This file can be empty but is necessary to treat the directory as a package.
+#!/usr/bin/env python
+from app.models.game import Game
+from app.models.user import User
 
-# from flask_sqlalchemy import SQLAlchemy
-
-# db = SQLAlchemy()
-
-# moved to app.extensions.py
+model_game = Game
+model_user = User
