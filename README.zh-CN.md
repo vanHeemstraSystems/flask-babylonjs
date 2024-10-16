@@ -26,7 +26,7 @@ Flask-babylonjs
 
 基于“如何使用 Flask-Migrate 执行 Flask-SQLAlchemy 迁移”，位于<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
-Open this URL with `https://github.dev/`而不是`https://github.com/`使用基于 Web 的 Visual Studio Code IDE。
+打开此网址`https://github.dev/`而不是`https://github.com/`使用基于 Web 的 Visual Studio Code IDE。
 
 # 执行摘要
 
