@@ -9,7 +9,7 @@
     <ul>
         {% for profile in profiles %}
         <li>
-            {{ profile.username }} - {{ profile.email }}
+            {{ profile.profilename }}
             <a href="{{ url_for('profile.edit_profile', profile_id=profile.id) }}">Edit</a>
             <form action="{{ url_for('profile.delete_profile', profile_id=profile.id) }}" method="POST" style="display:inline;">
                 <button type="submit">Delete</button>

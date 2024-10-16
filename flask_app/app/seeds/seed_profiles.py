@@ -8,7 +8,7 @@ def seed_profiles():
     db.session.commit()
 
     # Create a new profile
-    new_profile = Profile(profilename="John Doe", user_id=1)
+    new_profile = Profile(id=1, profilename="John Doe", user_id=1)
     db.session.add(new_profile)
     db.session.commit()
 

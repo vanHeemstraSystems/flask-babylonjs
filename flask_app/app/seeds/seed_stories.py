@@ -8,7 +8,7 @@ def seed_stories():
     db.session.commit()
 
     # Create a new story
-    new_story = Story(title="Agility", content="A story about agility and quickness in movement.")
+    new_story = Story(id=1, title="Agility", content="A story about agility and quickness in movement.")
     db.session.add(new_story)
     db.session.commit()
 
