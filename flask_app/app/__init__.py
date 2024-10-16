@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 from app.extensions import db, bcrypt, login_manager, socketio
+from app.functions import init_db
+from app.models.user import User
+from app.seeds.seed_users import seed_users
+# from app.seeds.seed_camera_types import seed_camera_types
+# from app.seeds.seed_character_roles import seed_character_roles
+# from app.seeds.seed_character_types import seed_character_types
+# from app.seeds.seed_field_types import seed_field_types
+# from app.seeds.seed_fields import seed_fields
+# from app.seeds.seed_light_types import seed_light_types
+# from app.seeds.seed_player_roles import seed_player_roles
+# from app.seeds.seed_shot_types import seed_shot_types
+# from app.seeds.seed_stories import seed_stories
+# from app.seeds.seed_user_roles import seed_user_roles
+
 from config import Config
 from flask import Flask
 from flask_migrate import Migrate
@@ -118,5 +132,20 @@ def create_app(config_class=Config):
     @app.route('/test/')
     def test_page():
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
+
+    with app.app_context():
+        models = [User] # Add models
+        seeds = [seed_users] # Add seeds
+        init_db(models, seeds)
+        # seed_camera_types()
+        # seed_character_roles()
+        # seed_character_types()        
+        # seed_field_types()
+        # seed_fields()
+        # seed_light_types()
+        # seed_player_roles()
+        # seed_shot_types()        
+        # seed_stories()
+        # seed_user_roles()
 
     return app

@@ -57,7 +57,7 @@ On macOS see https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 8) Set the SQLAlchemy Database URI: ```(.venv) $ export SQLALCHEMY_DATABASE_URI=...```, default is ```sqlite:///app.db```
 9) Set SQLAlchemy Track Modifications: ```(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True```
 10) Set Secret Key: ```(.venv) $ export SECRET_KEY=********```
-11) Run the flask app: ```(.venv) $ flask run```
+11) Run the flask app: ~```(.venv) $ flask run```~ ```(.venv) $ python3 run.py```
 12) Open the web interface as prompted
 13) Use ```CTRL+c``` to exit the web server.
 14) Alternatively run the flask command line interface: ```(.venv) $ flask shell```
