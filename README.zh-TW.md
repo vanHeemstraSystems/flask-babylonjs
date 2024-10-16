@@ -16,7 +16,7 @@ Flask-babylonjs
 
 基於“FlowBite”<https://github.com/themesberg/flowbite>
 
-~基於“Flowbite + Tailwind CSS 速成課程 | 學習 Flowbite for React 和 Next.js（完整教程）”，地址：<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 基於“Tailwind CSS Flask - Flowbite”，位於<https://flowbite.com/docs/getting-started/flask/>
 
@@ -60,7 +60,7 @@ Flask-babylonjs
 
 1）修改資料庫模型。
 
-2）如果沒有`migrations`目錄還存在於`flask_app`目錄，運行` (.venv) flask_app $ flask db init`.
+2）如果沒有`migrations`目錄還存在於`flask_app` directory, run ` (.venv) flask_app $ flask db init`.
 
 3) 產生遷移腳本`flask db migrate -m "some comment"`命令。如果自上次遷移以來沒有發生任何更改，系統會提示您`No changes in schema detected.`。因此，您可以毫無恐懼地重複此命令。
 
