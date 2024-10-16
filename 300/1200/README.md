@@ -35,7 +35,7 @@ These can be generated in your Settings page, when logged in.
 $ pip install pydbhub
 ```
 
-Or better, make it part of flask_app/requirements.txt, and run:
+Or better, we made it part of ```flask_app/requirements.txt``` so run:
 
 ```
 $ cd flask_app
