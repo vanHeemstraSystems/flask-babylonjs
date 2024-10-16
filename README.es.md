@@ -10,7 +10,7 @@ Basado en "Flask SQLAlchemy" en<https://github.com/vanHeemstraSystems/flask-sqla
 
 Basado en el "Patrón de fábrica" ​​en<https://github.com/vanHeemstraSystems/factory-pattern>
 
-Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Basado en "Diagramas de relación de entidades basados ​​en texto con Mermaid.js" en<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 Basado en "TailwindsCSS Getting Started" en<https://tailwindcss.com/docs/installation>
 
@@ -60,13 +60,15 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 1) Modificar los modelos de base de datos.
 
-2) Generar un script de migración con el`flask db migrate -m "some comment"`dominio. Si no ha habido cambios desde la última migración, se le solicitará`No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
+2) Si no`migrations`directorio todavía existe en el`flask_app`directorio, ejecutar` (.venv) flask_app $ flask db init`.
 
-3) Revise el script de migración generado y corríjalo si es necesario.
+3) Generar un script de migración con el`flask db migrate -m "some comment"`dominio. Si no ha habido cambios desde la última migración, se le solicitará`No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
 
-4) Aplicar los cambios a la base de datos con el`flask db upgrade`dominio.
+4) Revise el script de migración generado y corríjalo si es necesario.
 
-5) Para restaurar una versión anterior de la base de datos, utilice el`flask db downgrade`dominio.
+5) Aplicar los cambios a la base de datos con el`flask db upgrade`dominio.
+
+6) Para restaurar una versión anterior de la base de datos, utilice el`flask db downgrade`dominio.
 
 ## 100 - Introducción
 
