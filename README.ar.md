@@ -30,11 +30,11 @@
 
 قم بتشغيل هذا التطبيق على النحو التالي:
 
-1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app` directory: `$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
+1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الظاهرية بنجاح نظرًا لعدم إنشاء متأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -43,8 +43,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام sudo مع هذا الأمر.  بعد تثبيت python3-venv
-الحزمة، أعد إنشاء بيئتك الافتراضية.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
