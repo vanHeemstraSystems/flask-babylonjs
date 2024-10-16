@@ -47,8 +47,8 @@ Flask-babylonjs
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+您可能需要将 sudo 与该命令一起使用。  安装 python3-venv 后
+包，重新创建您的虚拟环境。
 
 在 macOS 上请参阅<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -56,7 +56,7 @@ package, recreate your virtual environment.
 4）运行`$ pip install -r requirements.txt`5）运行：`$ cd app`然后`$ npm install`最后`$ cd ..`6）将Flask App设置到app目录：`(.venv) $ export FLASK_APP=app`7）将Flask环境设置为True进行开发：`(.venv) $ export FLASK_DEBUG=True`8) 设置 SQLAlchemy 数据库 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，默认为`sqlite:///app.db`9）设置SQLAlchemy轨道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 设置密钥：`(.venv) $ export SECRET_KEY=********`11）运行烧瓶应用程序：〜`(.venv) $ flask run`~`(.venv) $ python3 run.py`12）根据提示打开Web界面
 13) 使用`CTRL+c`退出网络服务器。
 14) 或者运行flask命令行界面：`(.venv) $ flask shell`15) 执行任意 Flask 命令：>>>
-16) 使用`exit()` to exit from the command line interface.
+16) 使用`exit()`退出命令行界面。
 
 一般来说，在开发 Flask 应用程序时，您可以采取以下步骤来管理数据库迁移：
 

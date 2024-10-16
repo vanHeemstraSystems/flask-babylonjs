@@ -16,7 +16,7 @@
 
 "फ्लोबाइट" पर आधारित<https://github.com/themesberg/flowbite>
 
-~ "फ़्लोबाइट + टेलविंड सीएसएस क्रैश कोर्स | रिएक्ट और नेक्स्ट.जेएस (पूर्ण ट्यूटोरियल) के लिए फ़्लोबाइट सीखें" पर आधारित<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 "टेलविंड सीएसएस फ्लास्क - फ्लोबाइट" पर आधारित<https://flowbite.com/docs/getting-started/flask/>
 
@@ -74,7 +74,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 100 - परिचय
 
-See [README.md](./100/README.md)
+देखना[README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 

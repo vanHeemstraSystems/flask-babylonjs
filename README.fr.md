@@ -26,6 +26,8 @@ Basé sur "DB Browser pour SQLite" sur<https://sqlitebrowser.org/>, utiliser<htt
 
 Basé sur « Comment effectuer des migrations Flask-SQLAlchemy à l'aide de Flask-Migrate » sur<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
+Basé sur "pydbhub" sur<https://pypi.org/project/pydbhub/>
+
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/`pour utiliser l'EDI Web Visual Studio Code.
 
 # Résumé exécutif
@@ -70,7 +72,7 @@ En général, vous pouvez suivre les étapes suivantes pour gérer vos migration
 
 6) Pour restaurer une version précédente de la base de données, utilisez le`flask db downgrade`commande.
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 

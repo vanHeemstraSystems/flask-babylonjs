@@ -26,6 +26,8 @@
 
 استنادًا إلى "كيفية إجراء عمليات ترحيل Flask-SQLAlchemy باستخدام Flask-Migrate" في<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
+استنادا إلى "pydbhub" في<https://pypi.org/project/pydbhub/>
+
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
 # ملخص تنفيذي
@@ -36,7 +38,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -45,7 +47,7 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام sudo مع هذا الأمر.  بعد تثبيت python3-venv
+قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
 الحزمة، أعد إنشاء بيئتك الافتراضية.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
@@ -66,7 +68,7 @@
 
 4) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
 
-5) تطبيق التغييرات على قاعدة البيانات مع`flask db upgrade`يأمر.
+5) قم بتطبيق التغييرات على قاعدة البيانات باستخدام الملف`flask db upgrade`يأمر.
 
 6) لاستعادة إصدار سابق من قاعدة البيانات، استخدم الأمر`flask db downgrade`يأمر.
 
