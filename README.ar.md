@@ -1,4 +1,4 @@
-قارورة-babylonjs
+flask-babylonjs
 
 # قارورة BabylonJS
 
@@ -28,13 +28,15 @@
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
+# ملخص تنفيذي
+
 قم بتشغيل هذا التطبيق على النحو التالي:
 
 1) أدخل`flask_app`دليل:`$ cd flask_app`2) في حالة عدم وجودها، قم بإنشاء بيئة افتراضية داخل`flask_app`دليل:`$ python3 -m venv .venv`(ماك:`$ virtualenv .venv`)
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -43,8 +45,8 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+قد تحتاج إلى استخدام sudo مع هذا الأمر.  بعد تثبيت python3-venv
+الحزمة، أعد إنشاء بيئتك الافتراضية.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
@@ -53,6 +55,18 @@ package, recreate your virtual environment.
 13) الاستخدام`CTRL+c`للخروج من خادم الويب.
 14) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`15) تنفيذ أي أوامر قارورة: >>>
 16) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
+
+بشكل عام، يمكنك اتخاذ الخطوات التالية لإدارة عمليات ترحيل قاعدة البيانات الخاصة بك أثناء تطوير تطبيقات Flask الخاصة بك:
+
+1) تعديل نماذج قاعدة البيانات.
+
+2) قم بإنشاء برنامج نصي للترحيل باستخدام ملف`flask db migrate -m "some comment"`يأمر. إذا لم تكن هناك أي تغييرات منذ آخر عملية ترحيل، فستتم مطالبتك بذلك`No changes in schema detected.`. ومن ثم، يمكنك تكرار هذا الأمر دون خوف.
+
+3) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
+
+4) قم بتطبيق التغييرات على قاعدة البيانات باستخدام الملف`flask db upgrade`يأمر.
+
+5) لاستعادة إصدار سابق من قاعدة البيانات، استخدم الأمر`flask db downgrade`يأمر.
 
 ## 100- مقدمة
 
