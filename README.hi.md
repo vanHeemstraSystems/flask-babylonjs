@@ -36,7 +36,7 @@
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
 उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
@@ -60,7 +60,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 1) डेटाबेस मॉडल को संशोधित करें।
 
-2) If no `migrations`निर्देशिका अभी भी मौजूद है`flask_app`निर्देशिका, चलाएँ` (.venv) flask_app $ flask db init`.
+2) यदि नहीं`migrations`निर्देशिका अभी भी मौजूद है`flask_app`निर्देशिका, चलाएँ` (.venv) flask_app $ flask db init`.
 
 3) के साथ एक माइग्रेशन स्क्रिप्ट तैयार करें`flask db migrate -m "some comment"`आज्ञा। यदि पिछले माइग्रेशन के बाद से कोई परिवर्तन नहीं हुआ है, तो आपको संकेत दिया जाएगा`No changes in schema detected.`. इसलिए, आप बिना किसी डर के इस कमांड को दोहरा सकते हैं।
 
@@ -74,7 +74,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 देखना[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - आवश्यकताएँ
 
 देखना[README.md](./200/README.md)
 
@@ -84,4 +84,4 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 400 - निष्कर्ष
 
-देखना[README.md](./400/README.md)
+See [README.md](./400/README.md)
