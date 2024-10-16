@@ -16,13 +16,13 @@ Basierend auf „TailwindsCSS Getting Started“ unter<https://tailwindcss.com/d
 
 Basierend auf „FlowBite“ bei<https://github.com/themesberg/flowbite>
 
-~Based on "Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)" at <https://www.youtube.com/watch?v=FTNBPSPy6P8>~
+~Basierend auf „Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)“ unter<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
 
 Basierend auf „Tailwind CSS Flask – Flowbite“ bei<https://flowbite.com/docs/getting-started/flask/>
 
 Basierend auf „Tailwind Flask Starter“ bei<https://github.com/themesberg/tailwind-flask-starter>
 
-Basierend auf „DB Browser for SQLite“ unter<https://sqlitebrowser.org/>, use <https://dbhub.io/wvanheemstra>
+Basierend auf „DB Browser for SQLite“ unter<https://sqlitebrowser.org/>, verwenden<https://dbhub.io/wvanheemstra>
 
 Basierend auf „So führen Sie Flask-SQLAlchemy-Migrationen mit Flask-Migrate durch“ unter<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
@@ -34,7 +34,7 @@ Führen Sie diese Anwendung wie folgt aus:
 
 Befolgen Sie im folgenden Fall die Ratschläge:
 
-Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies nicht der Fall ist
+Die virtuelle Umgebung konnte nicht erfolgreich erstellt werden, da dies bei „surepip“ nicht der Fall ist
 verfügbar.
 
 Auf Debian/Ubuntu-Systemen müssen Sie python3-venv installieren
@@ -48,9 +48,8 @@ Paket, erstellen Sie Ihre virtuelle Umgebung neu.
 
 Auf macOS siehe<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Starten Sie die virtuelle Umgebung und geben Sie Folgendes ein:`. .venv/bin/activate` (macOS: `source .venv/bin/activate`)
-4) Laufen`$ pip install -r requirements.txt`
-5) Run: `$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`8) Legen Sie den SQLAlchemy-Datenbank-URI fest:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus:`(.venv) $ flask run`12) Öffnen Sie nach Aufforderung die Weboberfläche
+3) Starten Sie die virtuelle Umgebung und geben Sie Folgendes ein:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
+4) Laufen`$ pip install -r requirements.txt`5) Ausführen:`$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`8) Legen Sie den SQLAlchemy-Datenbank-URI fest:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus:`(.venv) $ flask run`12) Öffnen Sie nach Aufforderung die Weboberfläche
 13) Verwendung`CTRL+c`um den Webserver zu verlassen.
 14) Alternativ führen Sie die Befehlszeilenschnittstelle von flask aus:`(.venv) $ flask shell`15) Führen Sie alle Flaschenbefehle aus: >>>
 16) Verwendung`exit()`um die Befehlszeilenschnittstelle zu verlassen.
