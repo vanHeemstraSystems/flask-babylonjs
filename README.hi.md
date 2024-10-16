@@ -39,8 +39,8 @@
 वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
 उपलब्ध।
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
+निम्नलिखित कमांड का उपयोग करके पैकेज।
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -60,7 +60,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 1) डेटाबेस मॉडल को संशोधित करें।
 
-2) यदि नहीं`migrations`निर्देशिका अभी भी मौजूद है`flask_app`निर्देशिका, चलाएँ` (.venv) flask_app $ flask db init`.
+2) If no `migrations`निर्देशिका अभी भी मौजूद है`flask_app`निर्देशिका, चलाएँ` (.venv) flask_app $ flask db init`.
 
 3) के साथ एक माइग्रेशन स्क्रिप्ट तैयार करें`flask db migrate -m "some comment"`आज्ञा। यदि पिछले माइग्रेशन के बाद से कोई परिवर्तन नहीं हुआ है, तो आपको संकेत दिया जाएगा`No changes in schema detected.`. इसलिए, आप बिना किसी डर के इस कमांड को दोहरा सकते हैं।
 
@@ -68,13 +68,13 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 5) डेटाबेस में परिवर्तन लागू करें`flask db upgrade`आज्ञा।
 
-6) To restore a previous database version, use the `flask db downgrade`आज्ञा।
+6) पिछले डेटाबेस संस्करण को पुनर्स्थापित करने के लिए, इसका उपयोग करें`flask db downgrade`आज्ञा।
 
 ## 100 - परिचय
 
 देखना[README.md](./100/README.md)
 
-## 200 - आवश्यकताएँ
+## 200 - Requirements
 
 देखना[README.md](./200/README.md)
 
