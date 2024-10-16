@@ -28,6 +28,8 @@ Basé sur « Comment effectuer des migrations Flask-SQLAlchemy à l'aide de Flas
 
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/`pour utiliser l'EDI Web Visual Studio Code.
 
+# Résumé exécutif
+
 Exécutez cette application comme suit :
 
 1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
@@ -54,6 +56,18 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
 16) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
+En général, vous pouvez suivre les étapes suivantes pour gérer vos migrations de bases de données lorsque vous développez vos applications Flask :
+
+1) Modifier les modèles de base de données.
+
+2) Générez un script de migration avec le`flask db migrate -m "some comment"`commande. S'il n'y a eu aucun changement depuis la dernière migration, vous serez invité à`No changes in schema detected.`. Par conséquent, vous pouvez répéter cette commande sans crainte.
+
+3) Vérifiez le script de migration généré et corrigez-le si nécessaire.
+
+4) Appliquez les modifications à la base de données avec le`flask db upgrade`commande.
+
+5) Pour restaurer une version précédente de la base de données, utilisez le`flask db downgrade`commande.
+
 ## 100 - Présentation
 
 Voir[README.md](./100/README.md)
@@ -62,7 +76,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
