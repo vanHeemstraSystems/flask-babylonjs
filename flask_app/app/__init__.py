@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from app.extensions import db, bcrypt, login_manager, socketio
-from app.functions import init_db
-from app.models import model_board, model_game, model_user
-from app.seeds import seed_boards, seed_games, seed_users
+from app.utils.utils_db import init_db
+from app.models import model_board, model_game, model_profile, model_user
+from app.seeds import seed_boards, seed_games, seed_profiles, seed_users
 # from app.seeds.seed_camera_types import seed_camera_types
 # from app.seeds.seed_character_roles import seed_character_roles
 # from app.seeds.seed_character_types import seed_character_types
@@ -102,6 +102,9 @@ def create_app(config_class=Config):
     # from app.routes.player_role_routes import player_role_bp
     # app.register_blueprint(player_role_bp, url_prefix='/player_roles')
 
+    from app.routes.profile_routes import profile_bp
+    app.register_blueprint(profile_bp, url_prefix='/profiles')
+
     # from app.routes.prop_routes import prop_bp
     # app.register_blueprint(prop_bp, url_prefix='/props')  
 
@@ -137,8 +140,8 @@ def create_app(config_class=Config):
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
 
     with app.app_context():
-        models = [model_board, model_game, model_user] # Add models
-        seeds = [seed_boards, seed_games, seed_users] # Add seeds
+        models = [model_board, model_game, model_profile, model_user] # Add models
+        seeds = [seed_boards, seed_games, seed_profiles, seed_users] # Add seeds
         init_db(models, seeds)
         # seed_camera_types()
         # seed_character_roles()

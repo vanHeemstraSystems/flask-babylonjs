@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Profiles {% endblock %}</h1>
+</span>
+<div class="content">
+    <a href="{{ url_for('profile.new_profile') }}">Create New Profile</a>
+    <ul>
+        {% for profile in profiles %}
+        <li>
+            {{ profile.username }} - {{ profile.email }}
+            <a href="{{ url_for('profile.edit_profile', profile_id=profile.id) }}">Edit</a>
+            <form action="{{ url_for('profile.delete_profile', profile_id=profile.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

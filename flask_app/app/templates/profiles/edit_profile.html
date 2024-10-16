@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} Edit Profile {% endblock %}</h1>
+</span>
+<div class="content">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label for="profilename">Profilename:</label>
+        {{ form.profilename(size=32) }}<br>
+
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('profile.list_profiles') }}">Back to Profiles</a>
+</div>
+{% endblock %}
