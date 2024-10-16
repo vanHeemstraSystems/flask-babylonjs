@@ -26,7 +26,7 @@
 
 استنادًا إلى "كيفية إجراء عمليات ترحيل Flask-SQLAlchemy باستخدام Flask-Migrate" في<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
 
-افتح عنوان URL هذا باستخدام`https://github.dev/` instead of `https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
+افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
 # ملخص تنفيذي
 
@@ -36,7 +36,7 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد
+لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
 متاح.
 
 على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
@@ -45,21 +45,20 @@
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
+قد تحتاج إلى استخدام sudo مع هذا الأمر.  بعد تثبيت python3-venv
 الحزمة، أعد إنشاء بيئتك الافتراضية.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) ابدأ البيئة الافتراضية وأدخل:`. .venv/bin/activate`(ماك:`source .venv/bin/activate`)
-4) تشغيل`$ pip install -r requirements.txt`5) تشغيل:`$ cd app`ثم`$ npm install` finally `$ cd ..`6) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`7) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`8) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`9) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`11) قم بتشغيل تطبيق القارورة: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) افتح واجهة الويب كما هو مطلوب
+4) تشغيل`$ pip install -r requirements.txt`5) تشغيل:`$ cd app`ثم`$ npm install`أخيراً`$ cd ..`6) قم بتعيين تطبيق Flask على دليل التطبيق:`(.venv) $ export FLASK_APP=app`7) اضبط بيئة Flask على True من أجل التطوير:`(.venv) $ export FLASK_DEBUG=True`8) قم بتعيين URI لقاعدة بيانات SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`، الافتراضي هو`sqlite:///app.db`9) تعيين تعديلات مسار SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) تعيين المفتاح السري:`(.venv) $ export SECRET_KEY=********`11) قم بتشغيل تطبيق القارورة: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) افتح واجهة الويب كما هو مطلوب
 13) الاستخدام`CTRL+c`للخروج من خادم الويب.
-14) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`
-15) Execute any flask commands: >>>
-16) Use `exit()`للخروج من واجهة سطر الأوامر.
+14) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`15) تنفيذ أي أوامر قارورة: >>>
+16) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
 
-In general, you can take the following steps to manage your database migrations as you develop your Flask applications:
+بشكل عام، يمكنك اتخاذ الخطوات التالية لإدارة عمليات ترحيل قاعدة البيانات الخاصة بك أثناء تطوير تطبيقات Flask الخاصة بك:
 
-1) Modify the database models.
+1) تعديل نماذج قاعدة البيانات.
 
 2) إذا لا`migrations`الدليل موجود حتى الآن في`flask_app`الدليل، تشغيل` (.venv) flask_app $ flask db init`.
 
@@ -67,7 +66,7 @@ In general, you can take the following steps to manage your database migrations 
 
 4) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
 
-5) قم بتطبيق التغييرات على قاعدة البيانات باستخدام الملف`flask db upgrade`يأمر.
+5) تطبيق التغييرات على قاعدة البيانات مع`flask db upgrade`يأمر.
 
 6) لاستعادة إصدار سابق من قاعدة البيانات، استخدم الأمر`flask db downgrade`يأمر.
 
