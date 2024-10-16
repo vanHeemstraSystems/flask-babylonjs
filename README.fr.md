@@ -1,6 +1,6 @@
 flacon-babylonjs
 
-# Flask BabylonJS
+# Flacon BabylonJS
 
 > Une application Python Flask avec des scènes 3D Babylon.js
 
@@ -54,7 +54,7 @@ Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 14) Vous pouvez également exécuter l'interface de ligne de commande flask :`(.venv) $ flask shell`15) Exécutez toutes les commandes du flacon : >>>
 16) Utiliser`exit()`pour quitter l'interface de ligne de commande.
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
