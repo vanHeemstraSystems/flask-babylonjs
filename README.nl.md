@@ -45,7 +45,7 @@ pakket met behulp van de volgende opdracht.
     sudo apt-get update
     sudo apt install python3.10-venv
 
-Mogelijk moet u sudo gebruiken met die opdracht.  Na het installeren van het python3-venv
+Mogelijk moet je sudo gebruiken met die opdracht.  Na het installeren van het python3-venv
 pakket, creëer uw virtuele omgeving opnieuw.
 
 Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
@@ -56,7 +56,7 @@ Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 14) U kunt ook de flask-opdrachtregelinterface uitvoeren:`(.venv) $ flask shell`15) Voer eventuele flescommando's uit: >>>
 16) Gebruik`exit()`om de opdrachtregelinterface te verlaten.
 
-In general, you can take the following steps to manage your database migrations as you develop your Flask applications:
+Over het algemeen kunt u de volgende stappen nemen om uw databasemigraties te beheren terwijl u uw Flask-applicaties ontwikkelt:
 
 1) Wijzig de databasemodellen.
 
@@ -84,4 +84,4 @@ Zien[README.md](./300/README.md)
 
 ## 400 - Conclusie
 
-See [README.md](./400/README.md)
+Zien[README.md](./400/README.md)
