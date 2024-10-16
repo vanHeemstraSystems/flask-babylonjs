@@ -88,7 +88,10 @@ def create_app(config_class=Config):
     # app.register_blueprint(light_type_bp, url_prefix='/light_types')
 
     from app.routes.login_routes import login_bp
-    app.register_blueprint(login_bp, url_prefix='/login') 
+    app.register_blueprint(login_bp, url_prefix='/login')
+
+    from app.routes.logout_routes import logout_bp
+    app.register_blueprint(logout_bp, url_prefix='/logout')     
 
     from app.routes.main_routes import main_bp
     app.register_blueprint(main_bp, url_prefix='/')
