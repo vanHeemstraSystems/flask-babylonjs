@@ -70,7 +70,7 @@ En général, vous pouvez suivre les étapes suivantes pour gérer vos migration
 
 6) Pour restaurer une version précédente de la base de données, utilisez le`flask db downgrade`commande.
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
@@ -78,7 +78,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
