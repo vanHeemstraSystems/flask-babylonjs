@@ -1,6 +1,6 @@
 matraz-babylonjs
 
-# Matraz BabylonJS
+# Frasco BabylonJS
 
 > Una aplicación Python Flask con escenas 3D de Babylon.js
 
@@ -46,13 +46,13 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 5) Aplicar los cambios a la base de datos con el`flask db upgrade`dominio.
 
-6) To restore a previous database version, use the `flask db downgrade`dominio.
+6) Para restaurar una versión anterior de la base de datos, utilice el`flask db downgrade`dominio.
 
 ## 100 - Introducción
 
 Ver[README.md](./100/README.md)
 
-## 200 - Requisitos
+## 200 - Requirements
 
 Ver[README.md](./200/README.md)
 
