@@ -4,11 +4,11 @@ fles-babylonjs
 
 > Een Python Flask-applicatie met Babylon.js 3D-scènes
 
-Open this URL with `https://github.dev/`in plaats van`https://github.com/`om de webgebaseerde IDE van Visual Studio Code te gebruiken.
+Open deze URL met`https://github.dev/`in plaats van`https://github.com/`om de webgebaseerde IDE van Visual Studio Code te gebruiken.
 
 # Samenvatting
 
-Voer deze applicatie als volgt uit:
+Run this application as follows:
 
 1) Voer in`flask_app`map:`$ cd flask_app`2) Als deze niet bestaat, creëer dan een virtuele omgeving binnen de`flask_app`map:`$ python3 -m venv .venv`(macOS:`$ virtualenv .venv`)
 
@@ -28,7 +28,7 @@ pakket, creëer uw virtuele omgeving opnieuw.
 
 Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Start de virtuele omgeving en voer in:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
+3) Start de virtuele omgeving en voer het volgende in:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
 4) Rennen`$ pip install -r requirements.txt`5) Uitvoeren:`$ cd app`Dan`$ npm install`Eindelijk`$ cd ..`6) Stel de Flask-app in op de app-map:`(.venv) $ export FLASK_APP=app`7) Stel de Flask Environment in op True voor ontwikkeling:`(.venv) $ export FLASK_DEBUG=True`8) Stel de SQLAlchemy Database-URI in:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, standaard is`sqlite:///app.db`9) SQLAlchemy-trackwijzigingen instellen:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheime sleutel instellen:`(.venv) $ export SECRET_KEY=********`11) Voer de flask-app uit: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Open de webinterface zoals gevraagd
 13) Gebruik`CTRL+c`om de webserver te verlaten.
 14) U kunt ook de flask-opdrachtregelinterface uitvoeren:`(.venv) $ flask shell`15) Voer eventuele flescommando's uit: >>>
