@@ -29,16 +29,16 @@ Flask-babylonjs
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
-4）運行`$ pip install -r requirements.txt`5）運行：`$ cd app`然後`$ npm install`最後`$ cd ..`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：〜`(.venv) $ flask run`~`(.venv) $ python3 run.py`12）根據提示開啟Web介面
+4）運行`$ pip install -r requirements.txt`5）運行：`$ cd app`然後`$ npm install`最後`$ cd ..`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10）設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：〜`(.venv) $ flask run`~`(.venv) $ python3 run.py`12）根據提示開啟Web介面
 13) 使用`CTRL+c`退出網路伺服器。
-14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任意 Flask 指令：>>>
+14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任何 Flask 指令：>>>
 16) 使用`exit()`退出命令列介面。
 
 一般來說，在開發 Flask 應用程式時，您可以採取以下步驟來管理資料庫遷移：
 
-1) Modify the database models.
+1）修改資料庫模型。
 
-2）如果沒有`migrations`目錄中尚存在`flask_app`目錄，運行` (.venv) flask_app $ flask db init`.
+2）如果沒有`migrations`目錄還存在於`flask_app`目錄，運行` (.venv) flask_app $ flask db init`.
 
 3) 產生遷移腳本`flask db migrate -m "some comment"`命令。如果自上次遷移以來沒有發生任何更改，系統會提示您`No changes in schema detected.`。因此，您可以毫無恐懼地重複此命令。
 
