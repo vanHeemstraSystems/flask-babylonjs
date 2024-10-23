@@ -66,6 +66,11 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
 
    **WARNING**: For a more secure solution use ```exports``` of variables which then get read into the application instead of storing them in files.
 
+   ```plaintext
+   $ export SECRET_KEY='your_secret_key_here'
+   $ export FLASK_DEBUG=True  # Set to 'False' for production environment
+   ```   
+
 ### Database Setup
 
 1. **Create the database:**
