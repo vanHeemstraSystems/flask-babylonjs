@@ -4,30 +4,6 @@ Flasche-Babylonjs
 
 > Eine Python-Flask-Anwendung mit Babylon.js 3D-Szenen
 
-Basierend auf „How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy“ unter<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
-
-Basierend auf „Flask SQLAlchemy“ unter<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
-
-Basierend auf „Factory Pattern“ bei<https://github.com/vanHeemstraSystems/factory-pattern>
-
-Basierend auf „Text-Based Entity Relationship Diagrams with Mermaid.js“ unter<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
-
-Basierend auf „TailwindsCSS Getting Started“ unter<https://tailwindcss.com/docs/installation>
-
-Basierend auf „FlowBite“ bei<https://github.com/themesberg/flowbite>
-
-~Basierend auf „Flowbite + Tailwind CSS Crash Course | Learn Flowbite for React & Next.js (Full Tutorial)“ unter<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
-
-Basierend auf „Tailwind CSS Flask – Flowbite“ bei<https://flowbite.com/docs/getting-started/flask/>
-
-Basierend auf „Tailwind Flask Starter“ bei<https://github.com/themesberg/tailwind-flask-starter>
-
-Basierend auf „DB Browser for SQLite“ unter<https://sqlitebrowser.org/>, verwenden<https://dbhub.io/wvanheemstra>
-
-Basierend auf „So führen Sie Flask-SQLAlchemy-Migrationen mit Flask-Migrate durch“ unter<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
-
-Basierend auf „pydbhub“ unter<https://pypi.org/project/pydbhub/>
-
 Öffnen Sie diese URL mit`https://github.dev/`anstatt`https://github.com/`um die webbasierte Visual Studio Code-IDE zu verwenden.
 
 # Zusammenfassung
@@ -52,8 +28,9 @@ Paket, erstellen Sie Ihre virtuelle Umgebung neu.
 
 Auf macOS siehe<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Starten Sie die virtuelle Umgebung und geben Sie Folgendes ein:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
-4) Laufen`$ pip install -r requirements.txt`5) Ausführen:`$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`8) Legen Sie den SQLAlchemy-Datenbank-URI fest:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Öffnen Sie nach Aufforderung die Weboberfläche
+3) Start the virtual environment and enter: `. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
+4) Laufen`$ pip install -r requirements.txt`5) Ausführen:`$ cd app`Dann`$ npm install`Endlich`$ cd ..`6) Stellen Sie die Flask-App auf das App-Verzeichnis ein:`(.venv) $ export FLASK_APP=app`7) Setzen Sie die Flask-Umgebung für die Entwicklung auf True:`(.venv) $ export FLASK_DEBUG=True`
+8) Set the SQLAlchemy Database URI: `(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, Standard ist`sqlite:///app.db`9) Legen Sie die SQLAlchemy-Track-Änderungen fest:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheimen Schlüssel festlegen:`(.venv) $ export SECRET_KEY=********`11) Führen Sie die Flask-App aus: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Öffnen Sie nach Aufforderung die Weboberfläche
 13) Verwendung`CTRL+c`um den Webserver zu verlassen.
 14) Alternativ führen Sie die Befehlszeilenschnittstelle von flask aus:`(.venv) $ flask shell`15) Führen Sie alle Flaschenbefehle aus: >>>
 16) Verwendung`exit()`um die Befehlszeilenschnittstelle zu verlassen.
@@ -62,7 +39,7 @@ Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankm
 
 1) Ändern Sie die Datenbankmodelle.
 
-2) Wenn nein`migrations`Verzeichnis existiert noch in der`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
+2) Wenn nein`migrations`Verzeichnis existiert noch im`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
 
 3) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
 
