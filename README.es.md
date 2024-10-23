@@ -1,6 +1,6 @@
 matraz-babylonjs
 
-# Frasco BabylonJS
+# Matraz BabylonJS
 
 > Una aplicación Python Flask con escenas 3D de Babylon.js
 
@@ -17,8 +17,8 @@ En caso de lo siguiente, siga sus consejos:
 El entorno virtual no se creó correctamente porque surepip no está
 disponible.
 
-En sistemas Debian/Ubuntu, necesita instalar python3-venv
-paquete usando el siguiente comando.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
@@ -52,7 +52,7 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 Ver[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Requisitos
 
 Ver[README.md](./200/README.md)
 
