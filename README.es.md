@@ -17,8 +17,8 @@ En caso de lo siguiente, siga sus consejos:
 El entorno virtual no se creó correctamente porque surepip no está
 disponible.
 
-On Debian/Ubuntu systems, you need to install the python3-venv
-package using the following command.
+En sistemas Debian/Ubuntu, necesita instalar python3-venv
+paquete usando el siguiente comando.
 
     sudo apt-get update
     sudo apt install python3.10-venv
