@@ -4,30 +4,6 @@ Flask-babylonjs
 
 > 具有 Babylon.js 3D 場景的 Python Flask 應用程式
 
-基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
-
-基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
-
-基於“工廠模式”<https://github.com/vanHeemstraSystems/factory-pattern>
-
-基於“基於文字的實體關係圖與 Mermaid.js”，位於<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
-
-基於“TailwindsCSS 入門”，位於<https://tailwindcss.com/docs/installation>
-
-基於“FlowBite”<https://github.com/themesberg/flowbite>
-
-~基於“Flowbite + Tailwind CSS 速成課程 | 學習 Flowbite for React 和 Next.js（完整教程）”，地址：<https://www.youtube.com/watch?v=FTNBPSPy6P8>~
-
-基於“Tailwind CSS Flask - Flowbite”，位於<https://flowbite.com/docs/getting-started/flask/>
-
-基於“Tailwind Flask Starter”，位於<https://github.com/themesberg/tailwind-flask-starter>
-
-基於“DB Browser for SQLite”，位於<https://sqlitebrowser.org/>， 使用<https://dbhub.io/wvanheemstra>
-
-基於“如何使用 Flask-Migrate 執行 Flask-SQLAlchemy 遷移”，位於<https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate>
-
-基於“pydbhub”<https://pypi.org/project/pydbhub/>
-
 開啟此網址`https://github.dev/`而不是`https://github.com/`使用基於 Web 的 Visual Studio Code IDE。
 
 # 執行摘要
@@ -47,8 +23,8 @@ Flask-babylonjs
     sudo apt-get update
     sudo apt install python3.10-venv
 
-You may need to use sudo with that command.  After installing the python3-venv
-package, recreate your virtual environment.
+您可能需要將 sudo 與該命令一起使用。  安裝 python3-venv 後
+包，重新建立您的虛擬環境。
 
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
