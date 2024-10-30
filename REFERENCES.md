@@ -24,4 +24,4 @@ Based on "How to Perform Flask-SQLAlchemy Migrations Using Flask-Migrate" at htt
 
 Based on "pydbhub" at https://pypi.org/project/pydbhub/
 
-- [Tailblocks](https://github.com/vanHeemstraSystems/tailblocks_
+- [Tailblocks](https://github.com/vanHeemstraSystems/tailblocks_)
