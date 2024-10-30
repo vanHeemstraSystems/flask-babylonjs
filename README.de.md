@@ -1,6 +1,6 @@
 Flasche-Babylonjs
 
-# Flask BabylonJS
+# Flasche BabylonJS
 
 > Eine Python-Flask-Anwendung mit Babylon.js 3D-Szenen
 
@@ -38,7 +38,7 @@ Im Allgemeinen können Sie die folgenden Schritte ausführen, um Ihre Datenbankm
 
 1) Ändern Sie die Datenbankmodelle.
 
-2) Wenn nein`migrations`Verzeichnis existiert noch im`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
+2) Wenn nein`migrations`Verzeichnis existiert noch in der`flask_app`Verzeichnis, ausführen` (.venv) flask_app $ flask db init`.
 
 3) Generieren Sie ein Migrationsskript mit`flask db migrate -m "some comment"`Befehl. Wenn seit der letzten Migration keine Änderungen vorgenommen wurden, werden Sie dazu aufgefordert`No changes in schema detected.`. Daher können Sie diesen Befehl ohne Angst wiederholen.
 
